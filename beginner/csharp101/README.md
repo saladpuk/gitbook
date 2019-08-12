@@ -26,3 +26,5 @@ description: 'C# อ่านว่า ซีชาป นะจ๊ะเบบ�
 
 {% page-ref page="datatype.md" %}
 
+{% page-ref page="variable.md" %}
+
