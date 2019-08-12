@@ -8,4 +8,5 @@
     * [2.โครงสร้างของโค๊ด](beginner/csharp101/structure.md)
     * [3.ชนิดของข้อมูล](beginner/csharp101/datatype.md)
     * [4.การสร้างตัวแปร](beginner/csharp101/variable.md)
+    * [5.คำสั่งพื้นฐาน](beginner/csharp101/operators.md)
 
