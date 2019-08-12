@@ -18,11 +18,11 @@ description: 'C# อ่านว่า ซีชาป นะจ๊ะเบบ�
 
 {% embed url="https://www.youtube.com/watch?v=ojPcwo93erc&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=2" %}
 
-
-
 ## 🧭 ความรู้ในการจัดการปลาตัวนี้
 
 {% page-ref page="tools.md" %}
 
+{% page-ref page="structure.md" %}
 
+{% page-ref page="datatype.md" %}
 
