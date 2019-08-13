@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=7g2XlAyFo2E&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=10" %}
 
-## สรุปสั้นๆ
+## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 การแปลงข้อมูลแบบอัตโนมัติ \(Implicit conversions\)
 

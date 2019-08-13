@@ -16,7 +16,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=DS7DUAzybDE&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=9" %}
 
-## สรุปสั้นๆ
+## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 ชุดคำสั่งพื้นฐาน
 

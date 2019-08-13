@@ -10,4 +10,5 @@
     * [4.การสร้างตัวแปร](beginner/csharp101/variable.md)
     * [5.คำสั่งพื้นฐาน](beginner/csharp101/operators.md)
     * [6.การแปลงข้อมูล](beginner/csharp101/type-conversions.md)
+    * [7.การเปรียบเทียบค่า](beginner/csharp101/boolean.md)
 

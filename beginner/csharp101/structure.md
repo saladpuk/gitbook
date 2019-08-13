@@ -4,7 +4,7 @@
 
 {% embed url="https://www.youtube.com/watch?v=dlCBLmkel7s&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=5" %}
 
-## สรุปสั้นๆ
+## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 จุดแรกที่เขียนโค๊ด
 
