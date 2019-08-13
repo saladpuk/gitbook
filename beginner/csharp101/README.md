@@ -36,3 +36,5 @@ description: 'C# อ่านว่า ซีชาป นะจ๊ะเบบ�
 
 {% page-ref page="type-conversions.md" %}
 
+{% page-ref page="boolean.md" %}
+
