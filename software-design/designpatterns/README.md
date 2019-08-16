@@ -1,3 +1,7 @@
+---
+description: Software Design
+---
+
 # 🤴 Design Patterns
 
 ## ❓ มันคืออะไร ?
@@ -28,45 +32,71 @@
 
 Pattern ทั้งหมดถูกแบ่งออกเป็น 3 กลุ่ม ตามวัตถุประสงค์ในการแก้ไขปัญหาของมัน โดยแต่ละกลุ่มจะช่วยให้โค้ดนั้น ลดการเกิด coupling, มีความยืดหยุ่นขึ้นและนำกลับมาใช้ใหม่ได้
 
-### **Creational patterns**
+### 🦈 **Creational patterns**
 
 > ช่วยในการออกแบบเมื่อจะสร้าง object ต่างๆ
 
-* [Abstract factory pattern](https://github.com/saladpuk/design-patterns/blob/master/AbstractFactory.md)
-* [Builder pattern](https://github.com/saladpuk/design-patterns/blob/master/Builder.md)
-* [Factory method pattern](https://github.com/saladpuk/design-patterns/blob/master/FactoryMethod.md)
-* [Prototype pattern](https://github.com/saladpuk/design-patterns/blob/master/Prototype.md)
-* [Singleton pattern](https://github.com/saladpuk/design-patterns/blob/master/Singleton.md)
+{% page-ref page="creational-patterns/abstract-factory.md" %}
 
-### **Structural patterns**
+{% page-ref page="creational-patterns/builder.md" %}
+
+{% page-ref page="creational-patterns/factory-method.md" %}
+
+{% page-ref page="creational-patterns/prototype.md" %}
+
+{% page-ref page="creational-patterns/singleton.md" %}
+
+### 🦈 **Structural patterns**
 
 > ช่วยในการออกแบบโครงสร้างของ class ต่างๆ
 
-* [Adapter pattern](https://github.com/saladpuk/design-patterns/blob/master/Adapter.md)
-* [Bridge pattern](https://github.com/saladpuk/design-patterns/blob/master/Bridge.md)
-* ~~Composite pattern~~
-* [Decorator pattern](https://github.com/saladpuk/design-patterns/blob/master/Decorator.md)
-* [Facade pattern](https://github.com/saladpuk/design-patterns/blob/master/Facade.md)
-* ~~Flyweight pattern~~
-* [Proxy pattern](https://github.com/saladpuk/design-patterns/blob/master/Proxy.md)
+{% page-ref page="structural-patterns/adapter.md" %}
 
-### **Behavioral patterns** 
+{% page-ref page="structural-patterns/bridge.md" %}
+
+* ~~Composite pattern~~
+
+{% page-ref page="structural-patterns/decorator.md" %}
+
+{% page-ref page="structural-patterns/facade.md" %}
+
+* ~~Flyweight pattern~~
+
+{% page-ref page="structural-patterns/proxy.md" %}
+
+### 🦈 **Behavioral patterns** 
 
 > ช่วยในการออกแบบให้ class ต่างๆทำงานร่วมกัน
 
-* [Chain of responsibility pattern](https://github.com/saladpuk/design-patterns/blob/master/ChainOfResponsibility.md)
-* [Command pattern](https://github.com/saladpuk/design-patterns/blob/master/Command.md)
+{% page-ref page="behavioral-patterns/chain-of-responsibility.md" %}
+
+{% page-ref page="behavioral-patterns/command.md" %}
+
 * ~~Interpreter pattern~~
-* [Iterator pattern](https://github.com/saladpuk/design-patterns/blob/master/Iterator.md)
-* [Mediator pattern](https://github.com/saladpuk/design-patterns/blob/master/Mediator.md)
-* [Memento pattern](https://github.com/saladpuk/design-patterns/blob/master/Memento.md)
-* [Observer pattern](https://github.com/saladpuk/design-patterns/blob/master/Observer.md)
-* [State pattern](https://github.com/saladpuk/design-patterns/blob/master/State.md)
-* [Strategy pattern](https://github.com/saladpuk/design-patterns/blob/master/Strategy.md)
-* [Template Method pattern](https://github.com/saladpuk/design-patterns/blob/master/TemplateMethod.md)
-* [Visitor pattern](https://github.com/saladpuk/design-patterns/blob/master/Visitor.md)
+
+{% page-ref page="behavioral-patterns/iterator.md" %}
+
+{% page-ref page="behavioral-patterns/mediator.md" %}
+
+{% page-ref page="behavioral-patterns/memento.md" %}
+
+{% page-ref page="behavioral-patterns/observer.md" %}
+
+{% page-ref page="behavioral-patterns/state.md" %}
+
+{% page-ref page="behavioral-patterns/strategy.md" %}
+
+{% page-ref page="behavioral-patterns/template-method.md" %}
+
+{% page-ref page="behavioral-patterns/visitor.md" %}
 
 {% hint style="warning" %}
 ตัว pattern ที่เหลือโอกาสใช้มันค่อนข้างต่ำมากถ้ามีเวลาผมจะมาทำต่อนะครับ
+{% endhint %}
+
+{% hint style="info" %}
+เนื้อหานี้ผมเคยครั้งแรกไว้ที่ Github ถ้าสนใจก็เข้าไปดูได้จากลิงค์ด้านล่างนี้เลยนะครับ
+
+[https://github.com/saladpuk/design-patterns](https://github.com/saladpuk/design-patterns)
 {% endhint %}
 
