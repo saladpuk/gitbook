@@ -4,8 +4,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=pyGgI9AsxiU&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=2" %}
 
-
-
 ## 🎯 สรุปสั้นๆ 
 
 ### 👨‍🚀 ข้อดีในการเขียน test cases

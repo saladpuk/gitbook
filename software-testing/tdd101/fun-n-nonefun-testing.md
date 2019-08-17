@@ -14,8 +14,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=QAESRjmHG-U&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=9" %}
 
-
-
 ## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 การเขียน Unit test

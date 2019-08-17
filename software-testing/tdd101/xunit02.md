@@ -4,8 +4,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=32Z2x7tTuHo&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=4" %}
 
-
-
 ## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 Theory
