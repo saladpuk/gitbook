@@ -7,7 +7,7 @@
 
 * [👶 สำหรับมือใหม่](beginner-1/beginner/README.md)
   * [🐟 เกิดมาไม่เคยเขียนโค๊ดมาก่อนเบย](beginner-1/beginner/newbie.md)
-* [👶 เขียนโปรแกรมด้วยภาษา C\#](beginner-1/csharp101/README.md)
+* [👶 เขียนโปรแกรมด้วยภาษา C\# \(⏳\)](beginner-1/csharp101/README.md)
   * [1.โปรแกรมที่ต้องลง](beginner-1/csharp101/tools.md)
   * [2.โครงสร้างของโค๊ด](beginner-1/csharp101/structure.md)
   * [3.ชนิดของข้อมูล](beginner-1/csharp101/datatype.md)
@@ -18,7 +18,9 @@
 
 ## Software Testing
 
-* [👦 Test-Driven Development](software-testing/test-driven-development.md)
+* [👦 Test-Driven Development \(⏳\)](software-testing/tdd101/README.md)
+  * [1.มารู้จักกับ TDD กันดีกว่า](software-testing/tdd101/intro.md)
+  * [2.Test cases เขาเขียนกันยังไงนะ](software-testing/tdd101/test-cases.md)
 
 ## Software Design
 

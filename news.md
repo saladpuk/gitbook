@@ -10,8 +10,8 @@
 
 | อัพเดทเมื่อ | คอร์ส | สถานะ |
 | :--- | :--- | :--- |
-| 17/08/2019 | 👦 Test-Driven Development | กำลังทำอยู่ |
-| 17/08/2019 | 🤴 [Design Patterns](https://github.com/saladpuk/design-patterns) | เสร็จแบ๊ว |
+| 17/08/2019 | 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development) | กำลังทำอยู่ |
+| 17/08/2019 | 🤴 [Design Patterns](https://github.com/saladpuk/design-patterns) | เสร็จแล้ว |
 | 12/08/2019 | 👶 [เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner/csharp101) | กำลังทำอยู่ |
 
 {% hint style="info" %}
