@@ -95,8 +95,7 @@ Pattern ทั้งหมดถูกแบ่งออกเป็น 3 กล
 {% endhint %}
 
 {% hint style="info" %}
-เนื้อหานี้ผมเคยครั้งแรกไว้ที่ Github ถ้าสนใจก็เข้าไปดูได้จากลิงค์ด้านล่างนี้เลยนะครับ
-
+เนื้อหานี้ผมเคยเขียนครั้งแรกไว้ที่ Github ถ้าสนใจก็เข้าไปดูได้จากลิงค์ด้านล่างนี้เลยนะครับ  
 [https://github.com/saladpuk/design-patterns](https://github.com/saladpuk/design-patterns)
 {% endhint %}
 
