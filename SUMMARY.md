@@ -32,6 +32,19 @@
   * [11.มาเรียนการใช้ Moq กันเถอะ](software-testing/tdd101/moq101.md)
   * [12.สรุป](software-testing/tdd101/summary.md)
 
+## Web
+
+* [👦 Web API](web/web-api-101/README.md)
+  * [1.Web API คืออะไร](web/web-api-101/intro.md)
+  * [2.ติดตั้ง .NET Core SDK](web/web-api-101/net-core-sdk.md)
+  * [3.สร้าง Web API ตัวแรกกัน](web/web-api-101/create-your-web-api.md)
+  * [4.Verbs](web/web-api-101/verbs.md)
+  * [5.Swagger เพื่อคู่ API](web/web-api-101/swagger.md)
+  * [6.การใช้ Model](web/web-api-101/modeling.md)
+  * [7.เรียก Web API ผ่าน Postman](web/web-api-101/postman.md)
+  * [8.มาจัดกลุ่ม API กัน \(1/2\)](web/web-api-101/grouping-api-01.md)
+  * [9.มาจัดกลุ่ม API กัน \(2/2\)](web/web-api-101/grouping-api-02.md)
+
 ## Software Design
 
 * [🤴 Design Patterns](software-design/designpatterns/README.md)
