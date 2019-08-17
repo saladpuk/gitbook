@@ -19,6 +19,8 @@ description: Software Testing
 
 {% page-ref page="test-cases.md" %}
 
+{% page-ref page="xunit.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube Test-Driven Development \(TDD\)](https://www.youtube.com/playlist?list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg)
