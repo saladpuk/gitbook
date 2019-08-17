@@ -15,11 +15,25 @@ description: Software Testing
 
 ## 🧭 ความรู้ในการจัดการปลาตัวนี้
 
+{% hint style="danger" %}
+คอร์สนี้กำลังค่อยๆเขียนอยู่น่าจะเสร็จราวๆวันอาทิตย์ที่ 17/8/2019 นี้แหละ
+{% endhint %}
+
 {% page-ref page="intro.md" %}
 
 {% page-ref page="test-cases.md" %}
 
-{% page-ref page="xunit.md" %}
+{% page-ref page="xunit01.md" %}
+
+{% page-ref page="xunit02.md" %}
+
+{% page-ref page="testable-code.md" %}
+
+{% page-ref page="mantra-of-tdd.md" %}
+
+{% page-ref page="fun-n-nonefun-testing.md" %}
+
+{% page-ref page="manual-vs-automation.md" %}
 
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 

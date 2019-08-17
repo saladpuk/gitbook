@@ -21,7 +21,12 @@
 * [👦 Test-Driven Development \(⏳\)](software-testing/tdd101/README.md)
   * [1.มารู้จักกับ TDD กันดีกว่า](software-testing/tdd101/intro.md)
   * [2.Test cases เขาเขียนกันยังไงนะ](software-testing/tdd101/test-cases.md)
-  * [3.เครื่องมือในการทดสอบ](software-testing/tdd101/xunit.md)
+  * [3.เครื่องมือในการทดสอบ](software-testing/tdd101/xunit01.md)
+  * [4.การใช้ Theory และ InlineData](software-testing/tdd101/xunit02.md)
+  * [5.โค๊ดที่ทดสอบได้](software-testing/tdd101/testable-code.md)
+  * [6.Mantra of TDD](software-testing/tdd101/mantra-of-tdd.md)
+  * [7.Functional & None-Functional testing](software-testing/tdd101/fun-n-nonefun-testing.md)
+  * [8.Manual vs Automation testing](software-testing/tdd101/manual-vs-automation.md)
 
 ## Software Design
 
