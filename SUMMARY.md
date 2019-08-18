@@ -15,6 +15,14 @@
   * [5.คำสั่งพื้นฐาน](beginner-1/csharp101/operators.md)
   * [6.การแปลงข้อมูล](beginner-1/csharp101/type-conversions.md)
   * [7.การเปรียบเทียบค่า](beginner-1/csharp101/boolean.md)
+  * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
+
+## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
+
+* [👶 SOLID Design Principles](basic/solid/README.md)
+  * [1.มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
+  * [กำลังเขียนอยู่](basic/solid/pending.md)
+  * [2.SRP](basic/solid/2.srp.md)
 
 ## Software Testing
 

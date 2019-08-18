@@ -10,6 +10,7 @@
 
 | อัพเดทเมื่อ | คอร์ส | สถานะ |
 | :--- | :--- | :--- |
+| 18/08/2019 | 👶 SOLID Design Principles | กำลังทำอยู่ |
 | 18/08/2019 | 👦 [Web API](https://saladpuk.gitbook.io/learn/web/web-api-101) | เสร็จแล้ว |
 | 17/08/2019 | 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development) | เสร็จแล้ว |
 | 17/08/2019 | [🤴 Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns) | เสร็จแล้ว |
