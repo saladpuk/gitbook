@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💬 สลัดผัก](README.md)
+* [💖 สลัดผัก](README.md)
 * [📰 มีอะไรใหม่บ้าง](news.md)
 
 ## มือใหม่ <a id="beginner-1"></a>
@@ -21,8 +21,8 @@
 
 * [👶 SOLID Design Principles](basic/solid/README.md)
   * [1.มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
-  * [กำลังเขียนอยู่](basic/solid/pending.md)
   * [2.SRP](basic/solid/2.srp.md)
+  * [กำลังเขียนอยู่](basic/solid/pending.md)
 
 ## Software Testing
 
