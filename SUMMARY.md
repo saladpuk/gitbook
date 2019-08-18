@@ -16,6 +16,7 @@
   * [6.การแปลงข้อมูล](beginner-1/csharp101/type-conversions.md)
   * [7.การเปรียบเทียบค่า](beginner-1/csharp101/boolean.md)
   * [8.การตัดสินใจด้วย IF statements](beginner-1/csharp101/if.md)
+  * [9.การตัดสินใจด้วย Switch statements](beginner-1/csharp101/switch.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
