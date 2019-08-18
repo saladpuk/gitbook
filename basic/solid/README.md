@@ -2,7 +2,7 @@
 description: พื้นฐานที่ควรจะต้องรู้
 ---
 
-# 👶 SOLID Design Principles
+# 👶 ⏳ SOLID Design Principles
 
 ## 😢 ปัญหา
 
