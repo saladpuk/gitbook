@@ -51,6 +51,10 @@ description: มือใหม่
 
 {% page-ref page="img-solving.md" %}
 
+{% page-ref page="array.md" %}
+
+{% page-ref page="value-vs-reference.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube C\# Fundamental](https://www.youtube.com/watch?v=9Pjz8MGFJGo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74_lQ)

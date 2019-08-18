@@ -21,6 +21,8 @@
   * [11.การทำงานซ้ำๆด้วย Do While](beginner-1/csharp101/do-while.md)
   * [12.การทำงานซ้ำๆด้วย For](beginner-1/csharp101/for.md)
   * [13.การแก้โจทย์จากรูป](beginner-1/csharp101/img-solving.md)
+  * [14.มารู้จักกับ Array กัน](beginner-1/csharp101/array.md)
+  * [15.Value type vs Reference type](beginner-1/csharp101/value-vs-reference.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
