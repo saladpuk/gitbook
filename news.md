@@ -8,18 +8,27 @@
 
 ![](.gitbook/assets/image%20%282%29.png)
 
-| อัพเดทเมื่อ | คอร์ส | สถานะ |
-| :--- | :--- | :--- |
-| 19/08/2019 | [🌐 Facebook blog](https://www.facebook.com/mr.saladpuk) | เสร็จแล้ว |
-| 18/08/2019 | [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) | กำลังทำอยู่ |
-| 18/08/2019 | 👦 [Web API](https://saladpuk.gitbook.io/learn/web/web-api-101) | เสร็จแล้ว |
-| 17/08/2019 | 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development) | เสร็จแล้ว |
-| 17/08/2019 | [🤴 Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns) | เสร็จแล้ว |
-| 12/08/2019 | [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) | กำลังทำอยู่ |
+## ✏️ ประวัติการอัพเดท
 
-{% hint style="info" %}
-คอร์สจะค่อยเพิ่มขึ้นเรื่อยๆ ตามความขยันและความว่างของ **ดช.แมวน้ำ**
-{% endhint %}
+### 19/08/2019
+
+* อัพเดท [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) บทที่ 17~19
+* สร้าง [🌐 Facebook blog](https://www.facebook.com/mr.saladpuk) ไว้แล้วนะฝากเข้าไปกดไลค์ + ติดตามด้วยนะฮ๊าฟฟฟ จะได้ไม่พลาดอัพเดท
+
+### 18/08/2019
+
+* เขียนคอร์ส [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) \(ยังไม่จบ\)
+* เขียนคอร์ส 👦 [Web API](https://saladpuk.gitbook.io/learn/web/web-api-101) \(จบแล้ว\)
+
+### 17/08/2019
+
+* เขียนคอร์ส 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development) \(จบแล้ว\)
+* เขียนคอร์ส [🤴 Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns) \(จบแล้ว\)
+
+### 12/08/2019
+
+* เขียนคอร์ส [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) \(ยังไม่จบ\)
+* กำเหนิด [**Saladpuk** ](http://saladpuk.com)ใน **Gitbook** เย่ๆๆๆ 😆
 
 
 

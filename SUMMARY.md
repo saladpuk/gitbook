@@ -24,7 +24,9 @@
   * [14.มารู้จักกับ Array กัน](beginner-1/csharp101/array.md)
   * [15.Value type vs Reference type](beginner-1/csharp101/value-vs-reference.md)
   * [16.ลดงานซ้ำๆด้วย Method](beginner-1/csharp101/method.md)
-  * [17.มารู้จักกับ Class กัน](beginner-1/csharp101/class.md)
+  * [17.มารู้จักกับ Class & Field กัน](beginner-1/csharp101/class.md)
+  * [18.มารู้จักกับ Constructor กันบ้าง](beginner-1/csharp101/constructor.md)
+  * [19.มาเขียน Method ใน Class กัน](beginner-1/csharp101/method-in-class.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>

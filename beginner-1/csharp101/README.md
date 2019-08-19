@@ -59,6 +59,10 @@ description: มือใหม่
 
 {% page-ref page="class.md" %}
 
+{% page-ref page="constructor.md" %}
+
+{% page-ref page="method-in-class.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube C\# Fundamental](https://www.youtube.com/watch?v=9Pjz8MGFJGo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74_lQ)
