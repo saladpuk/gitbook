@@ -29,6 +29,8 @@
   * [19.มาเขียน Method ใน Class กัน](beginner-1/csharp101/method-in-class.md)
   * [20.มารู้จักกับ Property กัน](beginner-1/csharp101/property.md)
   * [21.ลองใช้คลาสแบบจริงจังบ้าง](beginner-1/csharp101/demo-class.md)
+  * [22.การสืบทอด Inheritance](beginner-1/csharp101/inheritance.md)
+  * [23.Polymorphism](beginner-1/csharp101/polymorphism.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>

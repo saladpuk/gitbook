@@ -67,6 +67,10 @@ description: มือใหม่
 
 {% page-ref page="demo-class.md" %}
 
+{% page-ref page="inheritance.md" %}
+
+{% page-ref page="polymorphism.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube C\# Fundamental](https://www.youtube.com/watch?v=9Pjz8MGFJGo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74_lQ)
