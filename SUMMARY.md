@@ -27,6 +27,7 @@
   * [17.มารู้จักกับ Class & Field กัน](beginner-1/csharp101/class.md)
   * [18.มารู้จักกับ Constructor กันบ้าง](beginner-1/csharp101/constructor.md)
   * [19.มาเขียน Method ใน Class กัน](beginner-1/csharp101/method-in-class.md)
+  * [20.มารู้จักกับ Property กัน](beginner-1/csharp101/property.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
