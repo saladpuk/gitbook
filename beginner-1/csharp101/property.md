@@ -4,8 +4,6 @@
 
 {% embed url="https://www.youtube.com/watch?v=P6fJLX-LdqM&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=36" %}
 
-
-
 ## 🎯 สรุปสั้นๆ
 
 ### 👨‍🚀 Property คือ
