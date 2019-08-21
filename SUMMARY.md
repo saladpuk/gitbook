@@ -31,6 +31,7 @@
   * [21.ลองใช้คลาสแบบจริงจังบ้าง](beginner-1/csharp101/demo-class.md)
   * [22.การสืบทอด Inheritance](beginner-1/csharp101/inheritance.md)
   * [23.Polymorphism](beginner-1/csharp101/polymorphism.md)
+  * [24.Abstract Class](beginner-1/csharp101/abstract-class.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
