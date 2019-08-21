@@ -32,6 +32,7 @@
   * [22.การสืบทอด Inheritance](beginner-1/csharp101/inheritance.md)
   * [23.Polymorphism](beginner-1/csharp101/polymorphism.md)
   * [24.Abstract Class](beginner-1/csharp101/abstract-class.md)
+  * [25.Interface](beginner-1/csharp101/interface.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>

@@ -73,6 +73,8 @@ description: มือใหม่
 
 {% page-ref page="abstract-class.md" %}
 
+{% page-ref page="interface.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube C\# Fundamental](https://www.youtube.com/watch?v=9Pjz8MGFJGo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74_lQ)
