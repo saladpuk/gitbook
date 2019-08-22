@@ -35,6 +35,9 @@
   * [25.Interface](beginner-1/csharp101/interface.md)
   * [26.Namespace](beginner-1/csharp101/namespace.md)
   * [27.Enum](beginner-1/csharp101/enum.md)
+  * [28.Exception handler](beginner-1/csharp101/exception.md)
+  * [29.ลงลึกกับ string](beginner-1/csharp101/string.md)
+  * [30.StringBuilder เพื่อนคู่ string](beginner-1/csharp101/stringbuilder.md)
   * [กำลังเขียนอยู่](beginner-1/csharp101/pending.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
