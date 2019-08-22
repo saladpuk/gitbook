@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 23/08/2019
+
+* อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 2 Open/Closed Principle
+
 ### 22/08/2019
 
 * อัพเดท [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) บทที่ 24~30

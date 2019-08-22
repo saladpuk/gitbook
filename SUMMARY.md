@@ -43,8 +43,9 @@
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
 * [👶 ⏳ SOLID Design Principles](basic/solid/README.md)
-  * [1.มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
-  * [2.SRP](basic/solid/2.srp.md)
+  * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
+  * [Single-Responsibility Principle](basic/solid/2.srp.md)
+  * [Open/Closed Principle](basic/solid/ocp.md)
   * [กำลังเขียนอยู่](basic/solid/pending.md)
 
 ## Software Testing
