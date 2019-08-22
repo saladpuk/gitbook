@@ -4,7 +4,7 @@
 
 ### 23/08/2019
 
-* อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 2 Open/Closed Principle
+* อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 2 [Open/Closed Principle \(OCP\)](https://saladpuk.gitbook.io/learn/basic/solid/ocp)
 
 ### 22/08/2019
 
