@@ -75,6 +75,10 @@ description: มือใหม่
 
 {% page-ref page="interface.md" %}
 
+{% page-ref page="namespace.md" %}
+
+{% page-ref page="enum.md" %}
+
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
 [@Youtube C\# Fundamental](https://www.youtube.com/watch?v=9Pjz8MGFJGo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74_lQ)

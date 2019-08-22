@@ -10,6 +10,11 @@
 
 แบบอย่างหรือมาตรฐานของคลาส โดยมันจะบังคับว่าคลาสที่ implement interface จะต้องมีทุกอย่างที่ interface นั้นๆมีด้วย
 
+{% hint style="danger" %}
+**Microsoft standard**  
+โดยปรกติเวลาที่ทาง Microsoft สร้าง interface ขึ้นมา เขาจะใส่ตัว**ไอใหญ่ I นำหน้าไว้เสมอ** เช่น ICloneable, IComparable, IDisposable บลาๆ ซึ่งเราจะไม่ทำตามก็ทำงานได้นะ และภาษาอื่นๆก็ไม่ได้ทำแบบนี้ด้วย แต่**ถ้าเราเขียนภาษา C\# เป็นชีวิตจิตใจอยู่แล้วผมนะนำว่าเราควรจะทำตามมาตรฐานนี้ไว้ครับเพราะมันเป็นมาตรฐานสากลของ developer สาย .NET นั่นเอง**
+{% endhint %}
+
 {% hint style="warning" %}
 **Interface**  
 1.ไม่ได้เอาไว้สร้าง object แต่สามารถเก็บ object ของ class ที่ implement interface นั้นๆได้  
