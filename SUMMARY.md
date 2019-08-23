@@ -44,7 +44,7 @@
 
 * [👶 ⏳ SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
-  * [Single-Responsibility Principle](basic/solid/2.srp.md)
+  * [Single-Responsibility Principle](basic/solid/srp.md)
   * [Open/Closed Principle](basic/solid/ocp.md)
   * [กำลังเขียนอยู่](basic/solid/pending.md)
 

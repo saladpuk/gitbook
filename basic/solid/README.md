@@ -25,7 +25,7 @@ description: พื้นฐานที่ควรจะต้องรู้
 
 {% page-ref page="intro.md" %}
 
-{% page-ref page="2.srp.md" %}
+{% page-ref page="srp.md" %}
 
 {% page-ref page="ocp.md" %}
 
