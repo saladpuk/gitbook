@@ -55,7 +55,7 @@
 
 [![img](https://github.com/saladpuk/design-patterns/raw/master/assets/adapter/structure-object-adapter-indexed-2x.png)](https://github.com/saladpuk/design-patterns/blob/master/assets/adapter/structure-object-adapter-indexed-2x.png)
 
-> **อธิบาย**
+**อธิบาย**
 
 1. **Client** - คือคลาสที่ทำงานร่วมกับ interface ที่เป็นต้นแบบของ Adapter
 2. **Client Interface** - เป็นมาตรฐานในการสร้าง Adapter เพื่อให้ Client สามารถทำงานร่วมกับ class ที่ได้ตามที่ client คาดหวังไว้
@@ -81,7 +81,7 @@
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 // Youtube API & Models
 public class YoutubeProfile
 {

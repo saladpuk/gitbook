@@ -67,7 +67,7 @@
 
 ปิ๊ง!! เหมือนตรัสรู้ในท่าแอบฟังชาวบ้าน จึงเห็นนิมิตรลอยมากลางอากาศตามโค้ดด้านล่างเลย
 
-```text
+```csharp
 class XMLExportVisitor
 {
     method DoForCity(City c) { ... }
@@ -78,8 +78,9 @@ class XMLExportVisitor
 
 แล้วเราจะเรียกใช้ของพวกนี้ยังไงฟระ ถ้าต้องมานั่งไล่เช็คแบบโค้ด้านล่างนี้ก็ยากตายพอดีดิ
 
-```text
+```csharp
 foreach (Node node in nodeCollection)
+{
     if (node is City) exportVisitor.DoForCity((City) node)
     if (node is Industry) exportVisitor.DoForIndustry((Industry) node)
     // ...
@@ -94,7 +95,7 @@ foreach (Node node in nodeCollection)
 
 นิมิตรลอยมากลางอากาศอีกครั้ง
 
-```text
+```csharp
 // Client code
 foreach (Node node in graph)
     node.Accept(exportVisitor)
@@ -151,7 +152,7 @@ class Industry
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 using System.Collections.Generic;
 

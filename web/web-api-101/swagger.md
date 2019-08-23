@@ -18,7 +18,7 @@ dotnet add package Swashbuckle.AspNetCore
 
 ### 👨‍🚀 Configuration
 
-```text
+```csharp
 using Microsoft.OpenApi.Models;
 
 public void ConfigureServices(IServiceCollection services)

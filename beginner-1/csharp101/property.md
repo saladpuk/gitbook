@@ -10,7 +10,7 @@
 
 Method พิเศษตัวนึงที่ช่วยให้เราเข้าถึงตัวแปรได้ง่ายๆ ผ่าน **accessor** ที่ชื่อว่า **get** กับ **set** โดยเราสามารถเลือกได้ว่า property ที่เราสร้างขึ้นมาจะทำงานกับตัวแปรไหนได้ ตามโค๊ดด้านล่าง
 
-```text
+```csharp
 public class MyClass
 {
    private string name;
@@ -40,7 +40,7 @@ public class MyClass
 
 คือ property ที่เราไม่ต้องไปกำหนดว่ามันจะทำงานกับตัวแปรตัวไหนเลย ซึ่ง C\# จะเป็นคนจัดการให้ เรามีหน้าที่แค่กำหนด get set ของมันก็พอ ตามโค๊ดด้านล่างเลย
 
-```text
+```csharp
 public class MyClass
 {
    public string Name { get; set; }
@@ -56,7 +56,7 @@ public class MyClass
 
 เราสามารถเขียนโค๊ดเพื่อจัดการกับเวลาที่มีคน แก้ไขข้อมูล หรือ เรียกดูข้อมูล ผ่าน property ได้ตามโค๊ดด้านล่าง
 
-```text
+```csharp
 public class MyClass
 {
    private bool isMale;
@@ -87,7 +87,7 @@ public class MyClass
 
 เราสามารถกำหนด access modifier ให้กับพวก accessors ได้นะครับ เช่นผมอยากให้ ทุกคนเรียกดูตัวแปร Name ได้ แต่ให้คลาสมันเองเท่านั้นที่แก้ไขได้ ผมก็จะได้โค๊ดตามรูปเบย
 
-```text
+```csharp
 public class MyClass
 {
    public string Name { get; private set; }
@@ -98,7 +98,7 @@ public class MyClass
 
 พวก accessors จริงๆจะมีทั้ง 2 ตัว หรือจะมีแค่ตัวใดตัวนึงก็ได้นะ ตามโค๊ดด้านล่างเลยงับ
 
-```text
+```csharp
 public class MyClass
 {
    public string Name { get; set; }

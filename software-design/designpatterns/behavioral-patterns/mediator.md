@@ -95,7 +95,7 @@
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 using System.Collections.Generic;
 

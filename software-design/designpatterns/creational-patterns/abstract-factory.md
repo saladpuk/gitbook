@@ -109,7 +109,7 @@
 
 ### 📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 
 // Factories

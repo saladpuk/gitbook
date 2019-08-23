@@ -10,7 +10,7 @@
 
 เป็นแค่วิธีการแบ่งแยกกลุ่มของโค๊ดของเรา โดยเราจะใช้แบ่งหมวดการทำงานของโค๊ดแต่ละเรื่องว่ามันใช้สำหรับทำอะไร เช่นจากตัวอย่างด้านล่างผมแยกโค๊ดออกเป็น 2 กลุ่มคือ 1.ของที่เป็น data model กับ 2.ของที่ใช้ต่อฐานข้อมูล
 
-```text
+```csharp
 namespace ProjectName.Models
 {
     public class Teacher
@@ -55,7 +55,7 @@ namespace ProjectName.DAC
 
 เวลาที่เราจะเรียกใช้ namespace อะไร เราจะต้องใช้คำสั่ง **using** keyword ไว้ด้านบนสุดของไฟล์ เพื่อบอกว่าโค๊ดที่เรากำลังเขียนอยู่นี้มันสามารถใช้ namespace อะไรได้บ้าง ซึ่งถ้าผมอยากจะใช้คลาส **Teacher** จากตัวอย่างด้านบนผมจะต้องเขียนโค๊ดไว้ตามตัวอย่างด้านล่างนี้เบย
 
-```text
+```csharp
 using System;
 using ProjectName.Models;
 
@@ -75,7 +75,7 @@ namespace DemoConsoleApp
 
 ในบางครั้งเราไม่อยากนำ namespace เข้ามาใช้ทั้งหมด เราก็สามารถสร้าง **aliases** ให้กับ namespace ที่จะใช้ได้ด้วยนะ ตามโค๊ดด้านล่างเลย ผมใช้ aliases ที่บรรทัดที่ 1 และเรียกใช้งานมันบรรทัดที่ 9
 
-```text
+```csharp
 using sys = System;
 
 namespace DemoConsoleApp

@@ -4,8 +4,10 @@
 
 ### 23/08/2019
 
+* อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 3 [Liskov Substitution Principle \(LSP\)](https://saladpuk.gitbook.io/learn/basic/solid/lsp)
 * อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 2 [Open/Closed Principle \(OCP\)](https://saladpuk.gitbook.io/learn/basic/solid/ocp)
 * อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 1 [Single-Responsibility Principle \(SRP\)](https://saladpuk.gitbook.io/learn/basic/solid/srp)
+* อัพเดทโค้ด Format ให้อ่านได้ง่ายขึ้นกับทุกคอร์ส
 
 ### 22/08/2019
 

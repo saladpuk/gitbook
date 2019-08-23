@@ -46,6 +46,7 @@
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
   * [Open/Closed Principle](basic/solid/ocp.md)
+  * [Liskov Substitution Principle](basic/solid/lsp.md)
   * [กำลังเขียนอยู่](basic/solid/pending.md)
 
 ## Software Testing

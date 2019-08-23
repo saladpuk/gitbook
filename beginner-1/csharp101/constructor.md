@@ -10,7 +10,7 @@
 
 มีหน้าที่กำหนดข้อมูลพื้นฐานให้กับตัวแปรต่างๆของคลาสนั้นๆ โดยมันจะมีชื่อเดียวกับคลาสของเราเป๊ะๆเลย ตามโค๊ดด้านล่าง \(บรรทัดที่ 3~5 นั่นแหละเจ้า constructor\)
 
-```text
+```csharp
 public class Student
 {
    public Student()
@@ -21,7 +21,7 @@ public class Student
 
 แล้วถ้าเราอยากกำหนดค่าพื้นฐานให้มันล่ะ? ก็ทำตามตัวอย่างด้านล่างได้เบย
 
-```text
+```csharp
 public class Student
 {
    public int Name;

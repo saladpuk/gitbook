@@ -12,7 +12,7 @@
 
 ### 👨‍🚀 Method แบบไม่มี parameter
 
-```text
+```csharp
 public void MyMethod()
 {
    // Do something
@@ -23,7 +23,7 @@ public void MyMethod()
 
 แบบมี parameter ตัวเดียว
 
-```text
+```csharp
 public void MyMethod(int parameterA)
 {
    // Do something
@@ -32,7 +32,7 @@ public void MyMethod(int parameterA)
 
 แบบมี parameter หลายตัว \(ใช่ comma คั่น\)
 
-```text
+```csharp
 public void MyMethod(int parameterA, string parameterB)
 {
    // Do something
@@ -43,7 +43,7 @@ public void MyMethod(int parameterA, string parameterB)
 
 แบบมี return type แต่ไม่มี parameter
 
-```text
+```csharp
 public int MyMethod()
 {
    return 5;
@@ -52,7 +52,7 @@ public int MyMethod()
 
 แบบมี return type และมี parameter
 
-```text
+```csharp
 public int Add(int firstValue, int secondValue)
 {
    return firstValue + secondValue;
@@ -63,7 +63,7 @@ public int Add(int firstValue, int secondValue)
 
 เป็นการบอกว่า parameter ที่ส่งเข้ามานั้นจะให้ method เป็นคนกำหนดค่าให้มัน ดังนั้นเมื่อ method นั้นๆทำงานเสร็จ ตัวแปรที่ส่งเข้าไปให้ด้วย **out keyword** นั้นก็จะถูกกำหนดค่ามาให้เสร็จเรียบร้อยเลย 
 
-```text
+```csharp
 public void MyMethod(out int parameter)
 {
    parameter = 99;
@@ -82,7 +82,7 @@ MyMethod(out a); // พอทำงานเสร็จตัวแปร a จ
 
 เป็นการบอกว่า parameter ที่ส่งเข้ามานั้น ถ้า method มีการแก้ไขค่าให้เป็นอะไร ตัวแปรจริงๆที่ถูกส่งเข้ามาก็จะถูกแก้ไขตามไปด้วย ซึ่งส่วนใหญ่เราจะใช้กับ **value type** นั่นเอง
 
-```text
+```csharp
 public void MyMethod(ref int parameter)
 {
    parameter = 99;

@@ -81,7 +81,7 @@
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 using System.Linq;
 using System.Collections.Generic;

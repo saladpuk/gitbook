@@ -98,7 +98,7 @@ abstraction ในที่นี้ไม่ใช่ abstract class ของ�
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 
 // Abstracts

@@ -19,7 +19,7 @@
 
 ตัวอย่างการสร้าง Abstract class โดยให้คลาสลูกเป็นคนกำหนดว่าการคำนวณพื้นที่ของรูปแบบแต่ละอย่างเป็นยังไง
 
-```text
+```csharp
 public abstract class Shape
 {
    public abstract double GetArea();

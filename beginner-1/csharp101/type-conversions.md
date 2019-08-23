@@ -19,7 +19,7 @@ double b = a;
 
 กรณีที่โปรแกรมจัดการให้เราอัตโนมัติไม่ได้ เราจะต้องทำการระบุ data type ที่จะทำการแปลงลงไปด้วย หรือเรียกว่าการ **cast** เช่น เราทำการแปลง double เป็น int แบบตัวอย่างด้างล่างงุย
 
-```text
+```csharp
 double a = 3.33;
 int b = (int)a;
 ```
@@ -43,7 +43,7 @@ int b = (int)a;
 
  2.การแปลงข้อมูลจาก string เป็น data type ที่ระบุโดยใช้ตัวช่วย
 
-```text
+```csharp
 int a = int.Parse("1");
 double b = int.Parse("3.33");
 ```
@@ -52,7 +52,7 @@ double b = int.Parse("3.33");
 
 เรานิยมใช้คำสั่ง **.ToString\(\)** ต่อท้าย เพื่อทำการแปลงข้อมูลนั้นๆให้กลายเป็น string ตามตัวอย่างด้านล่าง
 
-```text
+```csharp
 int a = 3;
 string b = a.ToString();
 string c = 3.33.ToString();

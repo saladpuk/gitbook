@@ -28,7 +28,7 @@
 
 ตัวอย่างการทำ Default interface members
 
-```text
+```csharp
 interface ILogger
 {
     void Log(LogLevel level, string message);

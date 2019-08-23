@@ -21,7 +21,7 @@
 เช่น ลำดับของ data type ไม่เหมือนกัน หรือ จำนวนของ parameter ไม่เท่ากัน \(ชื่อของ parameter ไม่เกี่ยวนะจ๊ะ\)
 {% endhint %}
 
-```text
+```csharp
 public class MyClass
 {
    public void MyMethod()

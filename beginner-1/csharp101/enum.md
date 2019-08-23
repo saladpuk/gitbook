@@ -12,7 +12,7 @@
 
 ตัวอย่างการสร้างเซ็ตข้อมูลของวันในสัปดาห์
 
-```text
+```csharp
 public enum DaysOfWeek
 {
     Sunday = 0,
@@ -27,13 +27,13 @@ public enum DaysOfWeek
 
 ตัวอย่างการแปลง enum เป็นตัวเลข
 
-```text
+```csharp
 int day = (int)DaysOfWeek.Sunday;
 ```
 
 ตัวอย่างการแปลงตัวเลขกลับไปเป็น enum
 
-```text
+```csharp
 DaysOfWeek today = (DaysOfWeek)3;
 ```
 
@@ -45,7 +45,7 @@ DaysOfWeek today = (DaysOfWeek)3;
 
 เราสามารถแปลง string ไปเป็น enum ได้ด้วยการใช้ Enum.Parse\(\) หรือ Enum.TryParse\(\) ครับตามตัวอย่างด้านบน
 
-```text
+```csharp
 var today = Enum.Parse<DayOfWeek>("Sunday");
 ```
 

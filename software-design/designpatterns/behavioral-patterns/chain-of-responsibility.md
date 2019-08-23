@@ -103,7 +103,7 @@
 
 ### ‍‍📝 Code ตัวอย่าง
 
-```text
+```csharp
 using System;
 
 // Request Models
