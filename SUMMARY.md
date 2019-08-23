@@ -47,6 +47,7 @@
   * [Single-Responsibility Principle](basic/solid/srp.md)
   * [Open/Closed Principle](basic/solid/ocp.md)
   * [Liskov Substitution Principle](basic/solid/lsp.md)
+  * [Interface Segregation Principle](basic/solid/isp.md)
   * [กำลังเขียนอยู่](basic/solid/pending.md)
 
 ## Software Testing
