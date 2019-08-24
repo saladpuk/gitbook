@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 24/08/2019
+
+* อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 5 [Dependency-Inversion Principle \(DIP\)](https://saladpuk.gitbook.io/learn/basic/solid/dip)
+
 ### 23/08/2019
 
 * อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 4 [Interface Segregation Principle \(ISP\)](https://saladpuk.gitbook.io/learn/basic/solid/isp)

@@ -42,13 +42,13 @@
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
-* [👶 ⏳ SOLID Design Principles](basic/solid/README.md)
+* [👶 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
   * [Open/Closed Principle](basic/solid/ocp.md)
   * [Liskov Substitution Principle](basic/solid/lsp.md)
   * [Interface Segregation Principle](basic/solid/isp.md)
-  * [กำลังเขียนอยู่](basic/solid/pending.md)
+  * [Dependency-Inversion Principle](basic/solid/dip.md)
 
 ## Software Testing
 
