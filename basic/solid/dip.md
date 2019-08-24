@@ -199,7 +199,7 @@ public class Door : IControllable
 public class Remote
 {
     private IList<IControllable> items;
-    private IControllable target { get; set; }
+    private IControllable target;
 
     public Remote(IList<IControllable> items)
     {

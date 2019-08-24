@@ -4,6 +4,7 @@
 
 ### 24/08/2019
 
+* เขียนบทความเรื่อง [👶 Code Smells](https://saladpuk.gitbook.io/learn/basic/code-smells) \(จบแล้ว\)
 * อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 5 [Dependency-Inversion Principle \(DIP\)](https://saladpuk.gitbook.io/learn/basic/solid/dip)
 
 ### 23/08/2019
