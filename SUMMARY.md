@@ -44,7 +44,6 @@
 
 * [👶 Clean Code](basic/clean-code.md)
 * [👶 Code Smells](basic/code-smells.md)
-* [👦 ⏳Test-First Design](basic/test-first-design.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
@@ -52,6 +51,7 @@
   * [Liskov Substitution Principle](basic/solid/lsp.md)
   * [Interface Segregation Principle](basic/solid/isp.md)
   * [Dependency-Inversion Principle](basic/solid/dip.md)
+* [👦 ⏳Test-First Design](basic/test-first-design.md)
 
 ## Software Testing
 

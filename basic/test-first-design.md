@@ -374,7 +374,363 @@ public class Game
 **ลุงบ๊อบ:** เยี่ยม เทสผ่านละ  
 **ป๋าโรเบิร์ด:** เฮ้ยบ๊อบ เลข 21 ในบรรทัดที่ 4 คืออะไรเหรอ ?  
 **ลุงบ๊อบ:** จำนวนครั้งสูงสุดที่บอลสามารถโยนได้ต่อเกมไง  
+**ลุงบ๊อบ:** งั้นถัดไปมาเขียนเคสได้ สแปร์ ละกัน ... พิมพ์ๆๆ
 
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestSimpleSpare()
+{
+    Game game = new Game();
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อืมมม เหมือนทุกครั้งที่จะเริ่มเขียนเทส เราจะต้องสร้าง game object เสมอเลยนะ งั้นขอ **Refactor** หน่อยละกัน ... พิมพ์ๆๆ
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+private Game game;
+
+public GameTest()
+{
+   game = new Game();
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อะเคใช้ได้ละ งั้นเรี่ยมเขียนเทสเคส สแปร์ ต่อเลยละกัน ... พิมพ์ๆๆ
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestSimpleSpare()
+{
+    Game game = new Game();
+    game.Add(3);
+    game.Add(7);
+    game.Add(3);
+    Assert.AreEqual(13, game.ScoreForFrame(1));
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** โอเค ตอนนี้มัน fail ละ ต่อไปมาเขียนให้มันผ่านกันเถอะ  
+**ป๋าโรเบิร์ด:** มาตูเขียนเอง ... พิมพ์ๆๆ 
+
+> เพิ่มบรรทัดที่ 12~18
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+public int ScoreForFrame(int theFrame)
+{
+    int ball = 0;
+    int score = 0;
+    for (int currentFrame = 0;
+        currentFrame < theFrame;
+        currentFrame++)
+    {
+        int firstThrow = throws[ball++];
+        int secondThrow = throws[ball++];
+
+        int frameScore = firstThrow + secondThrow;
+
+        // spare needs next frames first throw
+        if (frameScore == 10)
+            score += frameScore + throws[ball++];
+        else
+            score += frameScore;
+    }
+
+    return score;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ป๋าโรเบิร์ด:** อะฮ๊าา ใช้ได้ๆ ผ่านละ  
+**ลุงบ๊อบ:** \(แย่งคียบอร์ดมา\) อั๊วคิดว่าการเพิ่มค่า ball ตอนที่ frameScore == 10 ไม่ไม่ควรอยู่ตรงนี้นะ เดี๋ยวจะลองใส่เทสเคสนี้เพื่อพิสูจน์ให้ดู ... พิมพ์ๆๆ
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestSimpleFrameAfterSpare()
+{
+    game.Add(3);
+    game.Add(7);
+    game.Add(3);
+    game.Add(2);
+    Assert.AreEqual(13, game.ScoreForFrame(1));
+    Assert.AreEqual(18, game.Score);
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** เห็นไหมตามที่บอกเลย fail เลย เอาละเดี๋ยวอั๊วไปเอาไอ้ที่เพิ่มค่า ball ออกดู ... พิมพ์ๆ
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+if (frameScore == 10)
+    score += frameScore + throws[ball];
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อ่าว ยัง fail อยู่เหมือนเดิมนิหว่า หรือว่าเราเขียนเจ้า Score property ผิดหว่า? งั้นลองเปลี่ยนมาใช้ ScoreForFram\(2\) แทนละกัน ... พิมพ์ๆๆ
+
+> แก้แค่บรรทัด 9
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestSimpleFrameAfterSpare()
+{
+    game.Add(3);
+    game.Add(7);
+    game.Add(3);
+    game.Add(2);
+    Assert.AreEqual(13, game.ScoreForFrame(1));
+    Assert.AreEqual(18, game.ScoreForFrame(2));
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อืมมมมมมม ผ่านวุ้ย แสดงว่า Score property มันผิดชัวร์ๆ ไหนลองดูดิ๊
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+public int Score
+{
+    get { return score; }
+}
+
+public void Add(int pins)
+{
+    throws[currentThrow++] = pins;
+    score += pins;
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** นั่นไงผิดจริงๆด้วย เพราะ Score property มันแค่ส่งผลรวมของพินที่ล้มได้ออกมานิหว่า เดี๋ยวเราเปลี่ยนให้มันส่งผลลัพท์จาก ScoreForFrame\(\) ของเฟรมปัจจุบันกลับมาละกัน  
+**ป๋าโรเบิร์ด:** ตัว Game มันไม่รู้ว่าตอนนี้มันอยู่เฟรมไหนนะ งั้นเอ็งลองเพิ่มให้มันรู้ว่าตอนนี้มันอยู่เฟรมไหนไปด้วยเลยดิ  
+**ลุงบ๊อบ:** ได้เลย ... พิมพ์ๆๆ
+
+> เพิ่มบรรทัด 6
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestOneThrow()
+{
+    game.Add(5);
+    Assert.AreEqual(5, game.Score);
+    Assert.AreEqual(1, game.CurrentFrame);
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="Game.cs" %}
+```csharp
+public int CurrentFrame
+{
+    get { return 1; }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อะเคผ่านละ แต่ติงต๊องมาก ลองไปใส่ในเคสอื่นบ้างดิ๊ ... พิมพ์ๆ
+
+> เพิ่มบรรทัด 7
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestTwoThrowsNoMark()
+{
+    game.Add(5);
+    game.Add(4);
+    Assert.AreEqual(9, game.Score);
+    Assert.AreEqual(1, game.CurrentFrame);
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** ผ่านเหมือนกัน ไหนลองตัวถัดไปดิ๊
+
+> เพิ่มบรรทัด 12
+
+{% code-tabs %}
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestFourThrowsNoMark()
+{
+    Game game = new Game();
+    game.Add(5);
+    game.Add(4);
+    game.Add(7);
+    game.Add(2);
+    Assert.AreEqual(18, game.Score);
+    Assert.AreEqual(9, game.ScoreForFrame(1));
+    Assert.AreEqual(18, game.ScoreForFrame(2));
+    Assert.AreEqual(2, game.CurrentFrame);
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อะฮ๊า fail ละ ไปทำให้มันผ่านกัน  
+**ป๋าโรเบิร์ด:** ตูคิดว่าวิธีคิดมันง่ายๆนะ แค่เอาจำนวนครั้งที่โยนไปหาร 2 เพราะสูงสุดมันโยนได้ 2 ครั้งต่อเฟรม ยกเว้นได้สไตรค์ แต่ช่างมันก่อนก็ได้เรายังไม่ได้มีเคส สไตรค์เลย
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+public int CurrentFrame
+{
+    get { return 1 + (currentThrow - 1) / 2; }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ลุงบ๊อบ:** อั๊วไม่ถูกใจโค้ดแบบนี้เลย  
+**ป๋าโรเบิร์ด:** งั้นไม่คำนวณตลอดเวลาก็ได้ เอาเป็นไปคำนวณตอนที่โยนบอลแต่ละครั้งละกัน  
+**ลุงบ๊อบ:** โอเคจัดไป ... พิมพ์ๆ
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+private int currentFrame;
+private bool isFirstThrow = true;
+
+public int CurrentFrame
+{
+    get { return currentThrow; }
+}
+
+public void Add(int pins)
+{
+    throws[currentThrow++] = pins;
+    score += pins;
+
+    if(isFirstThrow)
+    {
+        isFirstThrow = false;
+        currentFrame++;
+    }
+    else
+    {
+        isFirstThrow = true;
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ป๋าโรเบิร์ด:** โอเค เทสยังผ่านหมดอยู่ แต่ต้องจำไว้ด้วยว่าเจ้า CurrentFrame คือเฟรมที่โยนบอลครั้งสุดท้ายนะ ไม่ใช่เฟรมที่จะโยนบอลครั้งถัดไป  
+**ลุงบ๊อบ:** โอ้ยอั๊วจำไม่ได้หรอก แต่อั๊วขอแก้ให้โค้ดมันอ่านง่ายขึ้นหน่อยละกันก่อนที่จะทำต่อ อั๊วจะย้ายตัวคำนวณเฟรมออกมาจาก Add\(\) นะ  
+**ป๋าโรเบิร์ด:** ฟังดูไม่เลว ลงมือเลย
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+public void Add(int pins)
+{
+    throws[currentThrow++] = pins;
+    score += pins;
+
+    AdjustCurrentFrame();
+}
+
+private void AdjustCurrentFrame()
+{
+    if (isFirstThrow)
+    {
+        isFirstThrow = false;
+        currentFrame++;
+    }
+    else
+    {
+        isFirstThrow = true;
+    }
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
+
+**ป๋าโรเบิร์ด:** เยี่ยมเลย แต่ตูไม่ชอบที่ตัวแปร currentFrame มันเริ่มที่ 0 อยู่เลย มาเปลี่ยนให้มันเข้าใจง่ายๆดีกว่า  
+**ลุงบ๊อบ:** อืม เห็นด้วย
+
+> Game.cs เพิ่มบรรทัด 1 กับ 13  
+> GameTest.cs แก้ไขบรรทัด 7 กับ 21
+
+{% code-tabs %}
+{% code-tabs-item title="Game.cs" %}
+```csharp
+private int currentFrame = 1;
+
+private void AdjustCurrentFrame()
+{
+    if (isFirstThrow)
+    {
+        isFirstThrow = false;
+        currentFrame++;
+    }
+    else
+    {
+        isFirstThrow = true;
+        currentFrame++;
+    }
+}
+```
+{% endcode-tabs-item %}
+
+{% code-tabs-item title="GameTest.cs" %}
+```csharp
+[Test]
+public void TestTwoThrowsNoMark()
+{
+    game.Add(5);
+    game.Add(4);
+    Assert.AreEqual(9, game.Score);
+    Assert.AreEqual(2, game.CurrentFrame);
+}
+
+[Test]
+public void TestFourThrowsNoMark()
+{
+    Game game = new Game();
+    game.Add(5);
+    game.Add(4);
+    game.Add(7);
+    game.Add(2);
+    Assert.AreEqual(18, game.Score);
+    Assert.AreEqual(9, game.ScoreForFrame(1));
+    Assert.AreEqual(18, game.ScoreForFrame(2));
+    Assert.AreEqual(3, game.CurrentFrame);
+}
+```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 {% hint style="danger" %}
 บทนี้ยังไม่เสร็จกำลังเขียนอยู่
