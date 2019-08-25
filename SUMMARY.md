@@ -42,8 +42,10 @@
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
+* [👶 Clean Code](basic/clean-code.md)
 * [👶 Code Smells](basic/code-smells.md)
-* [👶 SOLID Design Principles](basic/solid/README.md)
+* [👦 ⏳Test-First Design](basic/test-first-design.md)
+* [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
   * [Open/Closed Principle](basic/solid/ocp.md)
