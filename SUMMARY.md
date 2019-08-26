@@ -44,6 +44,7 @@
 
 * [👶 Clean Code](basic/clean-code.md)
 * [👶 Code Smells](basic/code-smells.md)
+* [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
@@ -52,6 +53,11 @@
   * [Interface Segregation Principle](basic/solid/isp.md)
   * [Dependency-Inversion Principle](basic/solid/dip.md)
 * [👦 ⏳Test-First Design](basic/test-first-design.md)
+
+## Cloud Computing <a id="cloud"></a>
+
+* [👶 Microsoft Azure 101](cloud/azure101/README.md)
+  * [สมัคร Microsoft Azure](cloud/azure101/register.md)
 
 ## Software Testing
 

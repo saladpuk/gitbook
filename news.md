@@ -2,15 +2,20 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 26/08/2019
+
+* เขียนคอร์ส [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) \(ยังไม่เสร็จ\)
+* เขียนบทความเรื่อง [👶 Cloud พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/cloud101)
+
 ### 25/08/2019
 
 * เขียนบทความเรื่อง 👦[ Test-First Design](https://saladpuk.gitbook.io/learn/basic/test-first-design) \(ยังไม่เสร็จ\)
-* เขียนบทความเรื่อง [👶 Clean Code](https://saladpuk.gitbook.io/learn/basic/clean-code) \(จบแล้ว\)
+* เขียนบทความเรื่อง [👶 Clean Code](https://saladpuk.gitbook.io/learn/basic/clean-code)
 * แก้ระดับความยาก SOLID Design Principles จาก 👶 &gt;&gt; 👦
 
 ### 24/08/2019
 
-* เขียนบทความเรื่อง [👶 Code Smells](https://saladpuk.gitbook.io/learn/basic/code-smells) \(จบแล้ว\)
+* เขียนบทความเรื่อง [👶 Code Smells](https://saladpuk.gitbook.io/learn/basic/code-smells)
 * อัพเดท [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) บทที่ 5 [Dependency-Inversion Principle \(DIP\)](https://saladpuk.gitbook.io/learn/basic/solid/dip)
 
 ### 23/08/2019
@@ -27,7 +32,7 @@
 
 ### 20/08/2019
 
-* อัพเดท [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) บทที่ 20~23 \(รีบปั่นให้คอร์สนี้จบอยู่ดองมานานละ\)
+* อัพเดท [👶 เขียนโปรแกรมด้วยภาษา C\#](https://saladpuk.gitbook.io/learn/beginner-1/csharp101) บทที่ 20~23
 
 ### 19/08/2019
 
@@ -37,12 +42,12 @@
 ### 18/08/2019
 
 * เขียนคอร์ส [👶 SOLID Design Principles](https://saladpuk.gitbook.io/learn/basic/solid) \(ยังไม่จบ\)
-* เขียนคอร์ส 👦 [Web API](https://saladpuk.gitbook.io/learn/web/web-api-101) \(จบแล้ว\)
+* เขียนคอร์ส 👦 [Web API](https://saladpuk.gitbook.io/learn/web/web-api-101)
 
 ### 17/08/2019
 
-* เขียนคอร์ส 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development) \(จบแล้ว\)
-* เขียนคอร์ส [🤴 Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns) \(จบแล้ว\)
+* เขียนคอร์ส 👦 [Test-Driven Development](https://saladpuk.gitbook.io/learn/software-testing/test-driven-development)
+* เขียนคอร์ส [🤴 Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns)
 
 ### 12/08/2019
 
