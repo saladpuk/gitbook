@@ -59,6 +59,7 @@
 * [👶 ⏳Microsoft Azure 101](cloud/azure101/README.md)
   * [สมัคร Microsoft Azure](cloud/azure101/register.md)
   * [รู้จักกับ Resource Groups](cloud/azure101/resource-groups.md)
+  * [สร้างเว็บตัวแรกกัน](cloud/azure101/website.md)
   * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
 
 ## Software Testing
