@@ -2,10 +2,15 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 28/08/2019
+
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 4 [สร้าง Virtual Machine กัน](https://saladpuk.gitbook.io/learn/cloud/azure101/vm)
+
 ### 27/08/2019
 
-* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) เรื่อง สร้างเว็บตัวแรกกัน
-* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) เรื่อง รู้จักกับ Resource Groups
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 3 [สร้างเว็บตัวแรกกัน](https://saladpuk.gitbook.io/learn/cloud/azure101/website)
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 2 [รู้จักกับ Resource Groups](https://saladpuk.gitbook.io/learn/cloud/azure101/resource-groups)
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 1 [สมัคร Microsoft Azure](https://saladpuk.gitbook.io/learn/cloud/azure101/register)
 
 ### 26/08/2019
 

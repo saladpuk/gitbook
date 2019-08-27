@@ -60,6 +60,7 @@
   * [สมัคร Microsoft Azure](cloud/azure101/register.md)
   * [รู้จักกับ Resource Groups](cloud/azure101/resource-groups.md)
   * [สร้างเว็บตัวแรกกัน](cloud/azure101/website.md)
+  * [สร้าง Virtual Machine กัน](cloud/azure101/vm.md)
   * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
 
 ## Software Testing
