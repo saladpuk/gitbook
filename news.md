@@ -4,7 +4,10 @@
 
 ### 28/08/2019
 
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 5 [ประเภทของคลาว์เซอร์วิส](https://saladpuk.gitbook.io/learn/cloud/azure101/service-types)
 * อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 4 [สร้าง Virtual Machine กัน](https://saladpuk.gitbook.io/learn/cloud/azure101/vm)
+
+service-types
 
 ### 27/08/2019
 
