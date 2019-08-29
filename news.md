@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 29/08/2019
+
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 6 [มาสร้าง Logic App กัน](https://saladpuk.gitbook.io/learn/cloud/azure101/logic-app)
+
 ### 28/08/2019
 
 * อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 5 [ประเภทของคลาว์เซอร์วิส](https://saladpuk.gitbook.io/learn/cloud/azure101/service-types)

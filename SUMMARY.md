@@ -62,6 +62,7 @@
   * [สร้างเว็บตัวแรกกัน](cloud/azure101/website.md)
   * [สร้าง Virtual Machine กัน](cloud/azure101/vm.md)
   * [ประเภทของคลาว์เซอร์วิส](cloud/azure101/service-types.md)
+  * [มาสร้าง Logic App กัน](cloud/azure101/logic-app.md)
   * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
 
 ## Software Testing
