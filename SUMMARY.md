@@ -47,6 +47,7 @@
 * [👶 Code Smells](basic/code-smells.md)
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
+* [👦 Test-First Design](basic/test-first-design.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
@@ -54,7 +55,6 @@
   * [Liskov Substitution Principle](basic/solid/lsp.md)
   * [Interface Segregation Principle](basic/solid/isp.md)
   * [Dependency-Inversion Principle](basic/solid/dip.md)
-* [👦 ⏳Test-First Design](basic/test-first-design.md)
 
 ## Cloud Computing <a id="cloud"></a>
 
