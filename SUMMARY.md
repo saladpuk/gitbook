@@ -3,11 +3,10 @@
 * [💖 สลัดผัก](README.md)
 * [📰 มีอะไรใหม่บ้าง](news.md)
 
-## มือใหม่ <a id="beginner-1"></a>
+## มือใหม่หันเขียนโค้ด <a id="beginner-1"></a>
 
-* [👶 สำหรับมือใหม่](beginner-1/beginner/README.md)
-  * [🐟 เกิดมาไม่เคยเขียนโค๊ดมาก่อนเบย](beginner-1/beginner/newbie.md)
-* [👶 ⏳เขียนโปรแกรมด้วยภาษา C\#](beginner-1/csharp101/README.md)
+* [👶 เขียนโค้ดด้วยภาษา C\#](beginner-1/csharp101/README.md)
+  * [เกิดมาไม่เคยเขียนโค๊ดมาก่อนเบย](beginner-1/csharp101/newbie.md)
   * [👶 พื้นฐาน](beginner-1/csharp101/basic/README.md)
     * [1.โปรแกรมที่ต้องลง](beginner-1/csharp101/basic/tools.md)
     * [2.โครงสร้างของโค๊ด](beginner-1/csharp101/basic/structure.md)
@@ -23,7 +22,7 @@
     * [12.การทำงานซ้ำๆด้วย For](beginner-1/csharp101/basic/for.md)
     * [13.การแก้โจทย์จากรูป](beginner-1/csharp101/basic/img-solving.md)
     * [14.มารู้จักกับ Array กัน](beginner-1/csharp101/basic/array.md)
-  * [🧑 ขั้นกลาง](beginner-1/csharp101/intermediate/README.md)
+  * [🧑 ระดับกลาง](beginner-1/csharp101/intermediate/README.md)
     * [15.Value type vs Reference type](beginner-1/csharp101/intermediate/value-vs-reference.md)
     * [16.ลดงานซ้ำๆด้วย Method](beginner-1/csharp101/intermediate/method.md)
     * [17.มารู้จักกับ Class & Field กัน](beginner-1/csharp101/intermediate/class.md)
@@ -40,7 +39,7 @@
     * [28.Exception handler](beginner-1/csharp101/intermediate/exception.md)
     * [29.ลงลึกกับ string](beginner-1/csharp101/intermediate/string.md)
     * [30.StringBuilder เพื่อนคู่ string](beginner-1/csharp101/intermediate/stringbuilder.md)
-  * [👨 ขั้นสูง](beginner-1/csharp101/advanced.md)
+  * [👨 ⏳ระดับสูง](beginner-1/csharp101/advanced.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
