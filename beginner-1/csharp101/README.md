@@ -25,65 +25,65 @@ description: มือใหม่
 คอร์สนี้กำลังค่อยๆเขียนอยู่น่าจะเสร็จราวๆวันที่ 30/09/2019 นี้แหละ
 {% endhint %}
 
-{% page-ref page="tools.md" %}
+{% page-ref page="basic/tools.md" %}
 
-{% page-ref page="structure.md" %}
+{% page-ref page="basic/structure.md" %}
 
-{% page-ref page="datatype.md" %}
+{% page-ref page="basic/datatype.md" %}
 
-{% page-ref page="variable.md" %}
+{% page-ref page="basic/variable.md" %}
 
-{% page-ref page="operators.md" %}
+{% page-ref page="basic/operators.md" %}
 
-{% page-ref page="type-conversions.md" %}
+{% page-ref page="basic/type-conversions.md" %}
 
-{% page-ref page="boolean.md" %}
+{% page-ref page="basic/boolean.md" %}
 
-{% page-ref page="if.md" %}
+{% page-ref page="basic/if.md" %}
 
-{% page-ref page="switch.md" %}
+{% page-ref page="basic/switch.md" %}
 
-{% page-ref page="while-loop.md" %}
+{% page-ref page="basic/while-loop.md" %}
 
-{% page-ref page="do-while.md" %}
+{% page-ref page="basic/do-while.md" %}
 
-{% page-ref page="for.md" %}
+{% page-ref page="basic/for.md" %}
 
-{% page-ref page="img-solving.md" %}
+{% page-ref page="basic/img-solving.md" %}
 
-{% page-ref page="array.md" %}
+{% page-ref page="basic/array.md" %}
 
-{% page-ref page="value-vs-reference.md" %}
+{% page-ref page="intermediate/value-vs-reference.md" %}
 
-{% page-ref page="method.md" %}
+{% page-ref page="intermediate/method.md" %}
 
-{% page-ref page="class.md" %}
+{% page-ref page="intermediate/class.md" %}
 
-{% page-ref page="constructor.md" %}
+{% page-ref page="intermediate/constructor.md" %}
 
-{% page-ref page="method-in-class.md" %}
+{% page-ref page="intermediate/method-in-class.md" %}
 
-{% page-ref page="property.md" %}
+{% page-ref page="intermediate/property.md" %}
 
-{% page-ref page="demo-class.md" %}
+{% page-ref page="intermediate/demo-class.md" %}
 
-{% page-ref page="inheritance.md" %}
+{% page-ref page="intermediate/inheritance.md" %}
 
-{% page-ref page="polymorphism.md" %}
+{% page-ref page="intermediate/polymorphism.md" %}
 
-{% page-ref page="abstract-class.md" %}
+{% page-ref page="intermediate/abstract-class.md" %}
 
-{% page-ref page="interface.md" %}
+{% page-ref page="intermediate/interface.md" %}
 
-{% page-ref page="namespace.md" %}
+{% page-ref page="intermediate/namespace.md" %}
 
-{% page-ref page="enum.md" %}
+{% page-ref page="intermediate/enum.md" %}
 
-{% page-ref page="exception.md" %}
+{% page-ref page="intermediate/exception.md" %}
 
-{% page-ref page="string.md" %}
+{% page-ref page="intermediate/string.md" %}
 
-{% page-ref page="stringbuilder.md" %}
+{% page-ref page="intermediate/stringbuilder.md" %}
 
 ## 🎥 วีดีโอทั้งหมดของคอร์สนี้
 
