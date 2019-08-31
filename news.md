@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 01/09/2019
+
+* เขียนบทความเรื่อง [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
+
 ### 31/08/2019
 
 * เขียนบทความเรื่อง [👦 Test-First Design](https://saladpuk.gitbook.io/learn/basic/test-first-design)

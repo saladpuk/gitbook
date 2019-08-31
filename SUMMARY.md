@@ -48,6 +48,7 @@
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👦 Test-First Design](basic/test-first-design.md)
+* [👦 Bottlenecks of Software](basic/bottlenecks.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
