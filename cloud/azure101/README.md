@@ -31,6 +31,8 @@ description: มาลองหัดเล่น Cloud ของ Microsoft ก�
 
 {% page-ref page="logic-app.md" %}
 
+{% page-ref page="function-app.md" %}
+
 {% page-ref page="pricing.md" %}
 
 กำลังเขียนอยู่จ้า . . .ใจเย็นๆนะโยม
