@@ -4,6 +4,7 @@
 
 ### 01/09/2019
 
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 8 [มาสร้าง Function App กัน](https://saladpuk.gitbook.io/learn/cloud/azure101/function-app)
 * เขียนบทความเรื่อง [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
 
 ### 31/08/2019

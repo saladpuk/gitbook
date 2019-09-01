@@ -67,6 +67,7 @@
   * [ประเภทของคลาว์เซอร์วิส](cloud/azure101/service-types.md)
   * [มาสร้าง Logic App กัน](cloud/azure101/logic-app.md)
   * [คลาว์คิดเงินยังไง ?](cloud/azure101/pricing.md)
+  * [มาสร้าง Function App กัน](cloud/azure101/function-app.md)
   * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
 
 ## Software Testing
