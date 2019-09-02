@@ -68,6 +68,8 @@
   * [มาสร้าง Logic App กัน](cloud/azure101/logic-app.md)
   * [มาสร้าง Function App กัน](cloud/azure101/function-app.md)
   * [คลาว์คิดเงินยังไง ?](cloud/azure101/pricing.md)
+  * [Cloud Native](cloud/azure101/cloud-native.md)
+  * [Guideline for Cloud scaling](cloud/azure101/guideline-for-cloud-scaling.md)
   * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
 
 ## Software Testing

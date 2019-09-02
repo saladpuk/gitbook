@@ -35,5 +35,9 @@ description: มาลองหัดเล่น Cloud ของ Microsoft ก�
 
 {% page-ref page="pricing.md" %}
 
+{% page-ref page="cloud-native.md" %}
+
+{% page-ref page="guideline-for-cloud-scaling.md" %}
+
 กำลังเขียนอยู่จ้า . . .ใจเย็นๆนะโยม
 
