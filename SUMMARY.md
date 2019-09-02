@@ -59,7 +59,7 @@
 
 ## Cloud Computing <a id="cloud"></a>
 
-* [👶 ⏳Microsoft Azure 101](cloud/azure101/README.md)
+* [👶 Microsoft Azure 101](cloud/azure101/README.md)
   * [สมัคร Microsoft Azure](cloud/azure101/register.md)
   * [รู้จักกับ Resource Groups](cloud/azure101/resource-groups.md)
   * [สร้างเว็บตัวแรกกัน](cloud/azure101/website.md)
@@ -70,7 +70,7 @@
   * [คลาว์คิดเงินยังไง ?](cloud/azure101/pricing.md)
   * [Cloud Native](cloud/azure101/cloud-native.md)
   * [Guideline for Cloud scaling](cloud/azure101/guideline-for-cloud-scaling.md)
-  * [กำลังเขียนอยู่จ๊า](cloud/azure101/wip.md)
+  * [Auto Scaling](cloud/azure101/auto-scaling.md)
 
 ## Software Testing
 

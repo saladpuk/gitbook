@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 03/09/2019
+
+* อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 11 [Auto Scaling](https://saladpuk.gitbook.io/learn/cloud/azure101/auto-scaling)
+
 ### 02/09/2019
 
 * อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 10 [Guideline for cloud scaling](https://saladpuk.gitbook.io/learn/cloud/azure101/guideline-for-cloud-scaling)
