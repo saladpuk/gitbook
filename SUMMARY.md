@@ -71,7 +71,9 @@
   * [Cloud Native](cloud/azure101/cloud-native.md)
   * [Guideline for Cloud scaling](cloud/azure101/guideline-for-cloud-scaling.md)
   * [Auto Scaling](cloud/azure101/auto-scaling.md)
-* [👶 Azure Storage](cloud/azure-storage.md)
+* [👶 Azure Storage](cloud/azure-storage/README.md)
+  * [Blob storage](cloud/azure-storage/blobs/README.md)
+    * [ลองสร้างที่เก็บไฟล์กันเลย](cloud/azure-storage/blobs/create.md)
 
 ## Software Testing
 
