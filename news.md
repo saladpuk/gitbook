@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 03/09/2019
+
+* เขียนบทความเรื่อง [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage)
+
 ### 02/09/2019
 
 * อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 11 [Auto Scaling](https://saladpuk.gitbook.io/learn/cloud/azure101/auto-scaling)
