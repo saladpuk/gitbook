@@ -6,6 +6,8 @@
 
 {% page-ref page="create.md" %}
 
+{% page-ref page="detail.md" %}
+
 {% hint style="warning" %}
 เนื้อหาของคอร์สนี้จะค่อยๆเอามาเติมเรื่อยๆ คอยติดตามได้จากหน้านี้ หรือไม่ก็หน้าอัพเดทข่าวสารที่อยู่ตรง side menu ครับ
 {% endhint %}
