@@ -10,7 +10,7 @@
 
 ### สร้างโปรเจค
 
-1.ในรอบนี้ผมจะใช้ .NET Core ในการสร้างโปรเจคนะครับ ดังนั้นเริ่มต้นก็เปิด command prompt หรือ terminal ขึ้นมาเลยแล้วใช้คำสั่งสร้างโปรเจคกันเลย ส่วนใครที่ยังไม่ได้ลง .NET Core ก็สามารไปลงได้จากลิงค์นี้ครับ [Download .NET Core ](https://dotnet.microsoft.com/download)
+ในรอบนี้ผมจะใช้ .NET Core ในการสร้างโปรเจคนะครับ ดังนั้นเริ่มต้นก็เปิด command prompt หรือ terminal ขึ้นมาเลยแล้วใช้คำสั่งสร้างโปรเจคกันเลย ส่วนใครที่ยังไม่ได้ลง .NET Core ก็สามารไปลงได้จากลิงค์นี้ครับ [Download .NET Core ](https://dotnet.microsoft.com/download)
 
 ```text
 dotnet new console -n blob-quickstart
@@ -18,13 +18,13 @@ dotnet new console -n blob-quickstart
 
 > blob-quickstart คือชื่อโปรเจคนะครับ อยากได้ชื่ออื่นก็เปลี่ยนได้เลย
 
-2.ตอนนี้เราก็จะได้โปรเจคมา 1 ตัวละ ถัดไปก็เข้าไปที่โปรเจคนั้นครับด้วยคำสั่งด้านล่างนี้ \(ใครที่เปลี่ยนชื่อโปรเจคก็ใส่ชื่อเป็นชื่อโปรเจคที่ตัวเองตั้งไว้นะ\)
+ตอนนี้เราก็จะได้โปรเจคมา 1 ตัวละ ถัดไปก็เข้าไปที่โปรเจคนั้นครับด้วยคำสั่งด้านล่างนี้ \(ใครที่เปลี่ยนชื่อโปรเจคก็ใส่ชื่อเป็นชื่อโปรเจคที่ตัวเองตั้งไว้นะ\)
 
 ```text
 cd blob-quickstart
 ```
 
-3.ทดสอบว่าโปรเจคไม่มีปัญหาอะไรด้วยคำสั่งด้านล่าง
+ทดสอบว่าโปรเจคไม่มีปัญหาอะไรด้วยคำสั่งด้านล่าง
 
 ```text
 dotnet build
@@ -55,7 +55,7 @@ dotnet add package Microsoft.Azure.Storage.Blob
 ![](../../../.gitbook/assets/image%20%2835%29.png)
 
 {% hint style="info" %}
-Visual Studio Code: C\# Extension  
+**Visual Studio Code: C\# Extension**  
 ในตัวอย่างที่เป็นสีสวยงาม เพราะผมลง extension 2 ตัวให้กับ Visual Studio Code นะครับ ถ้าสนใจก็กดติดตั้งได้จากลิงค์ด้านล่างเลย
 
 * [C\#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
@@ -204,4 +204,59 @@ All done.
 ![](../../../.gitbook/assets/image%20%2825%29.png)
 
 เรียบร้อยแล้วครับ เราสามารถอัพโหลดรูปขึ้นไปบน Azure Storage ได้แล้ว และเรียกดูเหมือนเว็บฝากไฟล์ได้แบ้ว
+
+## 📜 Source code
+
+```csharp
+using System;
+using System.IO;
+using System.Threading.Tasks;
+using Microsoft.Azure.Storage;
+using Microsoft.Azure.Storage.Blob;
+
+namespace blob_quickstart
+{
+    class Program
+    {
+        public static void Main()
+        {
+            Console.WriteLine("Processing.");
+
+            ProcessAsync().GetAwaiter().GetResult();
+
+            Console.WriteLine("All done.");
+            Console.ReadLine();
+        }
+
+        private static async Task ProcessAsync()
+        {
+            var connectionString = "DefaultEndpointsProtocol=https;AccountName=saladpukstorage;AccountKey=V84hggJN/t56SYwQHoMDUt5kFD2bOOtUdxwK5ndMdRCyBZ4kAo8WLz7pU/H09zfrdS+SmmC8aYJsrWwoYubm4Q==;EndpointSuffix=core.windows.net";
+
+            CloudStorageAccount storageAccount;
+            if (CloudStorageAccount.TryParse(connectionString, out storageAccount))
+            {
+                var cloudBlobClient = storageAccount.CreateCloudBlobClient();
+                var cloudBlobContainer = cloudBlobClient.GetContainerReference("saladpuk-upload-by-code");
+                await cloudBlobContainer.CreateIfNotExistsAsync();
+
+                var permissions = new BlobContainerPermissions
+                {
+                    PublicAccess = BlobContainerPublicAccessType.Blob
+                };
+                await cloudBlobContainer.SetPermissionsAsync(permissions);
+
+                var file = new FileStream(@"d:\saladpakLogo-05.png", FileMode.Open);
+                var cloudBlockBlob = cloudBlobContainer.GetBlockBlobReference("img01.png");
+                cloudBlockBlob.Properties.ContentType = "image/png";
+                await cloudBlockBlob.UploadFromStreamAsync(file);
+            }
+            else
+            {
+                Console.WriteLine("The connection string isn't valid");
+                Console.WriteLine("Press any key to exit the application.");
+            }
+        }
+    }
+}
+```
 
