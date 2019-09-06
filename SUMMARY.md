@@ -75,6 +75,7 @@
   * [Blob storage](cloud/azure-storage/blobs/README.md)
     * [ลองสร้างที่เก็บไฟล์กันเลย](cloud/azure-storage/blobs/create.md)
     * [เข้าใจ Blob storage ให้มากขึ้น](cloud/azure-storage/blobs/detail.md)
+    * [ลองเขียนโค้ดอัพโหลดไฟล์กันบ้าง](cloud/azure-storage/blobs/blob-code-01.md)
 
 ## Software Testing
 
