@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 06/09/2019
+
+* อัพเดท [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage) \(Blobs\) [ลองเขียนโค้ดอัพโหลดไฟล์กันบ้าง](https://saladpuk.gitbook.io/learn/cloud/azure-storage/blobs/blob-code-01)
+
 ### 04/09/2019
 
 * อัพเดท [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage) \(Blobs\) [เข้าใจ Blob storage ให้มากขึ้น](https://saladpuk.gitbook.io/learn/cloud/azure-storage/blobs/detail)
