@@ -4,6 +4,7 @@
 
 ### 06/09/2019
 
+* อัพเดท [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage) \(Blobs\) [สร้างเว็บจากที่ฝากไฟล์บนคลาว์](https://saladpuk.gitbook.io/learn/cloud/azure-storage/blobs/staticweb)
 * อัพเดท [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage) \(Blobs\) [ลองเขียนโค้ดอัพโหลดไฟล์กันบ้าง](https://saladpuk.gitbook.io/learn/cloud/azure-storage/blobs/blob-code-01)
 
 ### 04/09/2019
