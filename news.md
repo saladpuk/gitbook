@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 07/09/2019
+
+* เขียนบทความเรื่อง [👶 Azure Bot Service](https://saladpuk.gitbook.io/learn/cloud/azure-bot-service)
+
 ### 06/09/2019
 
 * อัพเดท [👶 Azure Storage](https://saladpuk.gitbook.io/learn/cloud/azure-storage) \(Blobs\) [สร้างเว็บจากที่ฝากไฟล์บนคลาว์](https://saladpuk.gitbook.io/learn/cloud/azure-storage/blobs/staticweb)

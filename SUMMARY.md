@@ -77,6 +77,7 @@
     * [เข้าใจ Blob storage ให้มากขึ้น](cloud/azure-storage/blobs/detail.md)
     * [ลองเขียนโค้ดอัพโหลดไฟล์กันบ้าง](cloud/azure-storage/blobs/blob-code-01.md)
     * [สร้างเว็บจากที่ฝากไฟล์บนคลาว์](cloud/azure-storage/blobs/staticweb.md)
+* [👶 Azure Bot Service](cloud/azure-bot-service.md)
 
 ## Software Testing
 
