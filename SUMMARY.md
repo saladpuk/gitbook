@@ -1,7 +1,8 @@
 # Table of contents
 
 * [💖 สลัดผัก](README.md)
-* [📰 มีอะไรใหม่บ้าง](news.md)
+* [📰 มีอะไรใหม่บ้าง](news/README.md)
+  * [2019-08](news/2019-08.md)
 
 ## มือใหม่หันเขียนโค้ด <a id="beginner-1"></a>
 
@@ -79,6 +80,7 @@
     * [สร้างเว็บจากที่ฝากไฟล์บนคลาว์](cloud/azure-storage/blobs/staticweb.md)
 * [👶 Azure Bot Service](cloud/azure-bot-service/README.md)
   * [Bot เข้าใจเราได้ยังไงกันนะ](cloud/azure-bot-service/introduction.md)
+* [👶 Azure Cognitive Services](cloud/azure-cognitive-services.md)
 
 ## Software Testing
 
