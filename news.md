@@ -4,6 +4,7 @@
 
 ### 07/09/2019
 
+* อัพเดท [👶 Azure Bot Service](https://saladpuk.gitbook.io/learn/cloud/azure-bot-service) เรื่อง [Bot เข้าใจเราได้ยังไงกันนะ](https://saladpuk.gitbook.io/learn/cloud/azure-bot-service/introduction)
 * เขียนบทความเรื่อง [👶 Azure Bot Service](https://saladpuk.gitbook.io/learn/cloud/azure-bot-service)
 
 ### 06/09/2019
