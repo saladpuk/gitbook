@@ -80,7 +80,8 @@
     * [สร้างเว็บจากที่ฝากไฟล์บนคลาว์](cloud/azure-storage/blobs/staticweb.md)
 * [👶 Azure Bot Service](cloud/azure-bot-service/README.md)
   * [Bot เข้าใจเราได้ยังไงกันนะ](cloud/azure-bot-service/introduction.md)
-* [👶 Azure Cognitive Services](cloud/azure-cognitive-services.md)
+* [👶 Azure Cognitive Services](cloud/azure-cognitive-services/README.md)
+  * [การ Login ด้วยใบหน้า](cloud/azure-cognitive-services/faceauth.md)
 
 ## Software Testing
 

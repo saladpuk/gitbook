@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 08/09/2019
+
+* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [การ Login ด้วยใบหน้า](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/faceauth)
+
 ### 07/09/2019
 
 * เขียนบทความเรื่อง [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services)
