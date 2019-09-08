@@ -4,6 +4,7 @@
 
 ### 08/09/2019
 
+* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/ocr)
 * อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [การ Login ด้วยใบหน้า](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/faceauth)
 
 ### 07/09/2019

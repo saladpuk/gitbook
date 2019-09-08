@@ -82,6 +82,7 @@
   * [Bot เข้าใจเราได้ยังไงกันนะ](cloud/azure-bot-service/introduction.md)
 * [👶 Azure Cognitive Services](cloud/azure-cognitive-services/README.md)
   * [การ Login ด้วยใบหน้า](cloud/azure-cognitive-services/faceauth.md)
+  * [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](cloud/azure-cognitive-services/ocr.md)
 
 ## Software Testing
 
