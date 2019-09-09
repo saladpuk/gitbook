@@ -2,6 +2,11 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 10/09/2019
+
+* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [เขียนแอพ ทายอายุ บอกเพศ ง่ายจิ๊ดเดียว](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/face-detection)
+* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [การสร้าง Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/create-cognitiveservices)
+
 ### 09/09/2019
 
 * อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [เขียน AI แยกของต่างๆทำยังไง?](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/image-classification)

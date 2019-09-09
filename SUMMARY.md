@@ -81,9 +81,11 @@
 * [👶 Azure Bot Service](cloud/azure-bot-service/README.md)
   * [Bot เข้าใจเราได้ยังไงกันนะ](cloud/azure-bot-service/introduction.md)
 * [👶 Azure Cognitive Services](cloud/azure-cognitive-services/README.md)
+  * [การสร้าง Cognitive Services](cloud/azure-cognitive-services/create-cognitiveservices.md)
   * [การ Login ด้วยใบหน้า](cloud/azure-cognitive-services/faceauth.md)
   * [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](cloud/azure-cognitive-services/ocr.md)
   * [เขียน AI แยกของต่างๆทำยังไง?](cloud/azure-cognitive-services/image-classification.md)
+  * [เขียนแอพ ทายอายุ บอกเพศ ง่ายจิ๊ดเดียว](cloud/azure-cognitive-services/face-detection.md)
 
 ## Software Testing
 
