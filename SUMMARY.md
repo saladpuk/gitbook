@@ -83,6 +83,7 @@
 * [👶 Azure Cognitive Services](cloud/azure-cognitive-services/README.md)
   * [การ Login ด้วยใบหน้า](cloud/azure-cognitive-services/faceauth.md)
   * [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](cloud/azure-cognitive-services/ocr.md)
+  * [เขียน AI แยกของต่างๆทำยังไง?](cloud/azure-cognitive-services/image-classification.md)
 
 ## Software Testing
 

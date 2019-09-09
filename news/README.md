@@ -2,6 +2,10 @@
 
 ## ✏️ ประวัติการอัพเดท
 
+### 09/09/2019
+
+* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [เขียน AI แยกของต่างๆทำยังไง?](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/image-classification)
+
 ### 08/09/2019
 
 * อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/ocr)
