@@ -46,6 +46,7 @@
 
 * [👶 Clean Code](basic/clean-code.md)
 * [👶 Code Smells](basic/code-smells.md)
+* [👶 AI พื้นฐาน](basic/ai.md)
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👦 Test-First Design](basic/test-first-design.md)
@@ -86,6 +87,7 @@
   * [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](cloud/azure-cognitive-services/ocr.md)
   * [เขียน AI แยกของต่างๆทำยังไง?](cloud/azure-cognitive-services/image-classification.md)
   * [เขียนแอพ ทายอายุ บอกเพศ ง่ายจิ๊ดเดียว](cloud/azure-cognitive-services/face-detection.md)
+* [👶 Machine Learning Studio](cloud/machine-learning-studio.md)
 
 ## Software Testing
 
