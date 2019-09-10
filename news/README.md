@@ -1,6 +1,19 @@
+---
+description: เวลาที่มีอัพเดทอะไรใหม่ๆจะเอามาใส่ไว้ในหน้านี้แหละ
+---
+
 # 📰 มีอะไรใหม่บ้าง
 
 ## ✏️ ประวัติการอัพเดท
+
+{% hint style="success" %}
+สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
+{% endhint %}
+
+### 11/09/2019
+
+* เขียนบทความเรื่อว [👶 AI พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/ai)
+* ตั้งคอร์สใหม่ [👶 Machine Learning Studio](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio)
 
 ### 10/09/2019
 
@@ -45,5 +58,5 @@
 ### 01/09/2019
 
 * อัพเดท [👶 Microsoft Azure 101](https://saladpuk.gitbook.io/learn/cloud/azure101) บทที่ 8 [มาสร้าง Function App กัน](https://saladpuk.gitbook.io/learn/cloud/azure101/function-app)
-* เขียนบทความเรื่อง [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
+* เขียนบทความเรื่อง [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks) 
 
