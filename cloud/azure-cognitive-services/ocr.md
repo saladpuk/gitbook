@@ -400,6 +400,6 @@ good.
 
 {% hint style="success" %}
 **Cognitive Services Library**  
-สำหรับคนที่ต้องการเขียนทำงานกับ Cognitive Services จริงๆไม่ต้องไปนั่งเขียนเชื่อม API ทีละตัวก็ได้นะ เพราะทาง Microsoft นั้นได้มี Library ให้เราสามารถเรียกใช้ได้เลยครับ เช่นในฝั่ง .NET ก็จะมีตัวนี้ **`Microsoft.Azure.CognitiveServices.Vision.ComputerVision`** ที่สามารถติดตั้งแล้วใช้งานได้เลย
+สำหรับคนที่ต้องการเขียนทำงานกับ Cognitive Services จริงๆไม่ต้องไปนั่งเขียนเชื่อม API ทีละตัวก็ได้นะ เพราะทาง Microsoft นั้นได้มี Library ให้เราสามารถเรียกใช้ได้เลยครับ เช่นในฝั่ง .NET ก็จะมีตัวนี้ **Microsoft.Azure.CognitiveServices.Vision.ComputerVision** ที่สามารถติดตั้งแล้วใช้งานได้เลย
 {% endhint %}
 
