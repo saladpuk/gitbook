@@ -88,6 +88,7 @@
   * [เขียน AI แยกของต่างๆทำยังไง?](cloud/azure-cognitive-services/image-classification.md)
   * [เขียนแอพ ทายอายุ บอกเพศ ง่ายจิ๊ดเดียว](cloud/azure-cognitive-services/face-detection.md)
 * [👶 Machine Learning Studio](cloud/machine-learning-studio.md)
+* [มาสร้าง AI ของแท้ตัวแรกของเรากัน](cloud/ml101.md)
 
 ## Software Testing
 
