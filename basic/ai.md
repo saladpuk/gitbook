@@ -70,5 +70,5 @@ description: มารู้จักกับโลกของ AI กันบ
 สำหรับคนที่สนใจอยากลองเขียน AI ที่ง่ายขนาดเด็กก็เขียนได้ ให้ลองเข้าไปดูได้ที่ลิงค์ด้านล่างนี้นะครับ ซึ่งกำลังเขียนทีละบทเรื่อยๆอยู่ ลองติดตามดูได้เด้อ
 {% endhint %}
 
-{% page-ref page="../cloud/machine-learning-studio.md" %}
+{% page-ref page="../cloud/machine-learning-studio/" %}
 
