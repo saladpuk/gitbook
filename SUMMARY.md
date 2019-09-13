@@ -87,6 +87,7 @@
   * [อ่านลายมือจากรูปเป็นตัวอักษร \(OCR\)](cloud/azure-cognitive-services/ocr.md)
   * [เขียน AI แยกของต่างๆทำยังไง?](cloud/azure-cognitive-services/image-classification.md)
   * [เขียนแอพ ทายอายุ บอกเพศ ง่ายจิ๊ดเดียว](cloud/azure-cognitive-services/face-detection.md)
+  * [เขียนแอพให้ AI อธิบายรูป](cloud/azure-cognitive-services/analyze-an-image.md)
 * [👶 Machine Learning Studio](cloud/machine-learning-studio/README.md)
   * [มาสร้าง AI ของแท้ตัวแรกของเรากัน](cloud/machine-learning-studio/ml101.md)
 

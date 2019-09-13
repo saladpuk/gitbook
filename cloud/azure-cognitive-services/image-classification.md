@@ -93,7 +93,7 @@ description: ลองใช้ AI แยกลุงตู่กับลุง
       </td>
     </tr>
   </tbody>
-</table>![](../../.gitbook/assets/image%20%28221%29.png)
+</table>![](../../.gitbook/assets/image%20%28222%29.png)
 
 เรียบร้อยแล้วเราก็จะได้ Service ที่ใช้สำหรับ **`Training`** ออกมา 1 ตัวละ คราวนี้ให้จด **`Key`** กับ **`Endpoint`** ไว้ครับ เดี๋ยวเราจะเอาไปใช้ในขั้นตอนถัดไปต่อ
 
