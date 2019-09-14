@@ -48,6 +48,8 @@
 * [👶 Code Smells](basic/code-smells.md)
 * [👶 AI พื้นฐาน](basic/ai.md)
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
+* [👶 Data Scientist](basic/data-scientist/README.md)
+  * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)

@@ -42,7 +42,7 @@ description: บอกลาการ login แบบเดิมๆไปได
 
 1.หลังจากที่ Login เข้ามาละ ที่เมนูด้านซ้ายมือให้เลือก **`+ Create a resource`** ซะ แล้วเมนูในหน้าตรงกลางให้เลือก **`AI + Machine Learning`** แล้วจะเห็น **`Face`** ให้จิ้มมันเข้าไปเบย
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 2.ถัดมาก็ใส่รายละเอียดของ Face Service ให้เรียบร้อยซะ แล้วก็กดปุ่ม **`Create`** ได้เลย
 
@@ -76,7 +76,7 @@ description: บอกลาการ login แบบเดิมๆไปได
       </td>
     </tr>
   </tbody>
-</table>![](../../.gitbook/assets/image%20%2891%29.png)
+</table>![](../../.gitbook/assets/image%20%2892%29.png)
 
 3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Face Service จนเสร็จ
 
@@ -169,11 +169,11 @@ namespace saladpuk_faceauth
 
 ในโค้ดด้านบน เราจะต้องไปเอา **SubscriptionKey** และ **Endpoint** มาใส่ให้มัน เพื่อที่มันจะได้ต่อไปยัง Face API ได้นั่นเอง ซึ่งเจ้าเราต้องกลับไปที่ Cognitive Service แล้วเลือกเมนู **`Keys`** เพื่อ copy ค่า SubscriptionKey มาครับ
 
-![](../../.gitbook/assets/image%20%28203%29.png)
+![](../../.gitbook/assets/image%20%28210%29.png)
 
 ส่วนค่า Endpoint เราสามารถเอาได้จากเมนู **`Overview`** ครับตามรูปเลย
 
-![](../../.gitbook/assets/image%20%28179%29.png)
+![](../../.gitbook/assets/image%20%28185%29.png)
 
 หลังจากที่เอา `SubscriptionKey` และ `Endpoint` ไปใส่ในโค้ดแล้ว ถัดไปเราก็จะเพิ่มโค้ดอีกนิสนุง เพื่อสร้าง **PersonGroup** นั่นเอง ตามโค้ดด้านล่างเบย
 
@@ -262,7 +262,7 @@ else
 
 ถัดมาผมก็จะทำการอัพโหลดรูปคนเข้าไปใน Person โดยรูปที่ผมอัพโหลดเข้าไปจะเอามาจากเน็ทนะครับ ตามโค้ดและรูปด้านล่างเลย
 
-![&#xE16;&#xE49;&#xE32;&#xE44;&#xE21;&#xE48;&#xE40;&#xE2B;&#xE47;&#xE19;&#xE1C;&#xE21;&#xE40;&#xE02;&#xE35;&#xE22;&#xE19;&#xE1A;&#xE17;&#xE04;&#xE27;&#xE32;&#xE21;&#xE15;&#xE48;&#xE2D; &#xE01;&#xE47;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE27;&#xE48;&#xE32;&#xE42;&#xE14;&#xE19;&#xE1B;&#xE23;&#xE31;&#xE1A;&#xE17;&#xE31;&#xE28;&#xE19;&#xE04;&#xE15;&#xE34;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE19;&#xE30;](../../.gitbook/assets/image%20%2819%29.png)
+![&#xE16;&#xE49;&#xE32;&#xE44;&#xE21;&#xE48;&#xE40;&#xE2B;&#xE47;&#xE19;&#xE1C;&#xE21;&#xE40;&#xE02;&#xE35;&#xE22;&#xE19;&#xE1A;&#xE17;&#xE04;&#xE27;&#xE32;&#xE21;&#xE15;&#xE48;&#xE2D; &#xE01;&#xE47;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE27;&#xE48;&#xE32;&#xE42;&#xE14;&#xE19;&#xE1B;&#xE23;&#xE31;&#xE1A;&#xE17;&#xE31;&#xE28;&#xE19;&#xE04;&#xE15;&#xE34;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE19;&#xE30;](../../.gitbook/assets/image%20%2820%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="Program.cs" %}
@@ -342,7 +342,7 @@ else
 
 ในรอบนี้ผมก็จะลองส่งรูปที่ไม่ใช่หน้าลุงเข้าไปดูซิว่ามันจะ บอกว่ายังไงโดยใช้รูปและโค้ดด้านล่างนี้ครับ
 
-![&#xE25;&#xE2D;&#xE07;&#xE14;&#xE39;&#xE0B;&#xE34;&#xE27;&#xE48;&#xE32;&#xE04;&#xE19;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE41;&#xE2D;&#xE1A;&#xE21;&#xE32;&#xE2A;&#xE27;&#xE21;&#xE23;&#xE2D;&#xE22;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE25;&#xE38;&#xE07;&#xE44;&#xE14;&#xE49;&#xE44;&#xE2B;&#xE21;&#xE19;&#xE30; ?](../../.gitbook/assets/image%20%2833%29.png)
+![&#xE25;&#xE2D;&#xE07;&#xE14;&#xE39;&#xE0B;&#xE34;&#xE27;&#xE48;&#xE32;&#xE04;&#xE19;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE41;&#xE2D;&#xE1A;&#xE21;&#xE32;&#xE2A;&#xE27;&#xE21;&#xE23;&#xE2D;&#xE22;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE25;&#xE38;&#xE07;&#xE44;&#xE14;&#xE49;&#xE44;&#xE2B;&#xE21;&#xE19;&#xE30; ?](../../.gitbook/assets/image%20%2834%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="Program.cs" %}
@@ -400,7 +400,7 @@ static bool IdentifyAnImage(RestClient client, string personGroupId, string pers
 
 สุดท้ายผมก็ลองเพิ่มโค้ดเพื่อเอารูปลุงแกไปตรวจสอบจริงๆละ โด้ยใช้รูปที่ไม่เคยส่งให้ AI เห็นมาก่อน และใช้โค้ดตามด้านล่างนี้
 
-![&#xE1B;&#xE4A;&#xE32;&#xE22;&#xE17;&#xE31;&#xE28;&#xE19;&#xE30;&#xE28;&#xE36;&#xE01;&#xE29;&#xE32;&#xE0B;&#xE31;&#xE01;&#xE40;&#xE14;&#xE37;&#xE2D;&#xE19;&#xE44;&#xE21;&#xE4A; ?](../../.gitbook/assets/image%20%2838%29.png)
+![&#xE1B;&#xE4A;&#xE32;&#xE22;&#xE17;&#xE31;&#xE28;&#xE19;&#xE30;&#xE28;&#xE36;&#xE01;&#xE29;&#xE32;&#xE0B;&#xE31;&#xE01;&#xE40;&#xE14;&#xE37;&#xE2D;&#xE19;&#xE44;&#xE21;&#xE4A; ?](../../.gitbook/assets/image%20%2839%29.png)
 
 {% code-tabs %}
 {% code-tabs-item title="Program.cs" %}
