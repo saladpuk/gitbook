@@ -90,7 +90,7 @@
   * [เขียนแอพให้ AI อธิบายรูปเป็นภาษาคน](cloud/azure-cognitive-services/analyze-an-image.md)
 * [👶 Machine Learning Studio](cloud/machine-learning-studio/README.md)
   * [มาสร้าง AI ของแท้ตัวแรกของเรากัน](cloud/machine-learning-studio/ml101.md)
-  * [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิตกัน](cloud/machine-learning-studio/credit-risk.md)
+  * [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิต 💳](cloud/machine-learning-studio/credit-risk.md)
 
 ## Software Testing
 
