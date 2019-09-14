@@ -10,13 +10,17 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 14/09/2019
+
+* อัพเดท [👶 Machine Learning Studio](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio) เรื่อง [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิตกัน](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio/credit-risk)
+
 ### 13/09/2019
 
 * อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [เขียนแอพให้ AI อธิบายรูปเป็นภาษาคน](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services/analyze-an-image)
 
 ### 12/09/2019
 
-* อัพเดท [👶 Azure Cognitive Services](https://saladpuk.gitbook.io/learn/cloud/azure-cognitive-services) เรื่อง [มาสร้าง AI ของแท้ตัวแรกของเรากัน](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio/ml101)
+* อัพเดท [👶 Machine Learning Studio](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio) เรื่อง [มาสร้าง AI ของแท้ตัวแรกของเรากัน](https://saladpuk.gitbook.io/learn/cloud/machine-learning-studio/ml101)
 
 ### 11/09/2019
 
