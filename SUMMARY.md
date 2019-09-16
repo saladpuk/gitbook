@@ -50,6 +50,7 @@
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 Data Scientist](basic/data-scientist/README.md)
   * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
+  * [การเตรียมข้อมูลให้ AI \(2/5\)](basic/data-scientist/data-ready.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)
