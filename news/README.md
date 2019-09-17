@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 17/09/2019
+
+* อัพเดทบทความ [👶 Data Scientist](https://saladpuk.gitbook.io/learn/basic/data-scientist) เรื่อง [หลักการตั้งคำถามให้ AI \(3/5\)](https://saladpuk.gitbook.io/learn/basic/data-scientist/questions)
+
 ### 16/09/2019
 
 * อัพเดทบทความ [👶 Data Scientist](https://saladpuk.gitbook.io/learn/basic/data-scientist) เรื่อง [การเตรียมข้อมูลให้ AI \(2/5\)](https://saladpuk.gitbook.io/learn/basic/data-scientist/data-ready)
