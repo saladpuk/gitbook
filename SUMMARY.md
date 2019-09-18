@@ -52,6 +52,7 @@
   * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
   * [การเตรียมข้อมูลให้ AI \(2/5\)](basic/data-scientist/data-ready.md)
   * [หลักการตั้งคำถามให้ AI \(3/5\)](basic/data-scientist/questions.md)
+  * [แฉความลับของ AI Model \(4/5\)](basic/data-scientist/model-work.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)
