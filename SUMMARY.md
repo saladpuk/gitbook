@@ -40,7 +40,8 @@
     * [28.Exception handler](beginner-1/csharp101/intermediate/exception.md)
     * [29.ลงลึกกับ string](beginner-1/csharp101/intermediate/string.md)
     * [30.StringBuilder เพื่อนคู่ string](beginner-1/csharp101/intermediate/stringbuilder.md)
-  * [👨 ⏳ระดับสูง](beginner-1/csharp101/advanced.md)
+  * [👨 ⏳ระดับสูง](beginner-1/csharp101/advanced/README.md)
+    * [C\# version 8.0](beginner-1/csharp101/advanced/csharp8.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 

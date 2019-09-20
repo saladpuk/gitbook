@@ -12,6 +12,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 18/09/2019
 
+* เขียนบทความ [C\# version 8.0](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/csharp8)
+
+### 18/09/2019
+
 * อัพเดทบทความ [👶 Data Scientist](https://saladpuk.gitbook.io/learn/basic/data-scientist) เรื่อง [แฉความลับของ AI Model \(4/5\)](https://saladpuk.gitbook.io/learn/basic/data-scientist/model-work)
 
 ### 17/09/2019
