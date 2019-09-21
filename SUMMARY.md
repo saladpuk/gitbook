@@ -98,6 +98,7 @@
 * [👶 Machine Learning Studio](cloud/machine-learning-studio/README.md)
   * [มาสร้าง AI ของแท้ตัวแรกของเรากัน](cloud/machine-learning-studio/ml101.md)
   * [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิต 💳](cloud/machine-learning-studio/credit-risk.md)
+* [👶 Blockchain](cloud/blockchain.md)
 
 ## Software Testing
 
