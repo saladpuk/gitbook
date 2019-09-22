@@ -100,6 +100,7 @@
   * [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิต 💳](cloud/machine-learning-studio/credit-risk.md)
 * [👶 Blockchain](cloud/blockchain/README.md)
   * [Blockchain ทำงานยังไง ?](cloud/blockchain/magic.md)
+  * [Consensus Algorithm คืออะไร ?](cloud/blockchain/consensus-algorithm.md)
 
 ## Software Testing
 

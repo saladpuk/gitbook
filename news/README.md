@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 22/09/2019
 
+* อัพเดทบทความ [👶 Blockchain](https://saladpuk.gitbook.io/learn/cloud/blockchain) เรื่อง [Consensus Algorithm คืออะไร ?](https://saladpuk.gitbook.io/learn/cloud/blockchain/consensus-algorithm)
 * อัพเดทบทความ [👶 Blockchain](https://saladpuk.gitbook.io/learn/cloud/blockchain) เรื่อง [Blockchain ทำงานยังไง ?](https://saladpuk.gitbook.io/learn/cloud/blockchain/magic)
 
 ### 21/09/2019
