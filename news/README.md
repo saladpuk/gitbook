@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 24/09/2019
+
+* อัพเดทบทความ [👶 Blockchain](https://saladpuk.gitbook.io/learn/cloud/blockchain) เรื่อง [สร้าง Blockchain ใช้เองกัน !](https://saladpuk.gitbook.io/learn/cloud/blockchain/create-eth)
+
 ### 22/09/2019
 
 * อัพเดทบทความ [👶 Blockchain](https://saladpuk.gitbook.io/learn/cloud/blockchain) เรื่อง [Consensus Algorithm คืออะไร ?](https://saladpuk.gitbook.io/learn/cloud/blockchain/consensus-algorithm)
