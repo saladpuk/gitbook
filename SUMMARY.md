@@ -56,6 +56,7 @@
   * [แฉความลับของ AI Model \(4/5\)](basic/data-scientist/model-work.md)
   * [หัดเขียน AI จาก AI ของคนอื่น \(5/5\)](basic/data-scientist/ai-gallery.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
+* [👶 Docker ขั้นพื้นฐาน](basic/docker.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
@@ -102,6 +103,7 @@
   * [Blockchain ทำงานยังไง ?](cloud/blockchain/magic.md)
   * [Consensus Algorithm คืออะไร ?](cloud/blockchain/consensus-algorithm.md)
   * [สร้าง Blockchain ใช้เองกัน !](cloud/blockchain/create-eth.md)
+  * [หัดเขียน Smart Contract กัน](cloud/blockchain/smart-contract.md)
 
 ## Software Testing
 
