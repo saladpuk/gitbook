@@ -50,6 +50,7 @@
 * [👶 AI พื้นฐาน](basic/ai.md)
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 UML พื้นฐาน](basic/uml/README.md)
+  * [Activity Diagram](basic/uml/activity-diagram.md)
   * [Class Diagram](basic/uml/class-diagram.md)
 * [👶 Data Scientist](basic/data-scientist/README.md)
   * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
