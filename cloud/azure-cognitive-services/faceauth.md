@@ -76,7 +76,7 @@ description: บอกลาการ login แบบเดิมๆไปได
       </td>
     </tr>
   </tbody>
-</table>![](../../.gitbook/assets/image%20%28138%29.png)
+</table>![](../../.gitbook/assets/image%20%28139%29.png)
 
 3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Face Service จนเสร็จ
 
@@ -169,11 +169,11 @@ namespace saladpuk_faceauth
 
 ในโค้ดด้านบน เราจะต้องไปเอา **SubscriptionKey** และ **Endpoint** มาใส่ให้มัน เพื่อที่มันจะได้ต่อไปยัง Face API ได้นั่นเอง ซึ่งเจ้าเราต้องกลับไปที่ Cognitive Service แล้วเลือกเมนู **`Keys`** เพื่อ copy ค่า SubscriptionKey มาครับ
 
-![](../../.gitbook/assets/image%20%28308%29.png)
+![](../../.gitbook/assets/image%20%28309%29.png)
 
 ส่วนค่า Endpoint เราสามารถเอาได้จากเมนู **`Overview`** ครับตามรูปเลย
 
-![](../../.gitbook/assets/image%20%28274%29.png)
+![](../../.gitbook/assets/image%20%28275%29.png)
 
 หลังจากที่เอา `SubscriptionKey` และ `Endpoint` ไปใส่ในโค้ดแล้ว ถัดไปเราก็จะเพิ่มโค้ดอีกนิสนุง เพื่อสร้าง **PersonGroup** นั่นเอง ตามโค้ดด้านล่างเบย
 
