@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 28/09/2019
 
+* อัพเดทบทความ [👶 UML พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/uml) เรื่อง [Class Diagram](https://saladpuk.gitbook.io/learn/basic/uml/class-diagram)
 * ตั้งคอร์สใหม่ [👶 UML พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/uml)
 
 ### 26/09/2019
