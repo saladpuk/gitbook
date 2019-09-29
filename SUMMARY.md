@@ -52,6 +52,7 @@
 * [👶 UML พื้นฐาน](basic/uml/README.md)
   * [Activity Diagram](basic/uml/activity-diagram.md)
   * [Class Diagram](basic/uml/class-diagram.md)
+  * [Sequence Diagram](basic/uml/sequence-diagram.md)
 * [👶 Data Scientist](basic/data-scientist/README.md)
   * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
   * [การเตรียมข้อมูลให้ AI \(2/5\)](basic/data-scientist/data-ready.md)
