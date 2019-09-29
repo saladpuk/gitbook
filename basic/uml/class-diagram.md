@@ -343,7 +343,7 @@ public interface IDatabase
 
 {% code-tabs-item title="SqlDatabase" %}
 ```csharp
-public class SqlDatabase
+public class SqlDatabase : IDatabase
 {
 	public void InsertLoginLog(string username, DateTime timeStamp)
 	{
