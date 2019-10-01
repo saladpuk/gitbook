@@ -2,6 +2,7 @@
 
 * [💖 สลัดผัก](README.md)
 * [📰 มีอะไรใหม่บ้าง](news/README.md)
+  * [2019-09](news/2019-09.md)
   * [2019-08](news/2019-08.md)
 
 ## มือใหม่หันเขียนโค้ด <a id="beginner-1"></a>
@@ -54,6 +55,7 @@
   * [Class Diagram](basic/uml/class-diagram.md)
   * [Sequence Diagram](basic/uml/sequence-diagram.md)
   * [Use case Diagram](basic/uml/use-case-diagram.md)
+  * [บทสรุปการใช้ UML](basic/uml/summary.md)
 * [👶 Data Scientist](basic/data-scientist/README.md)
   * [การเลือก Algorithms ให้ AI \(1/5\)](basic/data-scientist/algorithms-category.md)
   * [การเตรียมข้อมูลให้ AI \(2/5\)](basic/data-scientist/data-ready.md)
