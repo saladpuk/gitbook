@@ -2,7 +2,7 @@
 description: "\U0001F914 ออกแบบ Microservices Architecture ยังไงถึงจะถือว่าดี ?"
 ---
 
-# Microservices มีลักษณะยังไง
+# Microservices ที่ดีมีลักษณะยังไง
 
 จากบทความที่แล้วเราก็จะพอเห็นไอเดียวแล้วว่า **Microservices Arhictectures** นั้นมีหัวใจหลักเรื่องอะไรบ้าง และเพื่อนๆบางคนก็อาจจะเคยได้ลองเล่น architecture นี้ไปบ้างแล้ว แต่เคยนึกสงสัยไหมว่า การออกแบบ architecture แบบนี้นั้นมันควรจะต้องเป็นยังไง? ดังนั้นในรอบนี้เราจะไปดู**ลักษณะเฉพาะตัว**ของ Microservices Architecture หรือสิ่งที่เรียกว่า **Characteristic** กัน
 
