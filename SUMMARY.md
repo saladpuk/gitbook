@@ -69,6 +69,7 @@
 * [👶 Microservices พื้นฐาน](basic/microservices/README.md)
   * [Microservices ที่ดีมีลักษณะยังไง](basic/microservices/microservices.md)
   * [Microservices Tips](basic/microservices/tips.md)
+  * [จาก Monolith สู่ Microservices](basic/microservices/monolith-services.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
