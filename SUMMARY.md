@@ -72,6 +72,7 @@
   * [จาก Monolith สู่ Microservices](basic/microservices/monolith-services.md)
 * [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks.md)
+* [👦 Agile Methodology](basic/agile-methodology.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
