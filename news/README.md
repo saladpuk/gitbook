@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 11/10/2019
+
+* อัพเดทบทความ [👦 Agile Methodology](https://saladpuk.gitbook.io/learn/basic/agile-methodology) เรื่อง [Software Development Life Cycle](https://saladpuk.gitbook.io/learn/basic/agile-methodology/sdlc)
+
 ### 10/10/2019
 
 * อัพเดทบทความ [👦 Agile Methodology](https://saladpuk.gitbook.io/learn/basic/agile-methodology) เรื่อง [Agile in a Nutshell](https://saladpuk.gitbook.io/learn/basic/agile-methodology/agile-in-a-nutshell)
