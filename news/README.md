@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 12/10/2019
+
+* อัพเดทบทความ [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks) เรื่อง [พื้นฐานที่สำคัญที่สุดของฐานข้อมูล](https://saladpuk.gitbook.io/learn/basic/bottlenecks/work-with-db)
+
 ### 11/10/2019
 
 * อัพเดทบทความ [👦 Agile Methodology](https://saladpuk.gitbook.io/learn/basic/agile-methodology) เรื่อง [Software Development Life Cycle](https://saladpuk.gitbook.io/learn/basic/agile-methodology/sdlc)
