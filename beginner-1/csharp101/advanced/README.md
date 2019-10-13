@@ -14,7 +14,8 @@ description: ระดับคนทำเป็นอาชีพควรจ�
 
 {% page-ref page="action-and-func.md" %}
 
-* Lambda
+{% page-ref page="lambda-expression.md" %}
+
 * LINQ
 * Async & Await
 * Threading

@@ -45,6 +45,7 @@
     * [Generic](beginner-1/csharp101/advanced/generic.md)
     * [Delegates](beginner-1/csharp101/advanced/delegates.md)
     * [Action & Func](beginner-1/csharp101/advanced/action-and-func.md)
+    * [Lambda expression](beginner-1/csharp101/advanced/lambda-expression.md)
   * [💡 Tips](beginner-1/csharp101/tips/README.md)
     * [💡 C\# version 8.0](beginner-1/csharp101/tips/csharp8.md)
     * [💡 Boxing & Unboxing](beginner-1/csharp101/tips/boxing-and-unboxing.md)

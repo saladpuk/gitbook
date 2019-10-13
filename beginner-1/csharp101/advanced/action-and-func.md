@@ -190,7 +190,7 @@ static void Main(string[] args)
 {% hint style="info" %}
 **แนะนำให้อ่าน**  
 Lambda คืออะไรสามารถอ่านได้จากบทความนี้ครัช  
-Saladpuk - Lambda expression
+[Saladpuk - Lambda expression](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/lambda-expression)
 {% endhint %}
 
 ## 🤔 ทำไมต้องใช้ของพวกนี้ด้วย ?
