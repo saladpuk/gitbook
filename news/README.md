@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 14/10/2019
+
+* อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Action & Func](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/action-and-func)
+
 ### 13/10/2019
 
 * อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Generic](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/generic)
