@@ -8,10 +8,10 @@
 ## มือใหม่หันเขียนโค้ด <a id="beginner-1"></a>
 
 * [👶 เขียนโค้ดด้วยภาษา C\#](beginner-1/csharp101/README.md)
-  * [เกิดมาไม่เคยเขียนโค๊ดมาก่อนเบย](beginner-1/csharp101/newbie.md)
+  * [เกิดมาไม่เคยเขียนโค้ดมาก่อนเบย](beginner-1/csharp101/newbie.md)
   * [👶 พื้นฐาน](beginner-1/csharp101/basic/README.md)
     * [1.โปรแกรมที่ต้องลง](beginner-1/csharp101/basic/tools.md)
-    * [2.โครงสร้างของโค๊ด](beginner-1/csharp101/basic/structure.md)
+    * [2.โครงสร้างของโค้ด](beginner-1/csharp101/basic/structure.md)
     * [3.ชนิดของข้อมูล](beginner-1/csharp101/basic/datatype.md)
     * [4.การสร้างตัวแปร](beginner-1/csharp101/basic/variable.md)
     * [5.คำสั่งพื้นฐาน](beginner-1/csharp101/basic/operators.md)
@@ -130,7 +130,7 @@
   * [2.Test cases เขาเขียนกันยังไงนะ](software-testing/tdd101/test-cases.md)
   * [3.เครื่องมือในการทดสอบ](software-testing/tdd101/xunit01.md)
   * [4.การใช้ Theory และ InlineData](software-testing/tdd101/xunit02.md)
-  * [5.โค๊ดที่ทดสอบได้](software-testing/tdd101/testable-code.md)
+  * [5.โค้ดที่ทดสอบได้](software-testing/tdd101/testable-code.md)
   * [6.Mantra of TDD](software-testing/tdd101/mantra-of-tdd.md)
   * [7.Functional & None-Functional testing](software-testing/tdd101/fun-n-nonefun-testing.md)
   * [8.Manual vs Automation testing](software-testing/tdd101/manual-vs-automation.md)
