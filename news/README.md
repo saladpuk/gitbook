@@ -10,6 +10,12 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 13/10/2019
+
+* อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Generic](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/generic)
+* อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Delegates](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/delegates)
+* อัพเดทบทความ [C\# Tips](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/tips) เรื่อง [💡 Boxing & Unboxing](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/boxing-and-unboxing)
+
 ### 12/10/2019
 
 * อัพเดทบทความ [👦 Bottlenecks of Software](https://saladpuk.gitbook.io/learn/basic/bottlenecks) เรื่อง [พื้นฐานที่สำคัญที่สุดของฐานข้อมูล](https://saladpuk.gitbook.io/learn/basic/bottlenecks/work-with-db)
