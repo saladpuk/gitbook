@@ -14,7 +14,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 * อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Generic](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/generic)
 * อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Delegates](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/delegates)
-* อัพเดทบทความ [C\# Tips](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/tips) เรื่อง [💡 Boxing & Unboxing](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/boxing-and-unboxing)
+* อัพเดทบทความ [C\# Tips](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/tips) เรื่อง [💡 Boxing & Unboxing](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/tips/boxing-and-unboxing)
 
 ### 12/10/2019
 
