@@ -10,7 +10,7 @@ public void CreateNewStudent(string id, string name, int age)
 }
 ```
 
-{% embed url="https://www.youtube.com/watch?v=apWi2ku4tME&list=PLUjAn8nwWniheN3OLy6i7xu1VYq4Tzj7p&index=6" %}
+{% embed url="https://www.youtube.com/watch?v=apWi2ku4tME&list=PLUjAn8nwWniheN3OLy6i7xu1VYq4Tzj7p&index=6" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 

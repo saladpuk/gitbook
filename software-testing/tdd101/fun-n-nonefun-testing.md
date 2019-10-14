@@ -12,7 +12,7 @@
 การเทสงานความถูกต้องของโค้ดที่เราเขียนว่ามันทำงานได้จริงๆหรือเปล่า เช่น Unit testing, Integration testing, N2N บลาๆเยอะม๊วก
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=QAESRjmHG-U&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=9" %}
+{% embed url="https://www.youtube.com/watch?v=QAESRjmHG-U&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=9" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 

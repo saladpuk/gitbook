@@ -69,5 +69,5 @@
 
 ## 🎥 วีดีโอเผื่ออยากเห็นตัวอย่างมากขึ้น
 
-{% embed url="https://www.youtube.com/watch?v=26Vplc5LVGg&list=PLUjAn8nwWniiCUZtTOEHPWHw0WxpdH3DX&index=2" %}
+{% embed url="https://www.youtube.com/watch?v=26Vplc5LVGg&list=PLUjAn8nwWniiCUZtTOEHPWHw0WxpdH3DX&index=2" caption="" %}
 

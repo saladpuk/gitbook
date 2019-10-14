@@ -2,7 +2,7 @@
 
 💬 ก่อนที่เราจะกระโดดไปใช้ TDD เรามาทำความรู้จักกับมันก่อนดีกว่ามุ้ย?
 
-{% embed url="https://www.youtube.com/watch?v=k8pnhUebGTg&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=1" %}
+{% embed url="https://www.youtube.com/watch?v=k8pnhUebGTg&list=PLUjAn8nwWniiL3ToFK8PfmAo8U6IoGAkg&index=1" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 

@@ -2,7 +2,7 @@
 
 อะเคร๊ หลังจากรู้แล้วว่าการเขียนโค้ดนั้นมันจะมีข้อมูลที่เราต้องทำงานด้วย 4 ชนิดคือ **int**, **double**, **string**, **bool** กันละ ในรอบนี้เราจะลองสั่งให้คอมพิวเตอร์ช่วยจำข้อมูลแต่ละประเภทดูหน่อยละกันนะ
 
-{% embed url="https://www.youtube.com/watch?v=XOTlbsCi9sQ&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=7" %}
+{% embed url="https://www.youtube.com/watch?v=XOTlbsCi9sQ&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=7" caption="" %}
 
 {% hint style="info" %}
 เวลาที่เราให้คอมมันช่วยจำอะไรสักอย่าง เราจะเรียกสิ่งที่มันจำนี้ว่า **ตัวแปร** หรือ **variable** นั่นเอง
@@ -33,8 +33,6 @@
 {% endhint %}
 
 {% hint style="info" %}
-**คำสงวน** คือคำที่เราห้ามใช้ เพราะภาษานั้นๆจะขอเอาไว้ใช้เอง เช่นคำว่า int, string, double, class 
+**คำสงวน** คือคำที่เราห้ามใช้ เพราะภาษานั้นๆจะขอเอาไว้ใช้เอง เช่นคำว่า int, string, double, class
 {% endhint %}
-
-
 

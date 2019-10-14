@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 14/10/2019
 
+* อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Lambda expression](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/lambda-expression)
 * อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [Action & Func](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/action-and-func)
 
 ### 13/10/2019

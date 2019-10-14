@@ -10,7 +10,7 @@
 คนที่จะลงตัวนี้ลองเช็คเครื่องตัวเองดูก่อนนะว่า มีพื้นที่เหลือ 20 GB ขึ้นไป และเครื่องไม่ช้า ส่วน Ram ขั้นต่ำคือ 4 GB แต่แนะนำว่า 8 GB จะดีมาก _แต่ถ้าไม่สนใจคำเตือนอยากลองลงดูก็ได้นะ เครื่องไม่พังหรอกแต่มันอาจจะอืดๆหน่อยนะจุ๊_
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=3xClZEh9sU8&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=4" %}
+{% embed url="https://www.youtube.com/watch?v=3xClZEh9sU8&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=4" caption="" %}
 
 ## Visual Studio Code
 
@@ -25,7 +25,7 @@
 ข้อดีของตัวนี้คือไฟล์ไม่ใหญ่ คอมไม่ต้องเร็วมากก็ทำงานได้ไม่มีปัญหา แต่ข้อเสียคือต้องใช้ **Command line** หน่อยนึงนะจ๊ะ
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=57b7SbYwgrE&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=3" %}
+{% embed url="https://www.youtube.com/watch?v=57b7SbYwgrE&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=3" caption="" %}
 
 ## .NET In-Browser
 

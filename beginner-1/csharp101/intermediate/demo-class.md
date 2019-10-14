@@ -2,11 +2,11 @@
 
 💬 ตั้งแต่บทที่ 16~20 เราได้เห็นทฤษฎีของคลาสกันมาเยอะพอสมควรละ คราวนี้เราจะมาลองใช้คลาสแบบจริงๆจังๆดูบ้างว่ามันจะออกมาเป็นแบบที่คิดไว้หรือเปล่านะ
 
-{% embed url="https://www.youtube.com/watch?v=eo2lBkgZ5N0&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=36" %}
+{% embed url="https://www.youtube.com/watch?v=eo2lBkgZ5N0&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=36" caption="" %}
 
 ## 🎥 ใช้คลาสเขียนเกมเป่ายิงฉุบ
 
-{% embed url="https://www.youtube.com/watch?v=J6qxl8F0Gkw&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=37" %}
+{% embed url="https://www.youtube.com/watch?v=J6qxl8F0Gkw&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=37" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 

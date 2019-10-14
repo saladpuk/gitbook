@@ -2,7 +2,7 @@
 
 💬 เวลาที่เราสร้างคลาสขึ้นมาซักตัว เคยรำคาญไหมว่าเวลาที่เราสร้าง object ของคลาสนั้นๆขึ้นมา บางทีเราต้องไปคอยกำหนดค่าพื้นฐานให้มันเรื่อยๆ จะมีวิธีไหนไหมที่กำหนดค่าพื้นฐานให้กับ object นั้นมาให้เราเลย? คำตอบก็คือการได้รู้จักกับสิ่งที่เรียกว่า Constructor นั่นเอง
 
-{% embed url="https://www.youtube.com/watch?v=GM8Qop3anqo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=33" %}
+{% embed url="https://www.youtube.com/watch?v=GM8Qop3anqo&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=33" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 

@@ -2,17 +2,17 @@
 
 💬 หลังจากที่เราเปรียบเทียบค่าต่างๆเป็นละ คราวนี้เราจะลองให้โปรแกรมทำการตัดสินใจดูบ้าง เช่น จะเดินไปทางซ้ายหรือทางขวาดี ซึ่งการตัดสินใจของโปรแกรมเราเรียกมันว่า **IF statements**
 
-{% embed url="https://www.youtube.com/watch?v=bKknZqJhA7w&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=12" %}
+{% embed url="https://www.youtube.com/watch?v=bKknZqJhA7w&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=12" caption="" %}
 
 ## 🎥 ตัวอย่างการใช้คำสั่ง IF statements
 
-{% embed url="https://www.youtube.com/watch?v=yShfRLBXJ6M&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=13" %}
+{% embed url="https://www.youtube.com/watch?v=yShfRLBXJ6M&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=13" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=RqP1yq05Q3A&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=14" %}
+{% embed url="https://www.youtube.com/watch?v=RqP1yq05Q3A&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=14" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=m11eco7qCgw&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=15" %}
+{% embed url="https://www.youtube.com/watch?v=m11eco7qCgw&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=15" caption="" %}
 
-{% embed url="https://www.youtube.com/watch?v=YilIcDVV81k&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=16" %}
+{% embed url="https://www.youtube.com/watch?v=YilIcDVV81k&list=PLUjAn8nwWnijERZ3HpzBk7NfSrau74\_lQ&index=16" caption="" %}
 
 ## 🎯 สรุปสั้นๆ
 
@@ -29,7 +29,7 @@ if( เงื่อนไข )
 }
 ```
 
-2. if..else
+1. if..else
 
 ```csharp
 if( เงื่อนไข )
