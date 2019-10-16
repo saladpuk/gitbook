@@ -130,6 +130,7 @@
   * [Consensus Algorithm คืออะไร ?](cloud/blockchain/consensus-algorithm.md)
   * [สร้าง Blockchain ใช้เองกัน !](cloud/blockchain/create-eth.md)
   * [หัดเขียน Smart Contract กัน](cloud/blockchain/smart-contract.md)
+* [👶 Power BI](cloud/power-bi.md)
 
 ## Software Testing
 
