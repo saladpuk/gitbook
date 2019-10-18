@@ -46,6 +46,8 @@
     * [Delegates](beginner-1/csharp101/advanced/delegates.md)
     * [Action & Func](beginner-1/csharp101/advanced/action-and-func.md)
     * [Lambda expression](beginner-1/csharp101/advanced/lambda-expression.md)
+    * [LINQ](beginner-1/csharp101/advanced/linq.md)
+    * [พระคัมภีร์การใช้คำสั่ง LINQ](beginner-1/csharp101/advanced/linq-demo.md)
   * [💡 Tips](beginner-1/csharp101/tips/README.md)
     * [💡 C\# version 8.0](beginner-1/csharp101/tips/csharp8.md)
     * [💡 Boxing & Unboxing](beginner-1/csharp101/tips/boxing-and-unboxing.md)
