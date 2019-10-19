@@ -18,6 +18,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 19/10/2019
 
+* อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [พระคัมภีร์การใช้คำสั่ง LINQ](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/linq-demo)
 * อัพเดทบทความ [👨 C\# ระดับสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced) เรื่อง [LINQ](https://saladpuk.gitbook.io/learn/beginner-1/csharp101/advanced/linq)
 
 ### 17/10/2019
