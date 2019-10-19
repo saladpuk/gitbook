@@ -528,3 +528,67 @@ var result = collection.Aggregate((a, b) => a * b);
 [Microsoft document - Aggregation](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=netcore-3.0)
 {% endhint %}
 
+## บทสรุป Deferred vs Imperative
+
+จากคำสั่งทั้งหมดที่เขียนมาเป็นตัวอย่าง สุดท้ายการทำงานของมันก็จะตกมาอยู่ในกลุ่ม 3 กลุ่มนั่นเองคือ 
+
+* ทำงานโดยทันที **Immediate**
+* ไม่ทำงานจนกว่าจะเรียกใช้ **Deferred**
+  * ดึงข้อมูลทั้งหมดมาก่อนค่อยทำงาน **Non-Streaming**
+  * ค่อยทะยอยดึงข้อมูลมาเรื่อยๆ **Streaming**
+
+| Operators | Return Type | Immediate | Deferred Streaming | Deferred Non-Streaming |
+| :--- | :--- | :--- | :--- | :--- |
+| [Aggregate](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate) | TSource | X |  |  |
+| [All](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.all) | [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean) | X |  |  |
+| [Any](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.any) | [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean) | X |  |  |
+| [AsEnumerable](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.asenumerable) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Average](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.average) | Single numeric value | X |  |  |
+| [Cast](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.cast) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Concat](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.concat) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Contains](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.contains) | [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean) | X |  |  |
+| [Count](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.count) | [Int32](https://docs.microsoft.com/en-us/dotnet/api/system.int32) | X |  |  |
+| [DefaultIfEmpty](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.defaultifempty) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Distinct](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.distinct) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [ElementAt](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.elementat) | TSource | X |  |  |
+| [ElementAtOrDefault](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.elementatordefault) | TSource | X |  |  |
+| [Empty](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.empty) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) | X |  |  |
+| [Except](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.except) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X | X |
+| [First](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.first) | TSource | X |  |  |
+| [FirstOrDefault](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.firstordefault) | TSource | X |  |  |
+| [GroupBy](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.groupby) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  |  | X |
+| [GroupJoin](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.groupjoin) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X | X |
+| [Intersect](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.intersect) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X | X |
+| [Join](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.join) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X | X |
+| [Last](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.last) | TSource | X |  |  |
+| [LastOrDefault](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.lastordefault) | TSource | X |  |  |
+| [LongCount](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.longcount) | [Int64](https://docs.microsoft.com/en-us/dotnet/api/system.int64) | X |  |  |
+| [Max](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.max) | Single numeric value, TSource, or TResult | X |  |  |
+| [Min](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.min) | Single numeric value, TSource, or TResult | X |  |  |
+| [OfType](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.oftype) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [OrderBy](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderby) | [IOrderedEnumerable&lt;TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iorderedenumerable-1) |  |  | X |
+| [OrderByDescending](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.orderbydescending) | [IOrderedEnumerable&lt;TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iorderedenumerable-1) |  |  | X |
+| [Range](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.range) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Repeat](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.repeat) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Reverse](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.reverse) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  |  | X |
+| [Select](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.select) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [SelectMany](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.selectmany) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [SequenceEqual](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.sequenceequal) | [Boolean](https://docs.microsoft.com/en-us/dotnet/api/system.boolean) | X |  |  |
+| [Single](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.single) | TSource | X |  |  |
+| [SingleOrDefault](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.singleordefault) | TSource | X |  |  |
+| [Skip](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.skip) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [SkipWhile](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.skipwhile) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Sum](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.sum) | Single numeric value | X |  |  |
+| [Take](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.take) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [TakeWhile](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.takewhile) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [ThenBy](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.thenby) | [IOrderedEnumerable&lt;TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iorderedenumerable-1) |  |  | X |
+| [ThenByDescending](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.thenbydescending) | [IOrderedEnumerable&lt;TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.iorderedenumerable-1) |  |  | X |
+| [ToArray](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.toarray) | TSource array | X |  |  |
+| [ToDictionary](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.todictionary) | [Dictionary&lt;TKey,TValue&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2) | X |  |  |
+| [ToList](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolist) | [IList&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ilist-1) | X |  |  |
+| [ToLookup](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolookup) | [ILookup&lt;TKey,TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.ilookup-2) | X |  |  |
+| [Union](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.union) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+| [Where](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.where) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
+
+
+
