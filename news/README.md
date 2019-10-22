@@ -14,10 +14,11 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 เจอกับผม **ดชแมวน้ำ** ได้ในงานนะครับ หัวข้อของผมคือ Microservices Tips & Technics on Azure งานวันอังคารที่ 12 พฤศจิกายน 2019 ที่ Central World ชั้น 22 ห้อง Bangkok Convention Center ****ลงทะเบียนได้จากลิงค์นี้เบย [http://msft.it/6188TR04p](http://msft.it/6188TR04p?fbclid=IwAR28O6kes688-DdPxsbrSh6TUTXo_WmcyR9mm7C2lX2EyeqSboPpbV58t3Y)
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28185%29.png)
 
 ### 22/10/2019
 
+* อัพเดทบทความ [👶 Azure Web App](https://saladpuk.gitbook.io/learn/cloud/azure-web-app) เรื่อง [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](https://saladpuk.gitbook.io/learn/cloud/azure-web-app/pricing)
 * ตั้งคอร์ส [👶 Azure Web App](https://saladpuk.gitbook.io/learn/cloud/azure-web-app)
 
 ### 21/10/2019

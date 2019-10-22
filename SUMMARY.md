@@ -133,7 +133,8 @@
   * [สร้าง Blockchain ใช้เองกัน !](cloud/blockchain/create-eth.md)
   * [หัดเขียน Smart Contract กัน](cloud/blockchain/smart-contract.md)
 * [👶 Power BI](cloud/power-bi.md)
-* [👶 Azure Web App](cloud/azure-web-app.md)
+* [👶 Azure Web App](cloud/azure-web-app/README.md)
+  * [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](cloud/azure-web-app/pricing.md)
 
 ## Software Testing
 
