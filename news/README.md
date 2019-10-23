@@ -16,6 +16,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ![](../.gitbook/assets/image%20%28185%29.png)
 
+### 23/10/2019
+
+* เพิ่ม [เกร็ดความรู้](https://saladpuk.gitbook.io/learn/v/tips/) เรื่อง [Quality vs Quantity](https://saladpuk.gitbook.io/learn/v/tips/6)
+
 ### 22/10/2019
 
 * อัพเดทบทความ [👶 Azure Web App](https://saladpuk.gitbook.io/learn/cloud/azure-web-app) เรื่อง [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](https://saladpuk.gitbook.io/learn/cloud/azure-web-app/pricing)
