@@ -1,6 +1,7 @@
 # Table of contents
 
 * [❤️ เกร็ดความรู้](README.md)
+* [Quality vs Quantity](quality-vs-quantity.md)
 * [ปัญหาสมองไหล](5.md)
 * [เรื่องแปลกในการทำซอฟต์แวร์](tip4.md)
 * [กฎ 80:20](80-20.md)
