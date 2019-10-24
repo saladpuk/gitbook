@@ -85,6 +85,7 @@
 * [👦 Agile Methodology](basic/agile-methodology/README.md)
   * [Agile in a Nutshell](basic/agile-methodology/agile-in-a-nutshell.md)
   * [Software Development Life Cycle](basic/agile-methodology/sdlc.md)
+  * [Code Review](basic/agile-methodology/code-review.md)
 * [👦 Security พื้นฐาน](basic/security101/README.md)
   * [การเก็บรหัสผ่านที่ถูกต้อง](basic/security101/secure-password.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
