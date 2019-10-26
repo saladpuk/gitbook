@@ -16,6 +16,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ![](../.gitbook/assets/image%20%28189%29.png)
 
+### 26/10/2019
+
+* เพิ่ม [เกร็ดความรู้](https://saladpuk.gitbook.io/learn/v/tips/) เรื่อง [เคล็ดไม่ลับในการทำซอฟต์แวร์](https://saladpuk.gitbook.io/learn/v/tips/7)
+
 ### 24/10/2019
 
 * อัพเดทบทความ [👦 Agile Methodology](https://saladpuk.gitbook.io/learn/basic/agile-methodology) เรื่อง [Code Review](https://saladpuk.gitbook.io/learn/basic/agile-methodology/code-review)
