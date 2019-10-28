@@ -1,6 +1,7 @@
 # Table of contents
 
 * [❤️ เกร็ดความรู้](README.md)
+* [การทำซอต์แวร์โปรเจคยุคปัจจุบัน](undefined.md)
 * [เคล็ดไม่ลับในการทำซอฟต์แวร์](7.md)
 * [Quality vs Quantity](6.md)
 * [ปัญหาสมองไหล](5.md)
