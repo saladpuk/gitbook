@@ -58,6 +58,7 @@
 
 * [👶 Clean Code](basic/clean-code.md)
 * [👶 Code Smells](basic/code-smells.md)
+* [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👶 AI พื้นฐาน](basic/ai.md)
 * [👶 Cloud พื้นฐาน](basic/cloud101.md)
 * [👶 UML พื้นฐาน](basic/uml/README.md)
@@ -72,7 +73,7 @@
   * [หลักการตั้งคำถามให้ AI \(3/5\)](basic/data-scientist/questions.md)
   * [แฉความลับของ AI Model \(4/5\)](basic/data-scientist/model-work.md)
   * [หัดเขียน AI จาก AI ของคนอื่น \(5/5\)](basic/data-scientist/ai-gallery.md)
-* [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
+* [👶 DevOps พื้นฐาน](basic/devops.md)
 * [👶 Docker ขั้นพื้นฐาน](basic/docker/README.md)
   * [Image and Container](basic/docker/image-and-container.md)
   * [แชร์ Docker Image ที่สร้างไว้](basic/docker/share-image.md)
@@ -80,7 +81,6 @@
   * [Microservices ที่ดีมีลักษณะยังไง](basic/microservices/microservices.md)
   * [Microservices Tips](basic/microservices/tips.md)
   * [จาก Monolith สู่ Microservices](basic/microservices/monolith-services.md)
-* [👦 Test-First Design](basic/test-first-design.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks/README.md)
   * [พื้นฐานที่สำคัญที่สุดของฐานข้อมูล](basic/bottlenecks/work-with-db.md)
 * [👦 Agile Methodology](basic/agile-methodology/README.md)
@@ -138,9 +138,11 @@
 * [👶 Power BI](cloud/power-bi.md)
 * [👶 Azure Web App](cloud/azure-web-app/README.md)
   * [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](cloud/azure-web-app/pricing.md)
+* [👶 Azure DevOps](cloud/azure-devops.md)
 
 ## Software Testing
 
+* [👦 Test-First Design](software-testing/test-first-design.md)
 * [👦 Test-Driven Development](software-testing/tdd101/README.md)
   * [1.มารู้จักกับ TDD กันดีกว่า](software-testing/tdd101/intro.md)
   * [2.Test cases เขาเขียนกันยังไงนะ](software-testing/tdd101/test-cases.md)

@@ -14,7 +14,12 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 เจอกับผม **ดช.แมวน้ำ** ได้ในงานนะครับ หัวข้อของผมคือ **Microservices Tips & Technics on Azure** งานวันอังคารที่ 12 พฤศจิกายน 2019 ที่ Central World ชั้น 22 ห้อง Bangkok Convention Center ****ลงทะเบียนได้จากลิงค์นี้เบย [http://msft.it/6188TR04p](http://msft.it/6188TR04p?fbclid=IwAR28O6kes688-DdPxsbrSh6TUTXo_WmcyR9mm7C2lX2EyeqSboPpbV58t3Y)
 
-![](../.gitbook/assets/image%20%28189%29.png)
+![](../.gitbook/assets/image%20%28192%29.png)
+
+### 31/10/2019
+
+* เพิ่มบทความ [👶 DevOps พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/devops)
+* ร่างคอร์ส [👶 Azure DevOps](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric/azure-devops)
 
 ### 28/10/2019
 
