@@ -143,6 +143,7 @@
   * [เล่น Azure DevOps กัน](cloud/azure-devops/azure-devops.md)
   * [เล่นกับ Repository](cloud/azure-devops/repository.md)
   * [ลองทำ Continuous Integration \(CI\)](cloud/azure-devops/ci.md)
+  * [ลองทำ Continuous Delivery \(CD\)](cloud/azure-devops/cd.md)
 
 ## Software Testing
 
