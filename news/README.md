@@ -16,6 +16,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 0**2**/11/2019
 
+* อัพเดท [👶 Azure DevOps](https://saladpuk.gitbook.io/learn/cloud/azure-devops) เรื่อง [เล่นกับ Repository](https://saladpuk.gitbook.io/learn/cloud/azure-devops/repository)
 * อัพเดท [👶 Azure DevOps](https://saladpuk.gitbook.io/learn/cloud/azure-devops) เรื่อง [เล่น Azure DevOps กัน](https://saladpuk.gitbook.io/learn/cloud/azure-devops/azure-devops)
 
 ### 01/11/2019
