@@ -141,6 +141,7 @@
   * [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](cloud/azure-web-app/pricing.md)
 * [👶 Azure DevOps](cloud/azure-devops/README.md)
   * [เล่น Azure DevOps กัน](cloud/azure-devops/azure-devops.md)
+  * [เล่นกับ Repository](cloud/azure-devops/repository.md)
 
 ## Software Testing
 
