@@ -109,7 +109,8 @@ Microservices ก็ไม่หวั่นด้วย Kubernetes เขาก
 
 {% page-ref page="repository.md" %}
 
-* ลองทำ Continuous Integration
+{% page-ref page="ci.md" %}
+
 * ลองทำ Continuous Delivery
 * ลองใช้ Kanban Board
 * คิดอะไรออกเดี๋ยวเอามายัดๆลงตรงนี้ละกันนุ๊
