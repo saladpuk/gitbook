@@ -139,7 +139,8 @@
 * [👶 Power BI](cloud/power-bi.md)
 * [👶 Azure Web App](cloud/azure-web-app/README.md)
   * [เซิฟเวอร์บนคลาว์ ราคา? ต่าง?](cloud/azure-web-app/pricing.md)
-* [👶 Azure DevOps](cloud/azure-devops.md)
+* [👶 Azure DevOps](cloud/azure-devops/README.md)
+  * [เล่น Azure DevOps กัน](cloud/azure-devops/azure-devops.md)
 
 ## Software Testing
 
