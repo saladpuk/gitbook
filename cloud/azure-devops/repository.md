@@ -156,6 +156,11 @@ git push
 
 ![](../../.gitbook/assets/image%20%28512%29.png)
 
+{% hint style="success" %}
+**ลองเล่นดู**  
+ในตัวอย่างนี้ผมตั้งโปรเจ็คเป็น **Public** เอาไว้ ดังนั้นเพื่อนๆก็สามารถเข้ามาดูตัว repository ผ่านลิงค์ตัวนี้ได้เบยครัช [https://dev.azure.com/sakuljaru/\_git/saladpuk](https://dev.azure.com/sakuljaru/_git/saladpuk)
+{% endhint %}
+
 จากตรงนี้ก็แสดงว่าเราสามารถใช้งานตัว Repository ของเราแบบง่ายๆได้ละ ดังนั้นถัดไปเราจะไปดูเรื่องการทำ **Build pipeline** เพื่อให้โปรเจคของเรากลายเป็น Automation ให้ได้มากที่สุดนั่นเอง ดังนั้นกดปุ่ม Next ด้านล่างเพื่ออ่านบทความการทำ **Continuous Integration** กันเบย 
 
 
