@@ -102,7 +102,7 @@ Microservices ก็ไม่หวั่นด้วย Kubernetes เขาก
 {% endhint %}
 
 {% hint style="warning" %}
-บทถัดไปจะเอามาลงตอนเย็นๆวันที่ **3/11**/2019 นะฮ๊าฟ
+บทถัดไปจะเอามาลงตอนเย็นๆวันที่ **4/11**/2019 นะฮ๊าฟ
 {% endhint %}
 
 {% page-ref page="azure-devops.md" %}
