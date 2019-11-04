@@ -144,6 +144,7 @@
   * [เล่นกับ Repository](cloud/azure-devops/repository.md)
   * [ลองทำ Continuous Integration \(CI\)](cloud/azure-devops/ci.md)
   * [ลองทำ Continuous Delivery \(CD\)](cloud/azure-devops/cd.md)
+  * [เล่น Kanban Board](cloud/azure-devops/kanban-board.md)
 
 ## Software Testing
 
