@@ -113,7 +113,8 @@ Microservices ก็ไม่หวั่นด้วย Kubernetes เขาก
 
 {% page-ref page="cd.md" %}
 
-* ลองใช้ Kanban Board
+{% page-ref page="kanban-board.md" %}
+
 * การตั้งทีม และ สิทธิ์ต่างๆ
 * คิดอะไรออกเดี๋ยวเอามายัดๆลงตรงนี้ละกันนุ๊
 
