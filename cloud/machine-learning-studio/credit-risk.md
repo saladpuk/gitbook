@@ -56,7 +56,7 @@ description: "เอาไปขายธนาคารได้เลยไห
 
 ถัดมาลองมาดูข้อมูลตัวอย่างที่เขาเตรียมให้เรากันหน่อย โดยกดที่วงกลมเล็กๆใต้กล่อง **German Credit Card UCI dataset** แล้วเลือก **Visualize** เลย
 
-![](../../.gitbook/assets/image%20%28515%29.png)
+![](../../.gitbook/assets/image%20%28516%29.png)
 
 เขาก็จะแสดงข้อมูลมาให้เราดูตามรูปเลย ซึ่งมีทั้งหมด 1000 รายการ และ 21 column และเราจะเห็นว่าข้อมูลตัวอย่างหัวตารางมันมีชื่อที่เราไม่รู้เรื่องเลยนิว่ามันคืออะไร
 
@@ -80,7 +80,7 @@ description: "เอาไปขายธนาคารได้เลยไห
 Status of checking account, Duration in months, Credit history, Purpose, Credit amount, Savings account/bond, Present employment since, Installment rate in percentage of disposable income, Personal status and sex, Other debtors, Present residence since, Property, Age in years, Other installment plans, Housing, Number of existing credits, Job, Number of people providing maintenance for, Telephone, Foreign worker, Credit risk
 ```
 
-![](../../.gitbook/assets/image%20%28543%29.png)
+![](../../.gitbook/assets/image%20%28544%29.png)
 
 ลองกดดูข้อมูลที่ใส่หัวตารางดูบ้างซิ โดยการกด Visualize ที่กล่อง Edit Metadata เหมือนเดิมครับ \(ถ้ากดไม่ได้ให้กดปุ่ม **`RUN`** ด้านล่างก่อนแล้วรอแป๊ปนึงนะครับ\) ซึ่งเราก็จะเห็นว่าหัวตารางอ่านรู้เรื่องละ และที่ด้านขวาสุดก็จะมีบันทึกว่า คนๆนี้มีความเสี่ยงในการออกบัตรเครดิตหรือไม่นั่นเอง \(1 กับ 2 ในกรณีนี้คือ true / false\)
 
@@ -92,7 +92,7 @@ Status of checking account, Duration in months, Credit history, Purpose, Credit 
 
 ตามหลักของ Data science แล้วเราจะแบ่งข้อมูลออกเป็น 2 ส่วน โดย**ส่วนแรก**จะเอาไปให้ AI ได้เรียนรู้ และ**ส่วนที่สอง**จะเอาไปทดสอบว่า AI มันแม่นยำขนาดไหน ดังนั้นในขั้นตอนนี้เราก็จะทำการแบ่งข้อมูลออกเป็น 2 ส่วน ด้วยการลากเครื่องมือที่ชื่อว่า **Split Data** ไปวางต่อท้ายไว้ แล้วก็ลากให้ข้อมูลไหลเข้ามาในกล่อง Split data ด้วย
 
-![](../../.gitbook/assets/image%20%28505%29.png)
+![](../../.gitbook/assets/image%20%28506%29.png)
 
 ถัดมาเราก็ต้องกำหนดว่าจะแบ่งข้อมูลไปสอน AI กี่เปอร์เซ็น ดังนั้นเราก็ทำกากดที่กล่อง Split Data แล้วที่โซน C ในช่อง **Fraction** ให้เลือกเป็น 0.75 เพื่อแบ่งข้อมูลออไปสอน AI 75% ส่วนที่เหลืออีก 25% ก็จะเอาไปเทสนั่นเอง ตามรูปเลย
 
