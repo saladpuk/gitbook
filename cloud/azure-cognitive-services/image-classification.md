@@ -169,8 +169,8 @@ Build succeeded.
 
 ตอนนี้ให้เอาโค้ดด้านล่างไปทับใน `Program.cs` ทั้งหมดเลย ซึ่งเจ้าโค้ดด้านล่างจะเป็นแค่โครงคร่าวๆเท่านั้น
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -198,8 +198,8 @@ namespace saladpuk_image_classification
 }
 
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 จากโค้ดด้านบนเราจะต้องเอา `Key` กับ `Endpoint` ที่ได้มาจากขั้นตอนที่ 1 เอามาใส่ไว้ในโค้ดของเราในบรรทัดที่ 14-17 เพื่อเตรียมให้เราสามารถเรียก Cognitive Services ได้นั่นเอง ดังนั้นก็ไปเอามาใส่กันเบย
 
@@ -210,16 +210,16 @@ namespace saladpuk_image_classification
 | PredictionKey | **`Key`** ของ Service ที่เราสร้างเป็น Prediction |
 | PredictionResourceId | **`Resource Id`** ของ Service ที่เราสร้างเป็น Prediction |
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 const string Endpoint = "https://southeastasia.api.cognitive.microsoft.com/";
 const string TrainingKey = "9307b0e4690f43219a136680e5b59740";
 const string PredictionKey = "f8b0f6ce2cda4b7d8cef892b3f3de468";
 const string PredictionResourceId = "/subscriptions/c91771fb-def2-45f8-9400-673d59a95640/resourceGroups/saladpuk-demo/providers/Microsoft.CognitiveServices/accounts/saladpuk-prediction";
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="danger" %}
 **คำเตือน**  
@@ -240,8 +240,8 @@ const string PredictionResourceId = "/subscriptions/c91771fb-def2-45f8-9400-673d
 
 หลังจากที่เอาโฟเดอร์มาใส่ใน project แล้วถัดไปเราก็จะเริ่มเขียนโค้ดเพื่ออัพโหลดรูปลุงๆกันต่อนะครับ โดยโค้ดตัวแรกคือสั่งให้ไปสร้าง project ใน Custom Vision โดยใช้โค้ดด้านล่างนี้ครัช
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 var trainingClient = new CustomVisionTrainingClient()
 {
@@ -252,15 +252,15 @@ var trainingClient = new CustomVisionTrainingClient()
 Console.WriteLine("Creating new project:");
 var project = trainingClient.CreateProject("Saladpuk demo");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 หลังจากที่สร้าง project แล้ว ถัดไปเราก็จะอัพโหลดรูปลุงๆ โดยใช้โค้ดตัวถัดมา
 
 อัพโหลดรูปลุงตู่ก่อน
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 Console.WriteLine("Uploading Prayut images.");
 var prayutTag = trainingClient.CreateTag(project.Id, "Prayut");
@@ -269,13 +269,13 @@ var prayutFiles = prayutImages.Select(img => new ImageFileCreateEntry(Path.GetFi
 trainingClient.CreateImagesFromFiles(project.Id, new ImageFileCreateBatch(prayutFiles, new List<Guid>() { prayutTag.Id }));
 Console.WriteLine("-> Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ถัดมาก็อัพโหลดรูปลุงแม้ว
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 Console.WriteLine("Uploading Thaksin images.");
 var thaksinTag = trainingClient.CreateTag(project.Id, "Thaksin");
@@ -284,15 +284,15 @@ var thaksinFiles = thaksinImages.Select(img => new ImageFileCreateEntry(Path.Get
 trainingClient.CreateImagesFromFiles(project.Id, new ImageFileCreateBatch(thaksinFiles, new List<Guid>() { thaksinTag.Id }));
 Console.WriteLine("-> Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 🔥 \(4\) สั่งให้ AI รู้จักหน้าของคุณลุงไว้
 
 หลังจากอัพโหลดทุกอย่างเสร็จแล้ว เราก็จะสั่งให้ AI มันทำการเรียนรู้รูปภาพในแต่ละกลุ่ม เพื่อให้ AI สามารถวิเคราะห์ได้ว่ากลุ่มแต่ละกลุ่มมันมีลักษณะเฉพาะตัวยังไงนั่นเอง ดังนั้นเลยเอาโค้ดตัวนี้ไปแปะต่อเลย
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 Console.WriteLine("Training.");
 var iteration = trainingClient.TrainProject(project.Id);
@@ -308,8 +308,8 @@ var publishedName = "GuessWho";
 trainingClient.PublishIteration(project.Id, iteration.Id, publishedName, PredictionResourceId);
 Console.WriteLine("-> Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 🔥 \(5\) ให้ AI ทายซิว่านี่รูปใครเอ่ย ?
 
@@ -319,8 +319,8 @@ Console.WriteLine("-> Done.");
 
 ซึ่งรูปที่จะส่งไปก็อยู่ใน zip ไฟล์ที่ดาวโหลดไปนั่นแหละ `Images\Test\Test.jpg` ดังนั้นเราก็จะเขียนโค้ดตัวนี้ต่อ
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 Console.WriteLine("Making a prediction.");
 var predictionClient = new CustomVisionPredictionClient()
@@ -336,8 +336,8 @@ foreach (var prediction in result.Predictions)
 }
 Console.WriteLine("-> Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 อะเช เพียงเท่านี้เราก็ลอง Run ได้เลย ซึ่งถ้าอยู่ใน Visual Studio Code สามารถกด **`CTRL + F5`** ได้เลย แต่ถ้าอยู่ใน Command prompt หรือ Terminal ก็สามารถใช้คำสั่ง **`dotnet run`** ได้เลยเหมือนกันครับ ซึ่งผลลัพท์ที่ได้ก็จะออกมาเป็นราวๆนี้
 
@@ -360,8 +360,8 @@ Making a prediction:
 
 ตัวโปรเจคนี้ถ้าใครขี้เกียจไปนั่งลบมันทุกครั้ง ก็สามารถใส่โค้ดนี้เข้าไปได้นะครับ พอได้ผลลัพท์เสร็จมันจะลบโปรเจคทิ้งให้เลย
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 Console.WriteLine("Deleting your project.");
 trainingClient.UnpublishIteration(project.Id, iteration.Id);
@@ -369,8 +369,8 @@ trainingClient.DeleteIteration(project.Id, iteration.Id);
 trainingClient.DeleteProject(project.Id);
 Console.WriteLine("-> Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 🤔 อยากเอา AI ตัวนี้ไปให้คนอื่นเล่นทำไง ?
 

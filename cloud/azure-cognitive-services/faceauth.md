@@ -139,8 +139,8 @@ dotnet add package Newtonsoft.Json
 
 ตอนนี้ให้เอาโค้ดด้านล่างไปทับใน `Program.cs` ทั้งหมดเลย ซึ่งเจ้าโค้ดด้านล่างจะเป็นแค่โครงคร่าวๆเท่านั้น
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 using System;
 using System.Linq;
@@ -164,8 +164,8 @@ namespace saladpuk_faceauth
 	}
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ในโค้ดด้านบน เราจะต้องไปเอา **SubscriptionKey** และ **Endpoint** มาใส่ให้มัน เพื่อที่มันจะได้ต่อไปยัง Face API ได้นั่นเอง ซึ่งเจ้าเราต้องกลับไปที่ Cognitive Service แล้วเลือกเมนู **`Keys`** เพื่อ copy ค่า SubscriptionKey มาครับ
 
@@ -177,8 +177,8 @@ namespace saladpuk_faceauth
 
 หลังจากที่เอา `SubscriptionKey` และ `Endpoint` ไปใส่ในโค้ดแล้ว ถัดไปเราก็จะเพิ่มโค้ดอีกนิสนุง เพื่อสร้าง **PersonGroup** นั่นเอง ตามโค้ดด้านล่างเบย
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 static string SubscriptionKey = "729c47c3f04346dd904cac8ef8181412";
 static string Endpoint = "https://saladpuk-face.cognitiveservices.azure.com/face/v1.0";
@@ -220,8 +220,8 @@ static RestRequest CreateRestRequest(string resource, object requestBody)
     return request;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 ในการสร้าง PersonGroup เราก็แค่เรียก REST API ไปโดยการส่ง SubscriptionKey ไปยัง Endpoint ของเราเพียงเท่านี้ก็จะสามารถสร้าง PersonGroup ได้แล้วครับ
@@ -230,8 +230,8 @@ static RestRequest CreateRestRequest(string resource, object requestBody)
 
 เพื่อให้ AI เรารู้จักคนได้หลายๆคน เราก็จะสร้าง Person ให้มันครับ โดยเขียนโค้ดตัวนี้ต่อเข้าไปใน method Main\(\)
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 // สร้าง Person
 var personId = string.Empty;
@@ -252,8 +252,8 @@ else
     return;
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 ผมทำการสร้าง Person ที่ชื่อ `Prayut Chan O Char` ขึ้นมาภายใต้ **PersonGroup** ที่สร้างขึ้นมาจากขั้นตอน 2.2 ครับ
@@ -264,8 +264,8 @@ else
 
 ![&#xE16;&#xE49;&#xE32;&#xE44;&#xE21;&#xE48;&#xE40;&#xE2B;&#xE47;&#xE19;&#xE1C;&#xE21;&#xE40;&#xE02;&#xE35;&#xE22;&#xE19;&#xE1A;&#xE17;&#xE04;&#xE27;&#xE32;&#xE21;&#xE15;&#xE48;&#xE2D; &#xE01;&#xE47;&#xE41;&#xE2A;&#xE14;&#xE07;&#xE27;&#xE48;&#xE32;&#xE42;&#xE14;&#xE19;&#xE1B;&#xE23;&#xE31;&#xE1A;&#xE17;&#xE31;&#xE28;&#xE19;&#xE04;&#xE15;&#xE34;&#xE2D;&#xE22;&#xE39;&#xE48;&#xE19;&#xE30;](../../.gitbook/assets/image%20%2851%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 // อัพโหลดรูปคนที่จะใช้ในการยืนยันตัวตน
 Console.WriteLine("Uploading your images.");
@@ -301,8 +301,8 @@ foreach (var imgUrl in personImageUrls)
 }
 Console.WriteLine("-> All Done.");
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 อันนี้ผมสร้างลิสต์ของรูปขึ้นมา แล้วก็ทยอยอัพโหลดเข้าไปใน Person ทีละอันจนครบครับ
@@ -311,8 +311,8 @@ Console.WriteLine("-> All Done.");
 
 หลังจากที่เราอัพโหลดรูปไปเรียบร้อยแล้ว ถัดมาเราก็จะสั่งให้ AI ไปทำการเรียนรู้รูปพวกนั้น เพื่อสร้าง pattern ใบหน้าของคนใน PersonGroup ของเรา โดยผมก็จะเพิ่มโค้ดด้านล่างนี้เข้าไปครับ
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 // สั่งให้ AI เรียนรู้หน้าตาของ Person (Train Model)
 Console.WriteLine("Training your model.");
@@ -327,8 +327,8 @@ else
     Console.WriteLine($"Error: {trainModelResult.Content}");
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 อันนี้ไม่มีอะไรเลยก็แค่เรียก REST API สั่งให้มัน Train ธรรมดา
@@ -344,8 +344,8 @@ else
 
 ![&#xE25;&#xE2D;&#xE07;&#xE14;&#xE39;&#xE0B;&#xE34;&#xE27;&#xE48;&#xE32;&#xE04;&#xE19;&#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE41;&#xE2D;&#xE1A;&#xE21;&#xE32;&#xE2A;&#xE27;&#xE21;&#xE23;&#xE2D;&#xE22;&#xE40;&#xE1B;&#xE47;&#xE19;&#xE25;&#xE38;&#xE07;&#xE44;&#xE14;&#xE49;&#xE44;&#xE2B;&#xE21;&#xE19;&#xE30; ?](../../.gitbook/assets/image%20%2892%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 static void Main(string[] args)
 {
@@ -392,8 +392,8 @@ static bool IdentifyAnImage(RestClient client, string personGroupId, string pers
 	}
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 ในรอบนี้ผมก็จะส่งรูปคนอื่นเข้าไปเทียบกับลุงแล้วเช็คว่ามีความใกล้เคียงกันกี่เปอร์เซ็นต์ ซึ่งในโค้ดผมบอกว่าต้องใกล้เคียงกัน 75% ขึ้นไปนะถึงจะผ่าน
@@ -402,8 +402,8 @@ static bool IdentifyAnImage(RestClient client, string personGroupId, string pers
 
 ![&#xE1B;&#xE4A;&#xE32;&#xE22;&#xE17;&#xE31;&#xE28;&#xE19;&#xE30;&#xE28;&#xE36;&#xE01;&#xE29;&#xE32;&#xE0B;&#xE31;&#xE01;&#xE40;&#xE14;&#xE37;&#xE2D;&#xE19;&#xE44;&#xE21;&#xE4A; ?](../../.gitbook/assets/image%20%2898%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 static void Main(string[] args)
 {
@@ -414,8 +414,8 @@ static void Main(string[] args)
     Console.WriteLine($"The result from using Prayut's image is: {prayutResult}");
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 ก็ตรงตัวครับแค่เอารูปลุงไปตรวจสอบว่าเป็นคนเดียวกับรูปที่เราส่งไปให้ AI หรือเปล่า

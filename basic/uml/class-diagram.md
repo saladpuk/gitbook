@@ -272,8 +272,8 @@ Teacher **สามารถ navigate ไป** ClassRoom ได้ และ Cla
 
 ![&#xE2B;&#xE32;&#xE01;&#xE44;&#xE21;&#xE48;&#xE0A;&#xE31;&#xE14;&#xE43;&#xE2B;&#xE49;&#xE01;&#xE14;&#xE17;&#xE35;&#xE48;&#xE23;&#xE39;&#xE1B;&#xE40;&#xE1E;&#xE37;&#xE48;&#xE2D;&#xE14;&#xE39;&#xE40;&#xE15;&#xE47;&#xE21;&#xE46;&#xE44;&#xE14;&#xE49;&#xE19;&#xE30;](../../.gitbook/assets/image%20%2872%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="LoginRequest" %}
+{% tabs %}
+{% tab title="LoginRequest" %}
 ```csharp
 public class LoginRequest
 {
@@ -282,9 +282,9 @@ public class LoginRequest
 }
 
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="LoginHandler" %}
+{% tab title="LoginHandler" %}
 ```csharp
 public class LoginHandler
 {
@@ -302,9 +302,9 @@ public class LoginHandler
 	}
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="AdvancedLoginHandler" %}
+{% tab title="AdvancedLoginHandler" %}
 ```csharp
 public abstract class AdvancedLoginHandler : LoginHandler
 {
@@ -316,9 +316,9 @@ public abstract class AdvancedLoginHandler : LoginHandler
 	public abstract bool ValidateSpecification(string username);
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="LoginLogger" %}
+{% tab title="LoginLogger" %}
 ```csharp
 public class LoginLogger
 {
@@ -330,18 +330,18 @@ public class LoginLogger
 	}
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="IDatabase" %}
+{% tab title="IDatabase" %}
 ```csharp
 public interface IDatabase
 {
 	void InsertLoginLog(string username, DateTime timeStamp);
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="SqlDatabase" %}
+{% tab title="SqlDatabase" %}
 ```csharp
 public class SqlDatabase : IDatabase
 {
@@ -351,8 +351,8 @@ public class SqlDatabase : IDatabase
 	}
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 🎯 บทสรุป
 

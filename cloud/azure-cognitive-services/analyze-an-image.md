@@ -214,8 +214,8 @@ Url ของรูป
 
 ส่วนโค้ดที่ที่ใช้ก็จะเขียนภายใน method Main\(\) ออกมาราวๆนี้
 
-{% code-tabs %}
-{% code-tabs-item title="Program.cs" %}
+{% tabs %}
+{% tab title="Program.cs" %}
 ```csharp
 var analyzieImageRequest = CreateRestRequest("vision/v2.1/analyze?visualFeatures=Description&language=en", new
 {
@@ -236,8 +236,8 @@ else
     System.Console.WriteLine($"Error: {analyzieImageResult.Content}");
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 **อธิบายโค้ด**  
 ในตัวอย่างผมก็จะทำการเรียก Cognitive Services API ออกไป แล้วพอได้รับผลลัพท์กลับมาก็ทำการแปลง Json ออกมาเป็นข้อความที่เขาส่งกลับมาแสดงผล

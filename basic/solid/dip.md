@@ -39,8 +39,8 @@ High level module มีหน้าที่แค่ดูแลภาพร�
 
 ![](../../.gitbook/assets/image%20%28478%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="Remote.cs" %}
+{% tabs %}
+{% tab title="Remote.cs" %}
 ```csharp
 public class Remote
 {
@@ -66,9 +66,9 @@ public class Remote
     }
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Television.cs" %}
+{% tab title="Television.cs" %}
 ```csharp
 public class Television
 {
@@ -87,9 +87,9 @@ public class Television
     }
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Door.cs" %}
+{% tab title="Door.cs" %}
 ```csharp
 public class Door
 {
@@ -108,8 +108,8 @@ public class Door
     }
 }
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 ## 😒 **ควรออกแบบยังไงดี**
 
@@ -132,8 +132,8 @@ public class Door
 
 ![](../../.gitbook/assets/image%20%28384%29.png)
 
-{% code-tabs %}
-{% code-tabs-item title="IControllable.cs" %}
+{% tabs %}
+{% tab title="IControllable.cs" %}
 ```csharp
 public interface IControllable
 {
@@ -142,9 +142,9 @@ public interface IControllable
     bool IsEnabled();
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Television.cs" %}
+{% tab title="Television.cs" %}
 ```csharp
 public class Television : IControllable
 {
@@ -167,9 +167,9 @@ public class Television : IControllable
     public bool IsEnabled() => IsTurnedOn;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Door.cs" %}
+{% tab title="Door.cs" %}
 ```csharp
 public class Door : IControllable
 {
@@ -192,9 +192,9 @@ public class Door : IControllable
     public bool IsEnabled() => IsOpening;
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Remote.cs" %}
+{% tab title="Remote.cs" %}
 ```csharp
 public class Remote
 {
@@ -232,9 +232,9 @@ public class Remote
     }
 }
 ```
-{% endcode-tabs-item %}
+{% endtab %}
 
-{% code-tabs-item title="Program.cs" %}
+{% tab title="Program.cs" %}
 ```csharp
 var items = new List<IControllable>
 {
@@ -259,8 +259,8 @@ remote.SwitchToggle();
 * Door: Closed
 */
 ```
-{% endcode-tabs-item %}
-{% endcode-tabs %}
+{% endtab %}
+{% endtabs %}
 
 {% hint style="success" %}
 **ผลลัพท์**  
