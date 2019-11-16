@@ -37,21 +37,17 @@ description: เปลี่ยนที่เก็บไฟล์มาเก�
 
 ![&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE44;&#xE1F;&#xE25;&#xE4C; index.html &#xE41;&#xE25;&#xE30; error.html](../../../.gitbook/assets/image%20%28185%29.png)
 
-{% tabs %}
-{% tab title="index.html" %}
+{% code title="index.html" %}
 ```php
 <h1>Saladpuk.com</h1>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
-{% tabs %}
-{% tab title="error.html" %}
+{% code title="error.html" %}
 ```php
 <h1>Sorry page not found 404</h1>
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 ถัดไปก็ทำการคลิกขวาที่พื้นที่ว่างๆแล้วเลือก **Deploy to Static Website** ได้เลยครับ แล้วก็เลือก subscription กับตัว Azure Storage account ให้ถูกตัว
 

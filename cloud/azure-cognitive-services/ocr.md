@@ -173,8 +173,7 @@ Build succeeded.
 
 ตอนนี้ให้เอาโค้ดด้านล่างไปทับใน `Program.cs` ทั้งหมดเลย ซึ่งเจ้าโค้ดด้านล่างจะเป็นแค่โครงคร่าวๆเท่านั้น
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -212,19 +211,16 @@ namespace saladpuk_handwritten_text
 	}
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 จากโค้ดด้านบนเราจะต้องเอา `Key` กับ `Endpoint` ที่ได้มาจากขั้นตอนที่ 2 เอามาใส่ไว้ในบรรทัดที่ 13 กับ 14 เพื่อเตรียมให้เราสามารถเรียก Cognitive Services ได้นั่นเอง ดังนั้นก็ใส่ลงไปครับ
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 static string SubscriptionKey = "be6b8fd9fe2a48b5a050f1016b571170";
 static string Endpoint = "https://southeastasia.api.cognitive.microsoft.com/";
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 {% hint style="danger" %}
 **คำเตือน**  
@@ -250,8 +246,7 @@ Ocp-Apim-Subscription-Key: ••••
 
 ดังนั้นเราก็ลงมือแก้โค้ด C\# กันเบย ก็จะได้โค้ดออกมาหน้าตาราวๆนี้
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 static void Main(string[] args)
 {
@@ -280,8 +275,7 @@ static void Main(string[] args)
     // โค้ดตัวต่อไปเอามาใส่ตรงนี้
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 จากโค้ดด้านบนมันก็จะเรียก REST API ไปตามที่ผมได้บอกไป ซึ่งสิ่งที่เราจะได้กลับมามันจะอยู่ใน Header ที่ชื่อ  **`Operation-Location`** นะครับมีหน้าตาตามด้านล่างเลย ดังนั้นโค้ดเราก็จะอ่านค่า header แล้วเอามาเก็บไว้ในตัวแปรที่ชื่อ `operationlocation` ที่อยู่ในโค้ดด้านบนตรงบรรทัดที่ 16 ครับ
 
@@ -309,8 +303,7 @@ Ocp-Apim-Subscription-Key: ••••
 
 ซึ่งเจ้า API ตัวนี้ เราจะต้องส่ง **`OperationId`** ที่ได้จากขั้นตอนก่อนหน้าไปให้มันด้วยครับ ดังนั้นผมก็จะเพิ่มโค้ดตัวนี้เข้าไป
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 static void Main(string[] args)
 {
@@ -356,8 +349,7 @@ class LineInfo
     public string Text { get; set; }
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 เจ้า API ตัวนี้มันจะตอบผลลัพท์ข้อความที่มันอ่านจากรูปกลับมาเป็น Json array ยาวๆแยกตามแต่ละบรรทัดเลยครับ เลยทำให้ผมต้องสร้าง model ในบรรทัดที่ 31-43 มารับมันไม่งั้นโค้ดจะอ่านยากครับ และเจ้า API ตัวนนี้บางทีมันก็อาจจะยังวิเคราะห์รูปไม่เสร็จ เราเลยต้องเขียนติด loop เพื่อหน่วงเวลามันนิดหน่อยครับ ในบรรทัดที่  7-28
 

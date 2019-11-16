@@ -178,8 +178,7 @@ Build succeeded.
 
 คราวนี้เราก็จะมาเตรียมโค้ดให้พร้อมที่จะเรียกใช้ Cognitive Services กันบ้าง โดยเอาโค้ดด้านล่างไปทับไฟล์ `Program.cs` ทั้งหมดเลยได้เลย
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -218,8 +217,7 @@ namespace saladpuk_demo
 }
 
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 เพียงเท่านี้ตัวโปรเจคของเราก็พร้อมที่จะทำงานกับ Cognitive Services API เรียบร้อยแล้วครับ ดังนั้นลองดูบทความถัด หรือ กลับไปที่บทความที่อ่านมา เพื่อการเรียกใช้ AI สำเร็จรูปกันเลยได้เลยครับ
 

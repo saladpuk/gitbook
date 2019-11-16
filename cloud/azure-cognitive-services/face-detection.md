@@ -300,8 +300,7 @@ https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-Lm0_idNb
 
 คราวนี้กลับมาที่ส่วนของโค้ดของเราต่อ เราก็จะเขียนโค้ดให้มันไปเรียกใช้ API ตัวด้านบนกัน ซึ่งเราก็จะได้โค้ดออกมาประมาณนี้
 
-{% tabs %}
-{% tab title="Program.cs" %}
+{% code title="Program.cs" %}
 ```csharp
 var returnFaceAttributes = "returnFaceAttributes=age,gender,glasses,emotion,makeup,accessories";
 var faceDetectRequest = CreateRestRequest($"face/v1.0/detect?returnFaceId=true&{returnFaceAttributes}", new
@@ -322,8 +321,7 @@ else
 	Console.WriteLine(faceDetectResult.Content);
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 **อธิบายโค้ด**
 

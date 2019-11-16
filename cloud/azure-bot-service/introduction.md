@@ -33,8 +33,7 @@ description: มาดูเบื้องหลังการทำงาน�
 
 ซึ่งเจ้าโค้ดตัวนั้นมันเขียนไว้ตามด้านล่างนี้ 
 
-{% tabs %}
-{% tab title="FlightBookingRecognizer.cs" %}
+{% code title="FlightBookingRecognizer.cs" %}
 ```csharp
 public class FlightBookingRecognizer : IRecognizer
 {
@@ -66,8 +65,7 @@ public class FlightBookingRecognizer : IRecognizer
         => await _recognizer.RecognizeAsync<T>(turnContext, cancellationToken);
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 โดยสรุปหลักการทำงานคือ เมื่อผู้ใช้ทำการป้อนข้อมูลเข้ามาแล้วตัว Bot จะทำการวิเคราะห์ความหมายว่าผู้ใช้จะสื่อว่าอะไร โดยใช้ตัววิเคราะห์ที่ชื่อว่า **LUIS** นั่นเอง \(จำได้ไหมตอนสร้างมันจะให้เราสร้าง LUIS ด้วยไง\) โดยผลลัพท์ที่ LUIS วิเคราะห์เสร็จจะส่งกลับมาจาก method  **RecognizeAsync** นั่นเอง
 
@@ -110,8 +108,7 @@ public MainDialog(FlightBookingRecognizer luisRecognizer, BookingDialog bookingD
 
 คราวนี้เราลองไปดูตัวอย่าง IntroStepAsync กัน เราก็จะเห็นโค้ดประมาณนี้
 
-{% tabs %}
-{% tab title="MainDialog.cs" %}
+{% code title="MainDialog.cs" %}
 ```csharp
 private async Task<DialogTurnResult> IntroStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
 {
@@ -123,8 +120,7 @@ private async Task<DialogTurnResult> IntroStepAsync(WaterfallStepContext stepCon
     return await stepContext.PromptAsync(nameof(TextPrompt), new PromptOptions { Prompt = promptMessage }, cancellationToken);
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 > **อธิบายโค้ดด้านบน**  
 > จะเห็นว่าพอเราเข้าไปคุยกับ Bot ปุ๊ป คำพูดแรกที่คุยกับเราคือตามบรรทัดที่ 6 ใช่ไหมครับ`What can I help you with today?  
@@ -133,8 +129,7 @@ private async Task<DialogTurnResult> IntroStepAsync(WaterfallStepContext stepCon
 
 หลังจากผ่าน IntroStepAsync ไปแล้วมันก็จะเข้ามาทำงานที่ method ActStepAsync ต่อซึ่งเขาก็เขียนไว้ประมาณนี้
 
-{% tabs %}
-{% tab title="MainDialog.cs" %}
+{% code title="MainDialog.cs" %}
 ```csharp
 private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepContext, CancellationToken cancellationToken)
 {
@@ -157,8 +152,7 @@ private async Task<DialogTurnResult> ActStepAsync(WaterfallStepContext stepConte
     return await stepContext.NextAsync(null, cancellationToken);
 }
 ```
-{% endtab %}
-{% endtabs %}
+{% endcode %}
 
 > **อธิบายโค้ดด้านบน**  
 > ในขั้นตอนนี้ตัว Bot จะให้ LUIS วิเคราะห์สิ่งที่ผู้ใช้พิมพ์เข้ามา ในบรรทัดที่ 5 แล้ว Bot ก็จะดูว่าผู้ใช้อยากจะทำอะไร ที่เขียนไว้ใน switch case ของบรรทัดที่ 6~17 เช่น ขอจองเที่ยวบิน หรือ เช็คสภาพอากาศ และสุดท้ายถ้าไม่ใช่ทั้ง 2 กรณีก็จะบอกว่าไม่เข้าใจสิ่งที่พูด

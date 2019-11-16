@@ -18,6 +18,7 @@
 
 * [Git SCM](https://git-scm.com/)
 * [Git for Windows](https://gitforwindows.org/)
+* [Tortoise Git](https://tortoisegit.org/) \(สำหรับคนที่ต้องการ GUI\)
 
 ## 🤔 เริ่มใช้งาน Clone + Commit + Push
 
