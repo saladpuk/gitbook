@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 17/11/2019
 
+* เขียนคอร์ส [👶 Azure Service Fabric](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric)
 * อัพเดท [👶 Azure DevOps](https://saladpuk.gitbook.io/learn/cloud/azure-devops) เรื่อง [เล่น Kanban Board](https://saladpuk.gitbook.io/learn/cloud/azure-devops/kanban-board)
 
 ### 06/11/2019
