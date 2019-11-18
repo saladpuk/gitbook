@@ -26,16 +26,44 @@ description: บทความเริ่มเยอะละ จะเริ
 
 ## 📝 Software Development
 
-ความรู้ในการสร้างซอฟต์แวร์โปรเจค เพื่อทำงานให้ได้งานที่สามารถปรับปรุงแก้ไขเพิ่มเติมได้ดั่งใจหมาย และหัวใจในการออกแบบต่างๆ จะถูกรวบรวมไว้ในตรงนี้
+ความรู้ในการสร้างซอฟต์แวร์โปรเจค และสิ่งที่คนเขียนโค้ดควรจะต้องรู้
 
 * [📝 เขียนโค้ดด้วยภาษา C\# ขั้นพื้นฐานยันขั้นสูง](https://saladpuk.gitbook.io/learn/beginner-1/csharp101)
+* [📝 การใช้ Git ขั้นพื้นฐาน](https://saladpuk.gitbook.io/learn/basic/git)
 * [📝 การทำ Clean Code](https://saladpuk.gitbook.io/learn/basic/clean-code)
-* [📝 โค้ดเน่าคืออะไร?](https://saladpuk.gitbook.io/learn/basic/code-smells)
-* [📝 การเขียนแผนภาพ UML ขั้นพื้นฐาน](https://saladpuk.gitbook.io/learn/basic/uml)
 * [📝 สิ่งที่คนเขียนโค้ดเข้าใจผิดกันบ่อยๆ \(รีบแก้ซะ\)](https://saladpuk.gitbook.io/learn/basic/mist)
 * [📝 ทำไมโปรเจคเราถึงช้า + แก้ไง ?](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
-* [📝 กาวางแผนรับมือทำโปรเจคด้วย Agile ](https://saladpuk.gitbook.io/learn/basic/agile-methodology)
-* [📝 หลักในการออกแบบที่ต้องรู้ SOLID Design](https://saladpuk.gitbook.io/learn/basic/solid)
-* [📝 การเขียนซอฟต์แวร์โดยไม่ให่เกิดบัค](https://saladpuk.gitbook.io/learn/software-testing/tdd101)
-* [📝 การแก้ปัญหาด้วย Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns)
+* [📝 การเขียนซอฟต์แวร์โดยไม่ให่เกิดบัคด้วย TDD](https://saladpuk.gitbook.io/learn/software-testing/tdd101)
+
+## 📐 Software Designs
+
+หลักในการออกแบบซอฟต์แวร์ที่ดี พื่อทำงานให้ได้งานที่สามารถปรับปรุงแก้ไขเพิ่มเติมได้ดั่งใจหมาย
+
+* 📐[ โค้ดเน่าคืออะไร?](https://saladpuk.gitbook.io/learn/basic/code-smells)
+* 📐[ การเขียนแผนภาพ UML ขั้นพื้นฐาน](https://saladpuk.gitbook.io/learn/basic/uml)
+* 📐[ หลักในการออกแบบที่ต้องรู้ SOLID Design](https://saladpuk.gitbook.io/learn/basic/solid)
+* 📐[ การแก้ปัญหาด้วย Design Patterns](https://saladpuk.gitbook.io/learn/software-design/designpatterns)
+
+## 👨‍👩‍👦‍👦 บริหารจัดการ ทีม + งาน
+
+การรับมือกับปัญหาเวลาทำงานเป็นทีม
+
+* 👨‍👩‍👦‍👦[ กาวางแผนรับมือทำโปรเจคด้วย Agile ](https://saladpuk.gitbook.io/learn/basic/agile-methodology)
+* 👨‍👩‍👦‍👦 [มารู้จักกับ DevOps กัน](https://saladpuk.gitbook.io/learn/basic/devops)
+* 👨‍👩‍👦‍👦 [มาหัดใช้งาน Azure DevOps เพื่อลดการเสียเวลากันเถอะ](https://saladpuk.gitbook.io/learn/cloud/azure-devops)
+
+## 🚀 Microservices Architecture
+
+หลักในการออกแบบซอฟต์แวร์โดยการแยกส่วนการรับผิดชอบออกเป็นงานย่อยๆ
+
+* 🚀 [Microservices พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/microservices)
+* 🚀 [มาหัดเขียน Microservics กันด้วย Service Fabric](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric)
+
+## 🔗 Blockchain
+
+* 🔗 [มารู้จักและหัดเขียน Blockchain กัน](https://saladpuk.gitbook.io/learn/cloud/blockchain)
+
+## 🐳 Docker
+
+* 🐳 [มาหัดใช้ Docker กันเถอะ](https://saladpuk.gitbook.io/learn/basic/docker)
 
