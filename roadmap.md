@@ -33,7 +33,11 @@ description: บทความเริ่มเยอะละ จะเริ
 * [📝 การทำ Clean Code](https://saladpuk.gitbook.io/learn/basic/clean-code)
 * [📝 สิ่งที่คนเขียนโค้ดเข้าใจผิดกันบ่อยๆ \(รีบแก้ซะ\)](https://saladpuk.gitbook.io/learn/basic/mist)
 * [📝 ทำไมโปรเจคเราถึงช้า + แก้ไง ?](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
-* [📝 การเขียนซอฟต์แวร์โดยไม่ให่เกิดบัคด้วย TDD](https://saladpuk.gitbook.io/learn/software-testing/tdd101)
+
+## 🧪 Software Testing
+
+* 🧪[ Test-Driven Development \(TDD\)](https://saladpuk.gitbook.io/learn/software-testing/tdd101)
+* 🧪[ ตัวอย่างการทำ Test First](https://saladpuk.gitbook.io/learn/software-testing/test-first-design)
 
 ## 📐 Software Designs
 
