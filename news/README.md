@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 19/11/2019
+
+* อัพเดท [👶 Azure Service Fabric](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric) เรื่อง [สร้าง Service Fabric กัน](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric/create)
+
 ### 17/11/2019
 
 * เขียนคอร์ส [👶 Azure Service Fabric](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric)
