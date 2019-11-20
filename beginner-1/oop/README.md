@@ -80,7 +80,8 @@ description: "\U0001F914 หลักพื้นฐานในการเข�
 
 {% page-ref page="encapsulation.md" %}
 
-* Inheritance \(กำลังทำอยู่\)
+{% page-ref page="inheritance.md" %}
+
 * Polymorphism \(กำลังทำอยู่\)
 
 {% hint style="danger" %}
