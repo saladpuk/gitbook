@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 20/11/2019
 
+* อัพเดท [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop) เรื่อง [💖 Abstraction](https://saladpuk.gitbook.io/learn/beginner-1/oop/abstraction)
 * เขียนคอร์ส [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop)
 
 ### 19/11/2019
