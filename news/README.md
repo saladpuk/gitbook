@@ -12,6 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 21/11/2019
 
+* อัพเดท [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop) เรื่อง [🏆 Abstraction + Encapsulation](https://saladpuk.gitbook.io/learn/beginner-1/oop/abs-n-enc)
 * อัพเดท [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop) เรื่อง [💖 Encapsulation](https://saladpuk.gitbook.io/learn/beginner-1/oop/encapsulation)
 
 ### 20/11/2019

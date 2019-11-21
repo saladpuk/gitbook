@@ -80,7 +80,7 @@ description: "\U0001F914 หลักพื้นฐานในการเข�
 
 {% page-ref page="encapsulation.md" %}
 
-{% page-ref page="abstraction-+-encapsulation.md" %}
+{% page-ref page="abs-n-enc.md" %}
 
 {% page-ref page="inheritance.md" %}
 
