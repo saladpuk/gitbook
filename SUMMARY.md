@@ -56,6 +56,7 @@
 * [👶 OOP](beginner-1/oop/README.md)
   * [💖 Abstraction](beginner-1/oop/abstraction.md)
   * [💖 Encapsulation](beginner-1/oop/encapsulation.md)
+  * [🏆 Abstraction + Encapsulation](beginner-1/oop/abstraction-+-encapsulation.md)
   * [💖 Inheritance](beginner-1/oop/inheritance.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
