@@ -2,7 +2,7 @@
 
 ## 🤔 มันคืออะไร ?
 
-คำว่า **Encapsulation** มีใช้อยู่ในหลายวงการเลย แต่ในวงการซอฟต์แวร์ใน **Wikipedia** ถูกเขียนไว้ว่า
+คำว่า **Inheritance** มีใช้อยู่ในหลายวงการเลย แต่ในวงการซอฟต์แวร์ใน **Wikipedia** ถูกเขียนไว้ว่า
 
 > **Inheritance** is the mechanism of basing an [object](https://en.wikipedia.org/wiki/Object_%28computer_science%29) or [class](https://en.wikipedia.org/wiki/Class_%28computer_programming%29) upon another object \([prototype-based inheritance](https://en.wikipedia.org/wiki/Prototype-based_programming)\) or class \([class-based inheritance](https://en.wikipedia.org/wiki/Class-based_programming)\), retaining similar implementation. Also defined as deriving new classes \([sub classes](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#Subclasses_and_superclasses)\) from existing ones \(super class or [base class](https://en.wikipedia.org/wiki/Fragile_base_class)\) and forming them into a hierarchy of classes. In most class-based object-oriented languages, an object created through inheritance \(a "child object"\) acquires all the properties and behaviors of the parent object \(except: [constructors](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29), destructor, [overloaded operators](https://en.wikipedia.org/wiki/Operator_overloading) and [friend functions](https://en.wikipedia.org/wiki/Friend_function) of the base class\). Inheritance allows programmers to create classes that are built upon existing classes,[\[1\]](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#cite_note-1) to specify a new implementation while maintaining the same behaviors \([realizing an interface](https://en.wikipedia.org/wiki/Class_diagram#Realization/Implementation)\), to [reuse code](https://en.wikipedia.org/wiki/Code_reuse) and to independently extend original software via public classes and interfaces. The relationships of objects or classes through inheritance give rise to a [directed graph](https://en.wikipedia.org/wiki/Directed_graph). Inheritance was invented in 1969 for [Simula](https://en.wikipedia.org/wiki/Simula).[\[2\]](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#cite_note-2)
 
@@ -262,9 +262,9 @@ Class พวกนั้นมันเป็นประเภทเดีย�
 
 ## UML
 
-โค้ดตัวอย่างด้านบนทั้งหมดที่เขียนเอาไว้ สามารถเอามาเขียนเป็นแผนภาพ UML ง่ายๆได้ประมาณนี้
+โค้ดตัวอย่างด้านทั้งหมดที่เขียนเอาไว้ สามารถเอามาเขียนเป็นแผนภาพ UML ง่ายๆได้ประมาณนี้
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%28680%29.png)
 
 {% hint style="info" %}
 **แนะนำให้อ่าน**  
@@ -281,12 +281,12 @@ public class BankAccount
     private bool isClosed;
     private double balance;
 
+    public bool IsClosed { get => isClosed; }
     public double Balance
     {
         get => balance;
         protected set => balance = value;
     }
-    public bool IsClosed { get => isClosed; }
     public string OwnerName { get; set; }
 
     public void Deposit(double amount)
