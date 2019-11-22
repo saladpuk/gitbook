@@ -84,7 +84,8 @@ description: "\U0001F914 หลักพื้นฐานในการเข�
 
 {% page-ref page="inheritance.md" %}
 
-* Polymorphism \(กำลังทำอยู่\)
+{% page-ref page="polymorphism.md" %}
+
 * Inheritance + Encapsulation
 * ตัวอย่างการออกแบบ
 * บทสรุป
