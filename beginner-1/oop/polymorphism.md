@@ -2,7 +2,7 @@
 
 ## 🤔 มันคืออะไร ?
 
-คำว่า **Inheritance** มีใช้อยู่ในหลายวงการเลย แต่ในวงการซอฟต์แวร์ใน **Wikipedia** ถูกเขียนไว้ว่า
+คำว่า **Polymorphism** มีใช้อยู่ในหลายวงการเลย แต่ในวงการซอฟต์แวร์ใน **Wikipedia** ถูกเขียนไว้ว่า
 
 > **Polymorphism** is the provision of a single [interface](https://en.wikipedia.org/wiki/Interface_%28computing%29) to entities of different [types](https://en.wikipedia.org/wiki/Data_type) or the use of a single symbol to represent multiple different types.
 
