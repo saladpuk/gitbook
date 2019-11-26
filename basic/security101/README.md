@@ -34,7 +34,7 @@ Tj/qsc0XaalXwMhfWWDFfC9kHlGNA/YQhTXDbu3jEC7jROmPKSNzhcRJTQtmQuTbqdosWtEK83XJhBO8
 
 ถัดมาฝั่งแม่ทัพพอได้จดหมายมาแล้ว เขาก็จะทำการเอาจดหมายที่มีข้อความมั่วๆนี้มาทำการถอดรหัสด้วยกุญแจลับที่เจงกีสข่านมอบให้ไว้ เพื่อให้ได้ข้อความที่เจงกีสข่านเขียนไว้นั่นเอง โดยหลักการนี้เราเรียกว่า **Decryption** นั่นเอง ตามรูปเลย
 
-![](../../.gitbook/assets/image%20%28684%29.png)
+![](../../.gitbook/assets/image%20%28685%29.png)
 
 {% hint style="success" %}
 **เทียบกับโลกจริง**  
