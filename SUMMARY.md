@@ -59,6 +59,7 @@
   * [🏆 Abstraction & Encapsulation](beginner-1/oop/abs-n-enc.md)
   * [💖 Inheritance](beginner-1/oop/inheritance.md)
   * [💖 Polymorphism](beginner-1/oop/polymorphism.md)
+  * [🏆 Inheritance & Polymorphism](beginner-1/oop/inh-n-poly.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
