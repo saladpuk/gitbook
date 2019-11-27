@@ -385,6 +385,127 @@ public class Character
 }
 ```
 
+## ตัวอย่างโค้ดทั้งหมด
+
+{% tabs %}
+{% tab title="Hat" %}
+```csharp
+public class Hat
+{
+    public string Description { get; set; }
+    public int EffectOnHP { get; set; }
+    public int EffectOnAttack { get; set; }
+}
+```
+{% endtab %}
+
+{% tab title="Character" %}
+```csharp
+public class Character
+{
+    private int hp;
+    public int HP
+    {
+        get => hp;
+        set
+        {
+            var hpTemp = hp;
+            hp -= value;
+            if (hp <= 0)
+            {
+                hp = 0;
+                Status = "Dead";
+                Dead();
+            }
+            else
+            {
+                hp = hpTemp;
+                Status = "Alive";
+            }
+        }
+    }
+
+    public int Atk { get; protected set; } = 10;
+
+    private int exp;
+    public int Exp
+    {
+        get => exp;
+        set
+        {
+            var expTemp = exp;
+            expTemp += value;
+            if (expTemp >= 100)
+            {
+                exp = 0;
+                Level++;
+            }
+            else
+            {
+                exp = expTemp;
+            }
+        }
+    }
+    public int Level { get; protected set; }
+    public string Status { get; protected set; } = "Alive";
+
+    public Hat headEquipment { get; protected set; }
+
+    public Character()
+    {
+        HP = 100;
+    }
+
+    public void Walk() { }
+    public void Sit() { }
+    public void Attack() { }
+    public void Dead() { }
+    public void EquipHead(Hat gear) { }
+}
+```
+{% endtab %}
+
+{% tab title="Novice" %}
+```csharp
+public class Novice : Character
+{
+    public Novice()
+    {
+        Atk = 3;
+    }
+}
+```
+{% endtab %}
+
+{% tab title="Swordman" %}
+```csharp
+public class Swordman : Character
+{
+    public Swordman()
+    {
+        Atk = 10;
+    }
+
+    public void SuperAttack() { }
+}
+```
+{% endtab %}
+
+{% tab title="Acolyte" %}
+```csharp
+public class Acolyte : Character
+{
+    public Acolyte()
+    {
+        Atk = 5;
+    }
+
+    public void Heal(Character target) { }
+}
+```
+{% endtab %}
+{% endtabs %}
+
 ## 🎯 บทสรุป
 
 น่าจะพอเห็นตัวอย่างการนำหลักของ Object-Oriented Programming ไปใช้ในการเขียนโค้ดกันชัดเจนมากยิ่งขึ้นแล้วนะ ซึ่งถ้าเรามองของต่างๆให้เป็น Component แล้วล่ะก็ เราจะสามารถเพิ่มลดความสามารถต่างๆเข้าไปในโปรแกรมได้ง่ายขึ้น เพราะตัวโค้ดเราแต่ละส่วนมันจะเหมือนกับ **เลโก้** นั่นเอง ซึ่งมันจะช่วยทำให้เราเปลี่ยนชิ้นส่วนที่ไม่ต้องการ หรือ อยากให้มันมีการทำงานแบบอื่นๆก็สามารถทำได้ง่ายๆเลยนั่นเอง
