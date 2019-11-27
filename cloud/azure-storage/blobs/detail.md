@@ -4,11 +4,11 @@
 
 ในตัว Azure Storage นั้นได้มีการเรียกของต่างๆที่เก็บไว้ใน Blob storage ตามรูปด้านล่างนี้
 
-![](../../../.gitbook/assets/image%20%28327%29.png)
+![](../../../.gitbook/assets/image%20%28329%29.png)
 
 ซึ่งในตัวอย่างที่แล้วผมได้อัพโหลดไฟล์ลงใน Blob storage ไป เราก็จะได้ของออกมาเป็นภาพนี้
 
-![](../../../.gitbook/assets/image%20%2896%29.png)
+![](../../../.gitbook/assets/image%20%2897%29.png)
 
 > **อธิบายรูป**  
 > 1.ผมได้สร้าง **Storage account** ขึ้นมา 1 ตัวชื่อ saladpukstorage สีเขียวบนสุด  
