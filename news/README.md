@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 27/11/2016
+
+* อัพเดท [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop) เรื่อง [📝 ลองเขียน OOP ดูดิ๊](https://saladpuk.gitbook.io/learn/beginner-1/oop/example)
+
 ### 26/11/2016
 
 * อัพเดท [👶 Object-Oriented Programming](https://saladpuk.gitbook.io/learn/beginner-1/oop) เรื่อง [🏆 Inheritance & Polymorphism](https://saladpuk.gitbook.io/learn/beginner-1/oop/inh-n-poly)
