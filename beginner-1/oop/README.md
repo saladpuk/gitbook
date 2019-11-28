@@ -90,7 +90,7 @@ description: "\U0001F914 หลักพื้นฐานในการเข�
 
 {% page-ref page="example.md" %}
 
-* บทสรุป
+{% page-ref page="oop-n-design.md" %}
 
 {% hint style="danger" %}
 **คำเตือน**  
