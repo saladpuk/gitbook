@@ -84,5 +84,5 @@ description: "\U0001F914 อยากให้ทีมเก่งขึ้น 
 
 สุดท้ายเพื่อให้การทำโค้ดรีวิวมีประสิทธิภาพสูงสุดนั้น เราควรจะต้องมี Coding Standard เพื่อเป็นแนวทางในการเขียนโค้ดของทุกคนในทีม ซึ่งมันจะทำให้เราทำงานกับโค้ดของคนอื่นได้โดยไม่รู้สึกว่ามันเป็นของน่าขยะแขยงอีกต่อไปนั่นเอง
 
-![https://docs.improbable.io/unity/alpha/contributions/unity-gdk-coding-standards](../../.gitbook/assets/image%20%28589%29.png)
+![https://docs.improbable.io/unity/alpha/contributions/unity-gdk-coding-standards](../../.gitbook/assets/image%20%28590%29.png)
 
