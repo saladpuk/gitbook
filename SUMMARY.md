@@ -62,6 +62,7 @@
   * [🏆 Inheritance & Polymorphism](beginner-1/oop/inh-n-poly.md)
   * [📝 ลองเขียน OOP ดูดิ๊](beginner-1/oop/example.md)
   * [👑 OOP + Power of Design](beginner-1/oop/oop-n-design.md)
+  * [🥰 เทคนิคในการออกแบบ](beginner-1/oop/tips.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
