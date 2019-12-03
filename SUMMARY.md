@@ -2,6 +2,7 @@
 
 * [💖 สลัดผัก](README.md)
 * [📰 มีอะไรใหม่บ้าง](news/README.md)
+  * [2019-11](news/2019-11.md)
   * [2019-10](news/2019-10.md)
   * [2019-09](news/2019-09.md)
   * [2019-08](news/2019-08.md)
@@ -140,6 +141,7 @@
 * [👶 Machine Learning Studio](cloud/machine-learning-studio/README.md)
   * [มาสร้าง AI ของแท้ตัวแรกของเรากัน](cloud/machine-learning-studio/ml101.md)
   * [สร้าง AI ตัดสินใจอนุมัติบัตรเครดิต 💳](cloud/machine-learning-studio/credit-risk.md)
+  * [ลองเรียกใช้ AI ของเรากัน](cloud/machine-learning-studio/call-your-api.md)
 * [👶 Azure Service Fabric](cloud/azure-service-fabric/README.md)
   * [สร้าง Service Fabric กัน](cloud/azure-service-fabric/create.md)
 * [👶 Blockchain](cloud/blockchain/README.md)

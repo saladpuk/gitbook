@@ -52,7 +52,7 @@ dotnet add package Microsoft.Azure.Storage.Blob
 
 \(ใครที่ยังไม่มี Visual Studio Code สามารถดาวโหลดได้จากลิงค์นี้นะ [Download Visual Studio Code](https://code.visualstudio.com/)\)
 
-![](../../../.gitbook/assets/image%20%28170%29.png)
+![](../../../.gitbook/assets/image%20%28175%29.png)
 
 {% hint style="info" %}
 **Visual Studio Code: C\# Extension**  
@@ -118,11 +118,11 @@ private static async Task ProcessAsync()
 
 ตัวโค้ดที่เราจะเขียนนั้น มันจะต้องติดต่อไปที่ Azure Storage เพื่อทำการอัพโหลดของต่างๆเข้าไป ซึ่งการที่จะทำแบบนั้นได้เราจะต้องไปเอาสิทธิ์ในการอ่านเขียนไฟล์มาก่อน ดังนั้นเราก็จะไปเอาสิทธิ์ที่ว่านี้จาก Storage account ของเรา โดยเข้าไปที่  [Azure portal](https://portal.azure.com/) แล้วเปิด Storage account ของเราขึ้นมาแล้วเลือกไปที่เมนู **Access keys**
 
-![](../../../.gitbook/assets/image%20%28213%29.png)
+![](../../../.gitbook/assets/image%20%28220%29.png)
 
 ภายใน Access keys เขาจะมี key ให้เรา 2 ตัว ส่วนเราจะใช้ key ตัวไหนก็ได้ ซึ่งในตัวอย่างผมจะใช้ key1 นะครับ ดังนั้นก็กด Copy Connection string มาเลย
 
-![](../../../.gitbook/assets/image%20%28287%29.png)
+![](../../../.gitbook/assets/image%20%28294%29.png)
 
 คราวนี้เราก็จะเอา connection string ที่ copy มาไปวางใส่ในโค้ดของเรา ในบรรทีดที่ 3 ก็จะได้ประมาณนี้ครับ
 
@@ -187,21 +187,21 @@ All done.
 
 ไฟล์ที่เราอัพโหลดเข้าไปจะอยู่บนคลาว์ดังนั้นเราก็ต้องเข้าไปดูที่ตัว Blob Storage ของเราครับ
 
-![](../../../.gitbook/assets/image%20%28731%29.png)
+![](../../../.gitbook/assets/image%20%28746%29.png)
 
 เราก็จะเจอ Container ใหม่ที่เราสร้างขึ้นมาจากโค้ด ให้ลองกดมันเข้าไปเลย
 
-![](../../../.gitbook/assets/image%20%28163%29.png)
+![](../../../.gitbook/assets/image%20%28168%29.png)
 
 แล้วเราก็จะเจอรูปของเรา ก็ให้กดมันเข้าไปอีกที
 
-![](../../../.gitbook/assets/image%20%28262%29.png)
+![](../../../.gitbook/assets/image%20%28269%29.png)
 
 ถัดมาเราก็กด copy ลิงค์แล้วลองเอาไปเปิดดูใน web browser ดูครับ
 
-![](../../../.gitbook/assets/image%20%28274%29.png)
+![](../../../.gitbook/assets/image%20%28281%29.png)
 
-![](../../../.gitbook/assets/image%20%28128%29.png)
+![](../../../.gitbook/assets/image%20%28131%29.png)
 
 เรียบร้อยแล้วครับ เราสามารถอัพโหลดรูปขึ้นไปบน Azure Storage ได้แล้ว และเรียกดูเหมือนเว็บฝากไฟล์ได้แบ้ว
 
@@ -274,9 +274,9 @@ namespace blob_quickstart
 
 พอเขียนบทความนี้เสร็จปุ๊ป ทาง Microsoft ก็ส่งอีเมล์แจ้งเตือนมาทันทีเลยว่า ตรวจพบ security รั่วเนื่องจากผมเอา secret ของตัว Azure Storage ไปเปิดเผยต่อสาธารณะในบทความนี้ไงล่ะ \(ผมลิงค์บทความเข้ากับ GitHub\) นี่คือข้อดีอีกเรื่องของการที่เราใช้คลาว์ของ Microsoft ครับ ทำให้เราอุ่นใจขึ้นเยอะเลยว่าของหลายๆอย่างเราสามารถป้องกันก่อนที่มันจะร้ายแรงจนแก้ไม่ได้ครับ
 
-![](../../../.gitbook/assets/image%20%28423%29.png)
+![](../../../.gitbook/assets/image%20%28433%29.png)
 
 ซึ่งเขาก็บอกรายละเอียดไว้ครบถ้วนเลย พร้อมวิธีแก้ปัญหา ดังนั้นผมก็เลยต้องไป reset key ทั้ง 2 ออกครับ \(แต่จริงๆผมไม่ต้องทำก็ได้ เพราะ Storage ตัวนี้เดี๋ยวก็ลบทิ้งละเพราะเขียนบทความเสร็จแล้ว\)
 
-![](../../../.gitbook/assets/image%20%28536%29.png)
+![](../../../.gitbook/assets/image%20%28548%29.png)
 
