@@ -54,7 +54,7 @@
   * [💡 Tips](beginner-1/csharp101/tips/README.md)
     * [💡 C\# version 8.0](beginner-1/csharp101/tips/csharp8.md)
     * [💡 Boxing & Unboxing](beginner-1/csharp101/tips/boxing-and-unboxing.md)
-* [👶 OOP](beginner-1/oop/README.md)
+* [👦 OOP](beginner-1/oop/README.md)
   * [💖 Abstraction](beginner-1/oop/abstraction.md)
   * [💖 Encapsulation](beginner-1/oop/encapsulation.md)
   * [🏆 Abstraction & Encapsulation](beginner-1/oop/abs-n-enc.md)
@@ -64,6 +64,7 @@
   * [📝 ลองเขียน OOP ดูดิ๊](beginner-1/oop/example.md)
   * [👑 OOP + Power of Design](beginner-1/oop/oop-n-design.md)
   * [🥰 เทคนิคในการออกแบบ](beginner-1/oop/tips.md)
+* [👦 Design Patterns](beginner-1/design-patterns.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
