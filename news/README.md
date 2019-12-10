@@ -12,7 +12,7 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 11/12/2019
 
-* อัพเดท [👦 Design Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns) เรื่อง 👶 Creational Patterns
+* อัพเดท [👦 Design Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns) เรื่อง [👶 Creational Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational)
 
 ### 10/12/2019
 
