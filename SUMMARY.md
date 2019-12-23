@@ -66,7 +66,10 @@
   * [🥰 เทคนิคในการออกแบบ](beginner-1/oop/tips.md)
 * [👦 Design Patterns](beginner-1/design-patterns/README.md)
   * [🤰 Creational Patterns](beginner-1/design-patterns/creational/README.md)
-    * [🏭 Factory Method Pattern](beginner-1/design-patterns/creational/factory-method-pattern.md)
+    * [🏭 Factory Method](beginner-1/design-patterns/creational/factory-method-pattern.md)
+    * [🏭 Abstract Factory](beginner-1/design-patterns/creational/abstract-factory-pattern.md)
+    * [☝️ Singleton Pattern](beginner-1/design-patterns/creational/singleton-pattern.md)
+    * [🏗️ Builder Pattern](beginner-1/design-patterns/creational/builder-pattern.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
