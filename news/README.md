@@ -10,6 +10,10 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 สำหรับใครที่ไม่อยากพลาดอัพเดทบทความใหม่ๆ สามารถเข้าไปกด Like เพื่อรับข่าวสารใหม่ๆจาก [**Facebook Blog: Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้นะครับ 😍
 {% endhint %}
 
+### 23/12/2019
+
+* อัพเดท [👦 Design Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns) เรื่อง [🏗️ Builder Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/builder-pattern)
+
 ### 16/12/2019
 
 * อัพเดท [👦 Design Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns) เรื่อง [**☝️** Singleton Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/singleton-pattern)
