@@ -6,4 +6,5 @@
 
 * [Unity คือไย?](beginner/unity.md)
 * [ติดตั้ง Unity กัน](beginner/install.md)
+* [ลองสร้างโปรเจคเกมตัวแรกกัน](beginner/create-new-project.md)
 
