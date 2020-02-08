@@ -169,7 +169,7 @@
   * [ลองทำ Continuous Delivery \(CD\)](cloud/azure-devops/cd.md)
   * [เล่น Kanban Board](cloud/azure-devops/kanban-board.md)
 * [🤠 Cloud Playground](cloud/cloud-playground/README.md)
-  * [App Configuration 01](cloud/cloud-playground/app-configurations.md)
+  * [App Configuration 01](cloud/cloud-playground/app-config-01.md)
 
 ## Software Testing
 
