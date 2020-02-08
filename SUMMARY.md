@@ -168,6 +168,8 @@
   * [ลองทำ Continuous Integration \(CI\)](cloud/azure-devops/ci.md)
   * [ลองทำ Continuous Delivery \(CD\)](cloud/azure-devops/cd.md)
   * [เล่น Kanban Board](cloud/azure-devops/kanban-board.md)
+* [🤠 Cloud Playground](cloud/cloud-playground/README.md)
+  * [App Configuration 01](cloud/cloud-playground/app-configurations.md)
 
 ## Software Testing
 

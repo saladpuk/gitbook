@@ -180,7 +180,7 @@ var qry = collection.SkipWhile(it => it < 50);
 
 เราสามารถทำงานกับ data source ที่เป็น 2 กลุ่มให้มาทำงานร่วมกันได้ 3 แบบคือ
 
-![](../../../.gitbook/assets/image%20%28377%29.png)
+![](../../../.gitbook/assets/image%20%28380%29.png)
 
 เช่นเรามีข้อมูลกลุ่ม a กับกลุ่ม b เป็นแบบนี้
 
