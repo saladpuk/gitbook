@@ -170,6 +170,7 @@
   * [เล่น Kanban Board](cloud/azure-devops/kanban-board.md)
 * [🤠 Cloud Playground](cloud/cloud-playground/README.md)
   * [การป้องกันความลับหลุดตอนที่ 1](cloud/cloud-playground/app-config-01.md)
+  * [การป้องกันความลับหลุดตอนที่ 2](cloud/cloud-playground/app-config-02.md)
 
 ## Software Testing
 
