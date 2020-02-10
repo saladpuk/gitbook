@@ -171,6 +171,7 @@
 * [🤠 Cloud Playground](cloud/cloud-playground/README.md)
   * [การป้องกันความลับหลุดตอนที่ 1](cloud/cloud-playground/app-config-01.md)
   * [การป้องกันความลับหลุดตอนที่ 2](cloud/cloud-playground/app-config-02.md)
+  * [การป้องกันความลับหลุดตอนที่ 3](cloud/cloud-playground/app-config-03.md)
 
 ## Software Testing
 
