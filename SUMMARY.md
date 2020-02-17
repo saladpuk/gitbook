@@ -1,6 +1,7 @@
 # Table of contents
 
 * [❤️ เกร็ดความรู้](README.md)
+* [เวลาทำงานเหตุผลมาก่อนเสมอ](gap.md)
 * [บังคับคลีนโค้ดทำไมฟระ ?](clean-code.md)
 * [บังคับทำเทสทำไมฟระ?](y-test-first.md)
 * [Requirement Driven Design](requirement-driven-design.md)
