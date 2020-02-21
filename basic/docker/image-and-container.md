@@ -129,7 +129,7 @@ docker run -p 4000:80 python-img
 
 ต่อมาเราก็จะลองเข้าไปดูเว็บไซต์ของเรา โดยเปิด chrome, IE, firefox, Safari อะไรก็ได้ขึ้นมาซักตัว แล้วพิมพ์ลงไปในช่อง URL ว่า [http://localhost:4000](http://localhost:4000/) \(หรือกดลิงค์นี้เลยก็ได้\) แล้วเราก็จะพบหน้าเว็บของเราประมาณนี้
 
-![](../../.gitbook/assets/image%20%28125%29.png)
+![](../../.gitbook/assets/image%20%28127%29.png)
 
 ถ้าได้ตามนี้แล้วให้กับไปที่ command prompt, powerShell หรือ terminal อะไรก็ตามแต่ แล้วกด `CTRL + C` เพื่อกลับมาหน้าจอปรกติซะ
 
