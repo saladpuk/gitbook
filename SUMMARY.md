@@ -104,6 +104,7 @@
   * [Microservices ที่ดีมีลักษณะยังไง](basic/microservices/microservices.md)
   * [Microservices Tips](basic/microservices/tips.md)
   * [จาก Monolith สู่ Microservices](basic/microservices/monolith-services.md)
+* [👶 ความรู้พื้นฐานในการทำเว็บ](basic/web-101.md)
 * [👦 Bottlenecks of Software](basic/bottlenecks/README.md)
   * [พื้นฐานที่สำคัญที่สุดของฐานข้อมูล](basic/bottlenecks/work-with-db.md)
 * [👦 Agile Methodology](basic/agile-methodology/README.md)
