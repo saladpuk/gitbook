@@ -137,6 +137,7 @@
   * [Guideline for Cloud scaling](cloud/azure101/guideline-for-cloud-scaling.md)
   * [Auto Scaling](cloud/azure101/auto-scaling.md)
 * [👶 Azure App Services](cloud/azure-app-services.md)
+* [👶 App Service Plan](cloud/app-service-plan.md)
 * [👶 Azure Storage](cloud/azure-storage/README.md)
   * [Blob storage](cloud/azure-storage/blobs/README.md)
     * [ลองสร้างที่เก็บไฟล์กันเลย](cloud/azure-storage/blobs/create.md)
