@@ -4,7 +4,7 @@
 
 > Let _Φ\(x\)_ be a property provable about objects _x_ of type _T_. Then _Φ\(y\)\_should be true for objects \_y_ of type _S_ where _S_ is a subtype of _T_.
 
-นี่มันสูตรสมการณ์อะไรกันฟร๊าเนี่ย \(เป็นนิยามของคนเสนอเรื่องนี้จริงๆในปี 1998 เลยนะจากแม่ใหญ่ **Barbara Liskov**\) มันเลยมีนิยามอีกตัวที่ทำให้เข้าใจง่ายขึ้นออกมาว่า
+นี่มันสูตรสมการอะไรกันฟร๊าเนี่ย \(เป็นนิยามของคนเสนอเรื่องนี้จริงๆในปี 1998 เลยนะจากแม่ใหญ่ **Barbara Liskov**\) มันเลยมีนิยามอีกตัวที่ทำให้เข้าใจง่ายขึ้นออกมาว่า
 
 > Subtypes **must** be substitutable for their base types.
 
