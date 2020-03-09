@@ -6,7 +6,7 @@
 
 > **Inheritance** is the mechanism of basing an [object](https://en.wikipedia.org/wiki/Object_%28computer_science%29) or [class](https://en.wikipedia.org/wiki/Class_%28computer_programming%29) upon another object \([prototype-based inheritance](https://en.wikipedia.org/wiki/Prototype-based_programming)\) or class \([class-based inheritance](https://en.wikipedia.org/wiki/Class-based_programming)\), retaining similar implementation. Also defined as deriving new classes \([sub classes](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#Subclasses_and_superclasses)\) from existing ones \(super class or [base class](https://en.wikipedia.org/wiki/Fragile_base_class)\) and forming them into a hierarchy of classes. In most class-based object-oriented languages, an object created through inheritance \(a "child object"\) acquires all the properties and behaviors of the parent object \(except: [constructors](https://en.wikipedia.org/wiki/Constructor_%28object-oriented_programming%29), destructor, [overloaded operators](https://en.wikipedia.org/wiki/Operator_overloading) and [friend functions](https://en.wikipedia.org/wiki/Friend_function) of the base class\). Inheritance allows programmers to create classes that are built upon existing classes,[\[1\]](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#cite_note-1) to specify a new implementation while maintaining the same behaviors \([realizing an interface](https://en.wikipedia.org/wiki/Class_diagram#Realization/Implementation)\), to [reuse code](https://en.wikipedia.org/wiki/Code_reuse) and to independently extend original software via public classes and interfaces. The relationships of objects or classes through inheritance give rise to a [directed graph](https://en.wikipedia.org/wiki/Directed_graph). Inheritance was invented in 1969 for [Simula](https://en.wikipedia.org/wiki/Simula).[\[2\]](https://en.wikipedia.org/wiki/Inheritance_%28object-oriented_programming%29#cite_note-2)
 
- 😑 แค่อ่านก็ปวดกบาลละ แต่ก็ถอดหัวใจสำคัญของมันออกมาได้ว่า
+😑 แค่อ่านก็ปวดกบาลละ แต่ก็ถอดหัวใจสำคัญของมันออกมาได้ว่า
 
 > **Inheritance** คือการ**สืบทอดคุณสมบัติ** จาก Model A ไปยัง Model อื่นๆได้ ซึ่งมันจะช่วยให้เราเพิ่มความสามารถใหม่ๆเข้าไปได้โดยที่ไม่ต้องไปยุ่งกับโค้ดเก่าที่เคยเขียนไว้
 
@@ -69,7 +69,7 @@ public class BankAccount
 }
 ```
 
-แล้วทำการ**ย้ายของที่มันซ้ำกัน**จาก _บัญชีออมทรัพย์_ กับ ****_บัญชีกระแสรายวัน_ มาไว้ในตัวต้นแบบซะ
+แล้วทำการ**ย้ายของที่มันซ้ำกัน**จาก _บัญชีออมทรัพย์_ กับ _\*\*บัญชีกระแสรายวัน_ มาไว้ในตัวต้นแบบซะ
 
 ```csharp
 public class BankAccount
@@ -115,7 +115,7 @@ Console.WriteLine($"{ca.OwnerName}, has THB {ca.Balance}.");
 ```
 
 > **Output**  
-> \(Saving\) Saladpuk, has THB 500.   
+> \(Saving\) Saladpuk, has THB 500.  
 > \(Current\) Saladpuk, has THB 700.
 
 ## 😵 Inheritance คือไรกันแน่ ?
@@ -136,7 +136,7 @@ Console.WriteLine($"{ca.OwnerName}, has THB {ca.Balance}.");
 
 ### Sub class \(คลาสลูก\)
 
-ส่วนคลาสที่ไปสืบทอดความสามารถจากคนอื่นเราเรียกมันว่า **Sub Class** \(บางตำราเรียกว่า Derived class,  Child class บลาๆ\) ซึ่งในตัวอย่างนี้คลาส **SavingAccount** และ **CurrentAccount** เป็น sub class ของ **BankAccount** นั่นเอง
+ส่วนคลาสที่ไปสืบทอดความสามารถจากคนอื่นเราเรียกมันว่า **Sub Class** \(บางตำราเรียกว่า Derived class, Child class บลาๆ\) ซึ่งในตัวอย่างนี้คลาส **SavingAccount** และ **CurrentAccount** เป็น sub class ของ **BankAccount** นั่นเอง
 
 ### Generalization
 
@@ -167,7 +167,7 @@ sa.Deposit(500);
 public class BankAccount
 {
     ...
-    
+
     public double Balance
     {
         get => balance;
@@ -186,7 +186,7 @@ public class BankAccount
 
 > คำสั่ง virtual เป็นคำสั่งพิเศษของภาษา C\# เพื่อที่จะให้ Sub class สามารถไปแก้ไขการทำงานของเมธอตนั้นๆได้ และผมได้แก้ให้ตัวแปร Balance สามารถเข้าไปแก้ไขผ่าน Sub class ได้เท่านั้น
 
-เพียงเท่านี้เราก็จะสามารถถอนเงินได้ละ ส่วน บัญชีกระแสรายวัน เราก็ไปเขียนเพิ่มให้มันสามารถถอนเงินได้เกินเงินที่มี  อยู่ในบัญชี ซึ่งสมมุติว่าวงเงินกู้ได้ไม่เกิน 1,000 ละกัน ดังนั้นเราก็จะได้โค้ดออกมาตามนี้
+เพียงเท่านี้เราก็จะสามารถถอนเงินได้ละ ส่วน บัญชีกระแสรายวัน เราก็ไปเขียนเพิ่มให้มันสามารถถอนเงินได้เกินเงินที่มี อยู่ในบัญชี ซึ่งสมมุติว่าวงเงินกู้ได้ไม่เกิน 1,000 ละกัน ดังนั้นเราก็จะได้โค้ดออกมาตามนี้
 
 ```csharp
 public class CurrentAccount : BankAccount
@@ -238,7 +238,7 @@ public class BankAccount
 
     private bool isClosed;
     public bool IsClosed { get => isClosed; }
-    
+
     public void CloseAccount()
     {
         isClosed = true;
@@ -264,13 +264,13 @@ Class พวกนั้นมันเป็นประเภทเดีย�
 
 ในการทำ Inheritance มันจะมีลำดับชั้นความสัมพันธ์กันว่าใครเป็น **คลาสแม่ คลาสลูก** กันเสมอ ซึ่งจากโค้ดตัวอย่างด้านบนทั้งหมดก็สามารถเอามาเขียนเป็นแผนภาพ UML ง่ายๆได้ประมาณนี้
 
-![](../../.gitbook/assets/image%20%28952%29.png)
+![](../../.gitbook/assets/image-952.png)
 
 โดยเราจะเห็นว่า BankAccount เป็นคลาสแม่ ซึ่งมีลูก 2 ตัวคือ SavingAccount และ CurrentAccount
 
 แต่มันยังไม่จบเพียงเท่านี้เพราะทุกคลาสจริงๆมันจะสืบสอดมาจากคลาสที่ชื่อว่า Object อีกที ดังนั้นแผนภาพที่แท้จริงคือ
 
-![](../../.gitbook/assets/image%20%28700%29.png)
+![](../../.gitbook/assets/image%20%28716%29.png)
 
 ซึ่งจากรูปนี้คลาส BankAccount ก็เป็นคลาสลูกของคลาส Object อีกต่อหนึ่งนั่งเอง เลยทำให้มันมีความสามารถต่างๆของคลาสแม่ติดมาด้วยเสมอยังไงล่ะ เช่น เราใช้คำสั่ง **`.ToString()`** ได้เลยนั่นเอง
 
@@ -280,7 +280,7 @@ static void Main(string[] args)
     var acc = new BankAccount();
     acc.OwnerName = "Saladpuk";
     acc.Deposit(500);
-    
+
     var result = acc.ToString();
     Console.WriteLine(result);
 }
@@ -305,13 +305,13 @@ static void Main(string[] args)
 
 ### ทฤษฎี
 
-{% embed url="https://www.youtube.com/watch?v=ewhjQ6GaKFY&feature=emb\_title" %}
+{% embed url="https://www.youtube.com/watch?v=ewhjQ6GaKFY&feature=emb\_title" caption="" %}
 
 ### ตัวอย่างการใช้งาน
 
-{% embed url="https://www.youtube.com/watch?v=hXpZ00f6cFI&feature=emb\_title" %}
+{% embed url="https://www.youtube.com/watch?v=hXpZ00f6cFI&feature=emb\_title" caption="" %}
 
-##  ตัวอย่างโค้ดทั้งหมด
+## ตัวอย่างโค้ดทั้งหมด
 
 {% tabs %}
 {% tab title="BankAccount" %}
@@ -366,7 +366,7 @@ public class SavingAccount : BankAccount
 public class CurrentAccount : BankAccount
 {
     private double credit = 1000;
-    
+
     public override void Withdraw(double amount)
     {
         if (amount <= Balance + credit)

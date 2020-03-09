@@ -30,51 +30,55 @@ description: สร้าง Cognitive Services และ โครงของ�
 
 3.ถัดมาก็ใส่รายละเอียดของ Cognitive Services ให้เรียบร้อยซะ แล้วก็กดปุ่ม **`Create`** ได้เลย
 
+| ชื่อ | รายละเอียด |
+| :--- | :--- |
+
+
+| **Name** | ชื่อ Cognitive Services ที่จะสร้าง |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D;</th>
-      <th style="text-align:left">&#xE23;&#xE32;&#xE22;&#xE25;&#xE30;&#xE40;&#xE2D;&#xE35;&#xE22;&#xE14;</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>Name</b>
-      </td>
-      <td style="text-align:left">&#xE0A;&#xE37;&#xE48;&#xE2D; Cognitive Services &#xE17;&#xE35;&#xE48;&#xE08;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Location</b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b>Location</b>
+      </th>
+      <th style="text-align:left">
         <p>&#xE15;&#xE31;&#xE27; service &#xE19;&#xE35;&#xE49;&#xE08;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07;&#xE44;&#xE27;&#xE49;&#xE20;&#xE39;&#xE21;&#xE34;&#xE20;&#xE32;&#xE04;&#xE44;&#xE2B;&#xE19;</p>
         <p>&#xE43;&#xE19;&#xE15;&#xE31;&#xE27;&#xE2D;&#xE22;&#xE48;&#xE32;&#xE07;&#xE1C;&#xE21;&#xE40;&#xE25;&#xE48;&#xE19;&#xE43;&#xE19;&#xE44;&#xE17;&#xE22;&#xE01;&#xE47;&#xE40;&#xE25;&#xE37;&#xE2D;&#xE01;&#xE40;&#xE1B;&#xE47;&#xE19;
           Southeast Asia</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b>Pricing tier</b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b>Pricing tier</b>
+      </th>
+      <th style="text-align:left">
         <p>&#xE08;&#xE30;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE02;&#xE32;&#xE40;&#xE01;&#xE47;&#xE1A;&#xE40;&#xE07;&#xE34;&#xE19;&#xE40;&#xE23;&#xE32;&#xE41;&#xE1A;&#xE1A;&#xE44;&#xE2B;&#xE19;
           &#xE43;&#xE19;&#xE15;&#xE2D;&#xE19;&#xE19;&#xE35;&#xE49;&#xE22;&#xE31;&#xE07;&#xE44;&#xE21;&#xE48;&#xE21;&#xE35;&#xE15;&#xE31;&#xE27;&#xE1F;&#xE23;&#xE35;&#xE43;&#xE2B;&#xE49;&#xE40;&#xE25;&#xE48;&#xE19;</p>
         <p>&#xE41;&#xE15;&#xE48;&#xE16;&#xE49;&#xE32;&#xE40;&#xE23;&#xE32;&#xE25;&#xE2D;&#xE07;&#xE40;&#xE2A;&#xE23;&#xE47;&#xE08;&#xE41;&#xE25;&#xE49;&#xE27;&#xE25;&#xE1A;&#xE40;&#xE25;&#xE22;&#xE2A;&#xE34;&#xE49;&#xE19;&#xE40;&#xE14;&#xE37;&#xE2D;&#xE19;&#xE01;&#xE47;&#xE08;&#xE48;&#xE32;&#xE22;&#xE44;&#xE21;&#xE48;&#xE16;&#xE36;&#xE07;
           1 &#xE1A;&#xE32;&#xE17;&#xE04;&#xE23;&#xE31;&#xE1A;</p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b>Resource group</b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b>Resource group</b>
+      </th>
+      <th style="text-align:left">
         <p>&#xE08;&#xE30;&#xE2A;&#xE23;&#xE49;&#xE32;&#xE07; service &#xE19;&#xE35;&#xE49;&#xE44;&#xE27;&#xE49;&#xE43;&#xE19;
           Resource Group &#xE44;&#xE2B;&#xE19;</p>
         <p>&#xE16;&#xE49;&#xE32;&#xE22;&#xE31;&#xE07;&#xE44;&#xE21;&#xE48;&#xE21;&#xE35;&#xE43;&#xE2B;&#xE49;&#xE01;&#xE14;&#xE1B;&#xE38;&#xE48;&#xE21; <b><code>Create new</code></b> &#xE40;&#xE25;&#xE22;&#xE01;&#xE47;&#xE44;&#xE14;&#xE49;&#xE04;&#xE23;&#xE31;&#xE1A;</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
-</table>![](../../.gitbook/assets/image%20%28178%29.png)
-
-3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Cognitive Services จนเสร็จ
+  </thead>
+  <tbody></tbody>
+</table>3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Cognitive Services จนเสร็จ
 
 ![](../../.gitbook/assets/deploying.png)
 
@@ -88,7 +92,7 @@ description: สร้าง Cognitive Services และ โครงของ�
 
 2.พอเข้ามาใน Resource group แล้วถัดไปเราก็จะเห็น **`Cognitive Services`** ที่เราสร้างไว้ ให้จิ้มมันอย่างอ่อนโยน
 
-![](../../.gitbook/assets/image%20%28922%29.png)
+![](../../.gitbook/assets/image%20%28940%29.png)
 
 3.พอเข้ามาเราก็จะเห็น **`Key`** กับ **`Endpoint`** ที่เราตามหาเลย แล้วทำการกด **copy ทั้ง 2 ตัวไปเก็บไว้เลย**ครับ เพราะในตัวอย่างถัดๆไปเราจะใช้ 2 ตัวนี้บ่อยมาก
 
@@ -190,32 +194,31 @@ using RestSharp;
 
 namespace saladpuk_demo
 {
-	class Program
-	{
-		static string Endpoint = "ENTER_YOUR_ENDPOINT_HERE";
-		static string SubscriptionKey = "ENTER_YOUR_SUBSCRIPTION_KEY_HERE";
+    class Program
+    {
+        static string Endpoint = "ENTER_YOUR_ENDPOINT_HERE";
+        static string SubscriptionKey = "ENTER_YOUR_SUBSCRIPTION_KEY_HERE";
 
-		static void Main(string[] args)
-		{
-			var client = new RestClient(Endpoint);
+        static void Main(string[] args)
+        {
+            var client = new RestClient(Endpoint);
 
-			// โค้ดในตัวอย่างอื่นๆจะเอามาเขียนต่อใส่ตรงนี้
-		}
+            // โค้ดในตัวอย่างอื่นๆจะเอามาเขียนต่อใส่ตรงนี้
+        }
 
-		static RestRequest CreateRestRequest(string resource, object requestBody)
-		{
-			var request = new RestRequest(resource);
-			request.AddHeader("content-type", "application/json");
-			request.AddHeader("ocp-apim-subscription-key", SubscriptionKey);
-			if (requestBody != null)
-			{
-				request.AddJsonBody(requestBody);
-			}
-			return request;
-		}
-	}
+        static RestRequest CreateRestRequest(string resource, object requestBody)
+        {
+            var request = new RestRequest(resource);
+            request.AddHeader("content-type", "application/json");
+            request.AddHeader("ocp-apim-subscription-key", SubscriptionKey);
+            if (requestBody != null)
+            {
+                request.AddJsonBody(requestBody);
+            }
+            return request;
+        }
+    }
 }
-
 ```
 {% endcode %}
 

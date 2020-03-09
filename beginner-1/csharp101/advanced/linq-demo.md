@@ -169,7 +169,7 @@ var qry = collection.SkipLast(4);
 // ผลลัพท์: { 1, 2, 3 ... 96 }
 ```
 
-**SkipWhile** - เป็นการสั่งให้มันข้ามข้อมูลไปเรื่อยๆ ถ้าเงื่อนไขยังเป็นจริงอยู่ และจะหยุดข้ามเมื่อเจอข้อมูลตัวแรกที่ไม่ตรงเงื่อนไข  เช่น อยากจะข้ามไปเรื่อยๆจนกว่าจะเจอตัวแรกที่มากกว่า 50
+**SkipWhile** - เป็นการสั่งให้มันข้ามข้อมูลไปเรื่อยๆ ถ้าเงื่อนไขยังเป็นจริงอยู่ และจะหยุดข้ามเมื่อเจอข้อมูลตัวแรกที่ไม่ตรงเงื่อนไข เช่น อยากจะข้ามไปเรื่อยๆจนกว่าจะเจอตัวแรกที่มากกว่า 50
 
 ```csharp
 var qry = collection.SkipWhile(it => it < 50);
@@ -180,7 +180,7 @@ var qry = collection.SkipWhile(it => it < 50);
 
 เราสามารถทำงานกับ data source ที่เป็น 2 กลุ่มให้มาทำงานร่วมกันได้ 3 แบบคือ
 
-![](../../../.gitbook/assets/image%20%28415%29.png)
+![](../../../.gitbook/assets/image%20%28427%29.png)
 
 เช่นเรามีข้อมูลกลุ่ม a กับกลุ่ม b เป็นแบบนี้
 
@@ -263,7 +263,7 @@ var collection = new[]
 var ascending = collection
                 .OrderBy(it => it.Score)
                 .ThenBy(it => it.Name);
-                
+
 // มากไปน้อย และ ตามลำดับตัวอักษร
 var descending = collection
                 .OrderByDescending(it => it)
@@ -334,7 +334,7 @@ var qry = Enumerable.Range(1, 100);
 // ผลลัพท์: { 1, 2, 3 ... 100 }
 ```
 
-**Empty** - สร้าง collection ว่างออกมา เช่น เราอยากได้ collection ของตัวเลข แต่ไม่ต้องมีข้อมูลอะไรอยู่ข้างในนะ 
+**Empty** - สร้าง collection ว่างออกมา เช่น เราอยากได้ collection ของตัวเลข แต่ไม่ต้องมีข้อมูลอะไรอยู่ข้างในนะ
 
 ```csharp
 var qry = Enumerable.Empty<int>();
@@ -370,7 +370,7 @@ var collection = new[] { 1, 2, 3, 4, 5 };
 var qry = collection.AsEnumerable();
 ```
 
-**AsQueryable** - แปลงให้คำสั่งทั้งหมดยังเป็นแค่ Query เท่านั้น ซึ่งใช้ได้ดีตอนที่ทำงานร่วมกับ database เพราะเราจะได้ส่งแต่คำสั่งไปประมวลผลที่ database เท่านั้นไม่ได้ส่งข้อมูลปริมาณมหาศาลกลับมาถล่มที่ client 
+**AsQueryable** - แปลงให้คำสั่งทั้งหมดยังเป็นแค่ Query เท่านั้น ซึ่งใช้ได้ดีตอนที่ทำงานร่วมกับ database เพราะเราจะได้ส่งแต่คำสั่งไปประมวลผลที่ database เท่านั้นไม่ได้ส่งข้อมูลปริมาณมหาศาลกลับมาถล่มที่ client
 
 ```csharp
 var qry = collection.AsQueryable();
@@ -530,7 +530,7 @@ var result = collection.Aggregate((a, b) => a * b);
 
 ## บทสรุป Deferred vs Imperative
 
-จากคำสั่งทั้งหมดที่เขียนมาเป็นตัวอย่าง สุดท้ายการทำงานของมันก็จะตกมาอยู่ในกลุ่ม 3 กลุ่มนั่นเองคือ 
+จากคำสั่งทั้งหมดที่เขียนมาเป็นตัวอย่าง สุดท้ายการทำงานของมันก็จะตกมาอยู่ในกลุ่ม 3 กลุ่มนั่นเองคือ
 
 * ทำงานโดยทันที **Immediate**
 * ไม่ทำงานจนกว่าจะเรียกใช้ **Deferred**
@@ -589,6 +589,4 @@ var result = collection.Aggregate((a, b) => a * b);
 | [ToLookup](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.tolookup) | [ILookup&lt;TKey,TElement&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.linq.ilookup-2) | X |  |  |
 | [Union](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.union) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
 | [Where](https://docs.microsoft.com/en-us/dotnet/api/system.linq.enumerable.where) | [IEnumerable&lt;T&gt;](https://docs.microsoft.com/en-us/dotnet/api/system.collections.generic.ienumerable-1) |  | X |  |
-
-
 

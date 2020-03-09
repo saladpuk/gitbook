@@ -4,7 +4,7 @@ description: ลองส่งรูปให้ AI สาธยายดูด
 
 # เขียนแอพให้ AI อธิบายรูปเป็นภาษาคน
 
-![](../../.gitbook/assets/image%20%28871%29.png)
+![](../../.gitbook/assets/image%20%28889%29.png)
 
 ในรอบนี้เราจะลองเขียนโค้ดส่งรูปให้ AI แล้วให้มันบอกเราเป็นภาษาคนดูซิว่ามันเห็นอะไรในรูปบ้าง? ซึ่งการที่จะทำแบบนี้ได้ผมจะใช้ AI สำเร็จรูปของ **Microsoft Azure** ที่ชื่อว่า **Cognitive Services** ครับ
 
@@ -76,7 +76,7 @@ Url ของรูป
 
 {% endapi-method-response-example-description %}
 
-```
+```text
 {
   "categories": [
     {
