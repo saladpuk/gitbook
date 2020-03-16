@@ -38,7 +38,7 @@ dotnet new api -n saladpuk-demo
 
 เพียงเท่านี้เราก็จะได้โปรเจคพื้นฐานมาเรียบร้อยละ
 
-![](../../.gitbook/assets/image%20%28883%29.png)
+![](../../.gitbook/assets/image%20%28885%29.png)
 
 ตัวเว็บที่เราได้มาในโฟเดอร์ `Controllers` จะมีไฟล์ **`WeatherForecastController`** ที่เขาใส่ไว้เป็นพื้นฐาน เพื่อจำลองการพยากรณ์อากาศเอาไว้ ดังนั้นเราก็จะลองใช้คำสั่งด้านล่าง เพื่อทำการเปิดเว็บตัวนี้ขึ้นมา
 
@@ -48,7 +48,7 @@ dotnet run
 
 แล้วก็เข้าไปดูเว็บของเราด้วย URL ตัวนี้ [https://localhost:5001/WeatherForecast](https://localhost:5001/WeatherForecast) ซึ่งมันก็จะโชว์ข้อมูลจำลอง Json ออกมาประมาณนี้
 
-![](../../.gitbook/assets/image%20%28252%29.png)
+![](../../.gitbook/assets/image%20%28253%29.png)
 
 ก็เป็นอันจบว่าเรามีตัวเว็บที่พร้อมเอาไว้เล่นกันต่อละ
 
@@ -136,7 +136,7 @@ public string Secret()
 
 คราวนี้เราลองเรียกตัว api ตัวใหม่นี้ดู โดยการเปิด URL ตัวนี้ [https://localhost:5001/WeatherForecast/secret](https://localhost:5001/WeatherForecast/secret) เราก็จะพบว่าตัว api ของเรานั้นมันจะเอาค่าที่อยู่ใน **appsettings.json** มาแสดงให้เราเรียบร้อยแล้ว ตามรูปด้านล่าง
 
-![](../../.gitbook/assets/image%20%28783%29.png)
+![](../../.gitbook/assets/image%20%28785%29.png)
 
 {% hint style="success" %}
 **ข้อดีในการทำแบบนี้**  
@@ -152,7 +152,7 @@ public string Secret()
 
 ถัดมาเราก็จะลองทำให้ความลับของเราไม่อยู่ติดไปกับ source code ของเรากันดีกว่า ซึ่งโดยปรกติตัวเครื่องคอมของเรามันจะมีสิ่งที่เรียกว่า **`Environment Variables`** อยู่ ซึ่งเราสามารถหามันได้จากการกดปุ่ม Windows แล้วหาคำว่า Environment Variables ตามรูปด้านล่างนั่นเอง
 
-![](../../.gitbook/assets/image%20%28683%29.png)
+![](../../.gitbook/assets/image%20%28685%29.png)
 
 ซึ่งเมื่อเปิดขึ้นมาแล้ว เราก็จะเข้าไปกำหนดค่า **Environment Variables** \(อันเดียวกับที่เรากำหนด path ให้ java ยังไงล่ะ\)
 
@@ -160,19 +160,19 @@ public string Secret()
 
 ถัดมาเราก็จะทำการสร้าง Environment Variable ของเราขึ้นมาใหม่ โดยการกดที่ปุ่ม **`New...`** นั่นเอง \(ในตัวอย่างผมสร้างไว้สำหรับ user ผมคนเดียวก็เลยเอาไว้ตรงนี้\)
 
-![](../../.gitbook/assets/image%20%28946%29.png)
+![](../../.gitbook/assets/image%20%28948%29.png)
 
 ถัดไปก็ทำการตั้งชื่อ variable ของเราได้เลย ซึ่งในตัวอย่างผมจะตั้งชื่อให้ตรงกับใน appsettings.json ละกัน จะได้ใช้เป็นตัวอย่างถัดๆไปต่อ ส่วนค่าที่จะใส่ตรงนี้ก็คือตัว database connection ตัวจริงที่เราจะทำการต่อไปนั่นเอง ตามรูปด้านล่าง แล้วก็กด `OK` เบย
 
-![](../../.gitbook/assets/image%20%28345%29.png)
+![](../../.gitbook/assets/image%20%28346%29.png)
 
 เพียงเท่านี้เราก็สามารถเก็บความลับของเราเอาไว้ที่เครื่องได้เรียบร้อยแล้ว ก็กดปุ่ม `OK` อีกครั้งก็เป็นอันเสร็จสิ้นพิธี
 
-![](../../.gitbook/assets/image%20%28768%29.png)
+![](../../.gitbook/assets/image%20%28770%29.png)
 
 สุดท้ายเราก็จะลองเรียกตัว api ตัวเดิมดูว่ามันจะอ่านค่าอะไรกลับมาให้เรา ซึ่งเมื่อเราเรียก URL [https://localhost:5001/WeatherForecast/secret](https://localhost:5001/WeatherForecast/secret) ไปเรียบร้อยเราก็จะได้ตามรูปด้านล่าง
 
-![](../../.gitbook/assets/image%20%28645%29.png)
+![](../../.gitbook/assets/image%20%28647%29.png)
 
 {% hint style="warning" %}
 **หมายเหตุ**  

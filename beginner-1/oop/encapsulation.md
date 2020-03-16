@@ -136,7 +136,7 @@ static void Main(string[] args)
 
 ซึ่งคำว่า Encapsulation มันหมายถึง **การเอาเข้าแคปซูล** ตามรูปเลย
 
-![https://www.scientecheasy.com/2018/06/encapsulation-in-java-real-time-examples-advantages.html](../../.gitbook/assets/image%20%28238%29.png)
+![https://www.scientecheasy.com/2018/06/encapsulation-in-java-real-time-examples-advantages.html](../../.gitbook/assets/image%20%28239%29.png)
 
 โดยความหมายของมันจริงๆก็คือ
 

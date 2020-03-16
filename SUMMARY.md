@@ -70,6 +70,7 @@
   * [👑 OOP + Power of Design](beginner-1/oop/oop-n-design.md)
   * [🥰 เทคนิคในการออกแบบ](beginner-1/oop/tips.md)
 * [👶 บทสรุปฐานข้อมูล](beginner-1/database-design/README.md)
+  * [เก็บรูปในฐานข้อมูล](beginner-1/database-design/undefined.md)
   * [Database indexing](beginner-1/database-design/database-indexing.md)
 * [👦 Design Patterns](beginner-1/design-patterns/README.md)
   * [🤰 Creational Patterns](beginner-1/design-patterns/creational/README.md)

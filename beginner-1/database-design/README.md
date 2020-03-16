@@ -120,11 +120,12 @@ Database ในโลกปัจจุบันนั้นมีทั้ง�
   * Delete record
   * Bottlenecks
   * Paging
-  * How to handle images
   * Calculation value
   * Lean computations
 * ~~Design Document database \(MongoDB\)~~ **เดี๋ยวเปิดสอนการทำ MongoDb เป็นอีกคอร์สเลยละกัน**
 * คิดไรได้เดี๋ยวเอามาใส่ต่อ
+
+{% page-ref page="undefined.md" %}
 
 {% page-ref page="database-indexing.md" %}
 

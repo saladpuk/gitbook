@@ -168,11 +168,11 @@ namespace saladpuk_faceauth
 
 ในโค้ดด้านบน เราจะต้องไปเอา **SubscriptionKey** และ **Endpoint** มาใส่ให้มัน เพื่อที่มันจะได้ต่อไปยัง Face API ได้นั่นเอง ซึ่งเจ้าเราต้องกลับไปที่ Cognitive Service แล้วเลือกเมนู **`Keys`** เพื่อ copy ค่า SubscriptionKey มาครับ
 
-![](../../.gitbook/assets/image%20%28788%29.png)
+![](../../.gitbook/assets/image%20%28790%29.png)
 
 ส่วนค่า Endpoint เราสามารถเอาได้จากเมนู **`Overview`** ครับตามรูปเลย
 
-![](../../.gitbook/assets/image%20%28705%29.png)
+![](../../.gitbook/assets/image%20%28707%29.png)
 
 หลังจากที่เอา `SubscriptionKey` และ `Endpoint` ไปใส่ในโค้ดแล้ว ถัดไปเราก็จะเพิ่มโค้ดอีกนิสนุง เพื่อสร้าง **PersonGroup** นั่นเอง ตามโค้ดด้านล่างเบย
 
