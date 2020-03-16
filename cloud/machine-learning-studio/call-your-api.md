@@ -30,7 +30,7 @@ description: "\U0001F611 สร้าง AI ของแท้เป็น Web S
 
 หลังจากนั้นในช่องค้นหาให้พิมพ์ลงไปว่า **Rest Client** แล้วทำการกดที่ปุ่ม **Install** เพื่อทำการติดตั้ง extension ตัวนี้ได้เลย
 
-![](../../.gitbook/assets/image%20%28957%29.png)
+![](../../.gitbook/assets/image%20%28958%29.png)
 
 {% hint style="info" %}
 **Rest Client**  
