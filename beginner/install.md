@@ -18,7 +18,7 @@ description: อยากเขียนเกมส์ด้วย Unity ต้
 
 เมื่อกดเข้ามาแล้วให้เลือกเป็น **Individual** แล้วกดปุ่ม **Get started** เรย
 
-![](../.gitbook/assets/image%20%28720%29.png)
+![](../.gitbook/assets/image%20%28722%29.png)
 
 > **อธิบายเพิ่มเติม**  
 > เราสามารถใช้ Unity สร้างเกมส์ได้ฟรีนะ แต่ถ้าเกมส์เราสามารถทำเงินได้เกิน $100 USD ภายใน 1 ปี เขาจะเริ่มขอให้เราจ่ายเงินค่าใช้โปรแกรมเขานะครับ Unity
@@ -29,7 +29,7 @@ description: อยากเขียนเกมส์ด้วย Unity ต้
 
 สุดท้ายก็กด **Agree and download** ได้เลยครับ ซึ่งหลังจากดาวโหลดมาเสร็จแล้วก็ติดตั้งให้เรียบร้อยเลยนะ โดยการกด Next เรื่อยๆตามที่เราถนัด
 
-![](../.gitbook/assets/image%20%28158%29.png)
+![](../.gitbook/assets/image%20%28159%29.png)
 
 เป็นอันเรียบร้อยแล้วสำหรับโปรแกรม Unity ที่เราจะต้องติดตั้ง
 
@@ -53,7 +53,7 @@ description: อยากเขียนเกมส์ด้วย Unity ต้
 
 ในตัวเว็บให้ดาวโหลดตัว Visual Studio Community ได้เลยจ๊า
 
-![](../.gitbook/assets/image%20%28449%29.png)
+![](../.gitbook/assets/image%20%28451%29.png)
 
 เมื่อดาวโหลดมาติดตั้งเสร็จ เขาจะถามว่าเราอยากจะใช้ Visual Studio Community เพื่อใช้ทำอะไร ซึ่งในจุดนี้ให้กดเลือกเป็น **Game development with Unity** แล้วที่ด้านล่างขวาให้กด **Install** หรือ Modify ตามรูปด้านล่างได้เลย
 
@@ -65,5 +65,5 @@ description: อยากเขียนเกมส์ด้วย Unity ต้
 
 ถ้าเราอยากจะใช้ Unity เราจะต้องติดตั้งโปรแกรม 2 ตัวคือ Unity กับ Visual Studio Community นะครับ
 
-![](../.gitbook/assets/image%20%28181%29.png)
+![](../.gitbook/assets/image%20%28182%29.png)
 
