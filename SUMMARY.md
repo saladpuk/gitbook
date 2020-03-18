@@ -72,7 +72,7 @@
 * [👶 บทสรุปฐานข้อมูล](beginner-1/database-design/README.md)
   * [เก็บรูปในฐานข้อมูล](beginner-1/database-design/img-handling.md)
   * [Database indexing](beginner-1/database-design/database-indexing.md)
-  * [Delete records](beginner-1/database-design/delete-records.md)
+  * [การลบข้อมูล](beginner-1/database-design/delete-records.md)
 * [👦 Design Patterns](beginner-1/design-patterns/README.md)
   * [🤰 Creational Patterns](beginner-1/design-patterns/creational/README.md)
     * [🏭 Factory Method](beginner-1/design-patterns/creational/factory-method-pattern.md)
