@@ -35,6 +35,13 @@ description: บทความเริ่มเยอะละ จะเริ
 * [📝 สิ่งที่คนเขียนโค้ดเข้าใจผิดกันบ่อยๆ \(รีบแก้ซะ\)](https://saladpuk.gitbook.io/learn/basic/mist)
 * [📝 ทำไมโปรเจคเราถึงช้า + แก้ไง ?](https://saladpuk.gitbook.io/learn/basic/bottlenecks)
 
+## 🗃️ Database
+
+การออกแบบฐานข้อมูลฉบับคนไม่รู้เรื่องอะไรเลย
+
+* 🗃️[ บทสรุปฐานข้อมูล](https://www.saladpuk.com/beginner-1/database-design)
+* 🗃️ [หัวใจที่สำคัญที่สุดของฐานข้อมูล](https://www.saladpuk.com/basic/bottlenecks/work-with-db)
+
 ## 🧪 Software Testing
 
 หลักในการทดสอบซอฟต์แวร์ขั้นต่ำสุดที่ควรจะต้องทำ เพื่อป้องกันบัคที่แอบอยู่ในโค้ดของเรา
@@ -65,6 +72,13 @@ description: บทความเริ่มเยอะละ จะเริ
 
 * 🚀 [Microservices พื้นฐาน](https://saladpuk.gitbook.io/learn/basic/microservices)
 * 🚀 [มาหัดเขียน Microservics กันด้วย Service Fabric](https://saladpuk.gitbook.io/learn/cloud/azure-service-fabric)
+
+## 🔐 Security
+
+ทำซอฟต์แวร์ต้องรู้เรื่องความปลอดภัยอะไรบ้างนะ ?
+
+* 🔐 [Security พื้นฐาน](https://www.saladpuk.com/basic/security101)
+* [🔐 Cloud Playground](https://www.saladpuk.com/cloud/cloud-playground)
 
 ## 🔗 Blockchain
 
