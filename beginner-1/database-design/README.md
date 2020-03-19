@@ -117,7 +117,6 @@ Database ในโลกปัจจุบันนั้นมีทั้ง�
 
 * Tips การใช้งานจริง
 * * Denormalization
-  * Delete record
   * Bottlenecks
   * Paging
   * Calculation value
@@ -129,5 +128,5 @@ Database ในโลกปัจจุบันนั้นมีทั้ง�
 
 {% page-ref page="database-indexing.md" %}
 
-
+{% page-ref page="delete-records.md" %}
 
