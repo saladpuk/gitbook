@@ -185,7 +185,7 @@ public class DesertSlimeFactory : SlimeFactory
 {% endtab %}
 {% endtabs %}
 
-เพียงเท่านี้เราก็สามารถแก้ปัญหาโจทย์นี้ได้เรียบร้อยแล้ว แถมเมื่อเราทำงานกับโรงงานพวกนี้ เรายังสามารถใช้ **Best Practice** ในเรื่องของ [**Program to an interface and not to an implementation.**](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational) **\*\*ได้อีกด้วย เพราะเราไม่ได้ทำงานกับระดับ Implementation แล้วยังไงล่ะ ซึ่งมันก็เป็นการเข้าข่ายกับ** DIP\*\* ไปด้วยในตัวนั่นเอง เย่ๆ
+เพียงเท่านี้เราก็สามารถแก้ปัญหาโจทย์นี้ได้เรียบร้อยแล้ว แถมเมื่อเราทำงานกับโรงงานพวกนี้ เรายังสามารถใช้ **Best Practice** ในเรื่องของ [**Program to an interface and not to an implementation.**](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational) ได้อีกด้วย เพราะเราไม่ได้ทำงานกับระดับ Implementation แล้วยังไงล่ะ ซึ่งมันก็เป็นการเข้าข่ายกับ DIP ไปด้วยในตัวนั่นเอง เย่ๆ
 
 {% hint style="success" %}
 **Dependency-Inversion Principle \(DIP\)**  
