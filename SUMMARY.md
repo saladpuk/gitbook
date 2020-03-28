@@ -119,6 +119,7 @@
   * [Code Review](basic/agile-methodology/code-review.md)
 * [👦 Security พื้นฐาน](basic/security101/README.md)
   * [การเก็บรหัสผ่านที่ถูกต้อง](basic/security101/secure-password.md)
+  * [Security Principles](basic/security101/security-principles.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
