@@ -51,7 +51,9 @@ description: สร้าง Cognitive Services และ โครงของ�
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"><b>Pricing tier</b>
@@ -65,7 +67,9 @@ description: สร้าง Cognitive Services และ โครงของ�
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"><b>Resource group</b>
@@ -78,7 +82,9 @@ description: สร้าง Cognitive Services และ โครงของ�
     </tr>
   </thead>
   <tbody></tbody>
-</table>3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Cognitive Services จนเสร็จ
+</table>
+
+3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Cognitive Services จนเสร็จ
 
 ![](../../.gitbook/assets/deploying.png)
 

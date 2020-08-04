@@ -65,7 +65,9 @@ description: ลองใช้ AI แยกลุงตู่กับลุง
     </tr>
   </thead>
   <tbody></tbody>
-</table>| **King** | ประเภทของของการใช้งาน ตัวแรกนี้ให้เลือกเป็น **`CustomVision.Training`** ครับ |
+</table>
+
+| **King** | ประเภทของของการใช้งาน ตัวแรกนี้ให้เลือกเป็น **`CustomVision.Training`** ครับ |
 | :--- | :--- |
 
 
@@ -82,7 +84,9 @@ description: ลองใช้ AI แยกลุงตู่กับลุง
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left"><b>Pricing tier</b>
@@ -95,7 +99,9 @@ description: ลองใช้ AI แยกลุงตู่กับลุง
     </tr>
   </thead>
   <tbody></tbody>
-</table>เรียบร้อยแล้วเราก็จะได้ Service ที่ใช้สำหรับ **`Training`** ออกมา 1 ตัวละ คราวนี้ให้จด **`Key`** กับ **`Endpoint`** ไว้ครับ เดี๋ยวเราจะเอาไปใช้ในขั้นตอนถัดไปต่อ
+</table>
+
+เรียบร้อยแล้วเราก็จะได้ Service ที่ใช้สำหรับ **`Training`** ออกมา 1 ตัวละ คราวนี้ให้จด **`Key`** กับ **`Endpoint`** ไว้ครับ เดี๋ยวเราจะเอาไปใช้ในขั้นตอนถัดไปต่อ
 
 ![](../../.gitbook/assets/image%20%28619%29.png)
 

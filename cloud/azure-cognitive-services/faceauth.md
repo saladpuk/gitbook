@@ -66,7 +66,9 @@ description: บอกลาการ login แบบเดิมๆไปได
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">Pricing tier</th>
@@ -79,7 +81,9 @@ description: บอกลาการ login แบบเดิมๆไปได
     </tr>
   </thead>
   <tbody></tbody>
-</table>3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Face Service จนเสร็จ
+</table>
+
+3.เรียบร้อยครับ ที่เหลือก็แค่รอให้มันสร้าง Face Service จนเสร็จ
 
 ![](../../.gitbook/assets/deploying.png)
 

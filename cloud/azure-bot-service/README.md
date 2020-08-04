@@ -64,7 +64,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">Location</th>
@@ -76,7 +78,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">Pricing tier</th>
@@ -89,7 +93,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">Bot template</th>
@@ -103,7 +109,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">LUIS App location</th>
@@ -119,7 +127,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table><table>
+</table>
+
+<table>
   <thead>
     <tr>
       <th style="text-align:left">App service plan</th>
@@ -134,7 +144,9 @@ description: มาหัดเขียนพวก Chat Bot กันง่า
     </tr>
   </thead>
   <tbody></tbody>
-</table>**Bot template** ให้เลือกเป็นภาษา C\# และ Basic Bot นะครับ เพราะในตัวอย่างเราจะเขียนโดยวิธีนี้ครับ อ่านจบแล้วไปลองแบบอื่นก็ตามสะดวกเบย
+</table>
+
+**Bot template** ให้เลือกเป็นภาษา C\# และ Basic Bot นะครับ เพราะในตัวอย่างเราจะเขียนโดยวิธีนี้ครับ อ่านจบแล้วไปลองแบบอื่นก็ตามสะดวกเบย
 
 ![](../../.gitbook/assets/image%20%28400%29.png)
 
