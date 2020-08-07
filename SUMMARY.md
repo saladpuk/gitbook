@@ -62,6 +62,7 @@
     * [💡 Boxing & Unboxing](beginner-1/csharp101/tips/boxing-and-unboxing.md)
 * [👶 Data Structure & Algorithm](beginner-1/data-structure-and-algorithm/README.md)
   * [👾 Algorithm Big-O](beginner-1/data-structure-and-algorithm/big-o.md)
+  * [👽 Algorithm P & NP](beginner-1/data-structure-and-algorithm/p-and-np.md)
 * [👦 OOP](beginner-1/oop/README.md)
   * [💖 Abstraction](beginner-1/oop/abstraction.md)
   * [💖 Encapsulation](beginner-1/oop/encapsulation.md)
