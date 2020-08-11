@@ -88,7 +88,8 @@
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
-* [👶 Clean Code](basic/clean-code.md)
+* [👶 Clean Code](basic/clean-code/README.md)
+  * [🧓 Uncle Bob - Part 1](basic/clean-code/uncle-bob-part-1.md)
 * [👶 Code Smells](basic/code-smells.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👶 AI พื้นฐาน](basic/ai.md)
