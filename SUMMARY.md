@@ -91,7 +91,7 @@
 * [👶 Clean Code](basic/clean-code/README.md)
   * [🧓 Uncle Bob - Clean Code](basic/clean-code/uncle-bob-part-1.md)
   * [🧓 Uncle Bob - Comments](basic/clean-code/uncle-bob-part-2.md)
-  * [🧓 Uncle Bob - Naming](basic/clean-code/uncle-bob-naming.md)
+  * [🧓 Uncle Bob - Naming](basic/clean-code/uncle-bob-part-3.md)
 * [👶 Code Smells](basic/code-smells.md)
 * [👶 สิ่งที่คนเขียนโค้ดมักเข้าใจผิด](basic/mist.md)
 * [👶 AI พื้นฐาน](basic/ai.md)
