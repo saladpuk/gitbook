@@ -16,5 +16,5 @@ description: เวลาที่มีอัพเดทอะไรใหม�
 
 ### 18/09/2020
 
-* เพิ่มบทความ 😎 The Matrix 1 - สรุปปมหนังกับ Computer Security กันโหน่ย
+* เพิ่มบทความ [😎 **The Matrix 1**](https://www.saladpuk.com/basic/security101/the-matrix-1) - สรุปปมหนังกับ Computer Security กันโหน่ย
 
