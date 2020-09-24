@@ -1,5 +1,5 @@
 ---
-description: "\U0001F914 HTTPS ไม่ได้ปลอดภัยเหมือนที่เราคิด"
+description: "\U0001F914 HTTPS ไม่ได้ปลอดภัยเหมือนที่เราคิดจิงป่ะ?"
 ---
 
 # HTTPS in a nutshell
