@@ -133,6 +133,7 @@
   * [Security Principles](basic/security101/security-principles.md)
   * [😎 The Matrix 1](basic/security101/the-matrix-1.md)
   * [😎 The Matrix 2](basic/security101/the-matrix-2.md)
+  * [HTTPS in a nutshell](basic/security101/https-in-a-nutshell.md)
 * [👦 SOLID Design Principles](basic/solid/README.md)
   * [มารู้จักกับ SOLID กันดีกว่า](basic/solid/intro.md)
   * [Single-Responsibility Principle](basic/solid/srp.md)
