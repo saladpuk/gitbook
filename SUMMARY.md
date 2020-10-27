@@ -94,6 +94,7 @@
   * [📦 Docker Containers](basic/docker-1/containers.md)
   * [🃏 Docker Exercise 01](basic/docker-1/exercise01.md)
   * [🛠️ Docker Tools](basic/docker-1/tools.md)
+  * [🗃️ Docker Registry](basic/docker-1/registry.md)
 * [👶 Clean Code](basic/clean-code/README.md)
   * [🧓 Uncle Bob - Clean Code](basic/clean-code/uncle-bob-part-1.md)
   * [🧓 Uncle Bob - Comments](basic/clean-code/uncle-bob-part-2.md)
