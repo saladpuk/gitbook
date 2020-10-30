@@ -85,7 +85,7 @@
   <tbody></tbody>
 </table>
 
-| When a new email is received ... | เมื่อได่รับอีเมล์ใหม่ใน Outlook มันจะสั่งให้แอพของเราทำงานทันที |
+| When a new email is received ... | เมื่อได้รับอีเมล์ใหม่ใน Outlook มันจะสั่งให้แอพของเราทำงานทันที |
 | :--- | :--- |
 
 
