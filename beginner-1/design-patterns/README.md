@@ -81,15 +81,20 @@ Design Patterns พื้นฐานทั้ง 23 ตัวนั้น ม�
 
 ### 🤰 [Creational Patterns](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational)
 
-* 🏭 [Factory Method Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/factory-method-pattern)
-* [🏭 Abstract Factory Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/abstract-factory-pattern)
-* [**☝️** Singleton Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/singleton-pattern)
-* [🏗️ Builder Pattern](https://saladpuk.gitbook.io/learn/beginner-1/design-patterns/creational/builder-pattern)
-* [🎎 Prototype Pattern](https://www.saladpuk.com/beginner-1/design-patterns/creational/prototype-pattern)
+{% page-ref page="creational/factory-method-pattern.md" %}
 
-### 🦈 Structural patterns
+{% page-ref page="creational/abstract-factory-pattern.md" %}
 
-* Adapter Pattern
+{% page-ref page="creational/singleton-pattern.md" %}
+
+{% page-ref page="creational/builder-pattern.md" %}
+
+{% page-ref page="creational/prototype-pattern.md" %}
+
+### [🧱 Structural Patterns](https://www.saladpuk.com/beginner-1/design-patterns/structural)
+
+{% page-ref page="structural/adapter-pattern.md" %}
+
 * Bridge Pattern
 * Composite pattern
 * Decorator Pattern
