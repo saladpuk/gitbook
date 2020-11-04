@@ -88,6 +88,8 @@
     * [☝️ Singleton Pattern](beginner-1/design-patterns/creational/singleton-pattern.md)
     * [🏗️ Builder Pattern](beginner-1/design-patterns/creational/builder-pattern.md)
     * [🎎 Prototype Pattern](beginner-1/design-patterns/creational/prototype-pattern.md)
+  * [🧱 Structural Patterns](beginner-1/design-patterns/structural/README.md)
+    * [🔌 Adapter Pattern](beginner-1/design-patterns/structural/adapter-pattern.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
