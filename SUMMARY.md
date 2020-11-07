@@ -100,6 +100,7 @@
   * [🗃️ Docker Registry](basic/docker-1/registry.md)
   * [🖼️ Container Image](basic/docker-1/images.md)
   * [📢 Docker Push](basic/docker-1/push.md)
+  * [WSL](basic/docker-1/wsl.md)
 * [👶 Clean Code](basic/clean-code/README.md)
   * [🧓 Uncle Bob - Clean Code](basic/clean-code/uncle-bob-part-1.md)
   * [🧓 Uncle Bob - Comments](basic/clean-code/uncle-bob-part-2.md)
