@@ -90,6 +90,7 @@
     * [🎎 Prototype Pattern](beginner-1/design-patterns/creational/prototype-pattern.md)
   * [🧱 Structural Patterns](beginner-1/design-patterns/structural/README.md)
     * [🔌 Adapter Pattern](beginner-1/design-patterns/structural/adapter-pattern.md)
+    * [📪 Proxy Pattern](beginner-1/design-patterns/structural/proxy-pattern.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
