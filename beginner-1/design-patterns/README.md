@@ -95,12 +95,13 @@ Design Patterns พื้นฐานทั้ง 23 ตัวนั้น ม�
 
 {% page-ref page="structural/adapter-pattern.md" %}
 
+{% page-ref page="structural/proxy-pattern.md" %}
+
 * Bridge Pattern
 * Composite pattern
 * Decorator Pattern
 * Facade Pattern
 * Flyweight pattern
-* Proxy Pattern
 
 ### 🦈 Behavioral patterns
 
