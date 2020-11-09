@@ -92,6 +92,11 @@
     * [🔌 Adapter Pattern](beginner-1/design-patterns/structural/adapter-pattern.md)
     * [📪 Proxy Pattern](beginner-1/design-patterns/structural/proxy-pattern.md)
 
+## Puzzle
+
+* [🧠 Challenges](puzzle/challenges/README.md)
+  * [🐴 Google Interview 01](puzzle/challenges/google-interview-01.md)
+
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
 * [🐳 Docker](basic/docker-1/README.md)
