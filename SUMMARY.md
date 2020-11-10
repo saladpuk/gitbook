@@ -96,6 +96,7 @@
 
 * [🧠 Challenges](puzzle/challenges/README.md)
   * [🐴 Google Interview 01](puzzle/challenges/google-interview-01.md)
+  * [🥇 ทองเก๊](puzzle/challenges/fake-gold.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
