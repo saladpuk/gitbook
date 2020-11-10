@@ -14,5 +14,7 @@ description: ปริศนาลับสมอง
 
 {% page-ref page="google-interview-01.md" %}
 
+{% page-ref page="fake-gold.md" %}
+
 ว่างๆเดี๋ยวเอามาเขียนต่อตรงนี้เรื่อยๆแหละ
 
