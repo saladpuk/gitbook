@@ -95,9 +95,10 @@
 ## Puzzle
 
 * [🧠 Challenges](puzzle/challenges/README.md)
-  * [🐴 Google Interview 01](puzzle/challenges/google-interview-01.md)
+  * [🐴 Google ม้า 25 ตัว](puzzle/challenges/google-interview-01.md)
+  * [🌉 Amazon เสา 2 ต้น](puzzle/challenges/amazon-interview-01.md)
   * [🥇 ทองเก๊](puzzle/challenges/fake-gold.md)
-  * [🌉 Amazon Interview 01](puzzle/challenges/amazon-interview-01.md)
+  * [💊 ยาต้านโควิด](puzzle/challenges/covid-vaccine.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
