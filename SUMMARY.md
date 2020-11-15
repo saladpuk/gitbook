@@ -99,6 +99,7 @@
   * [🌉 Amazon เสา 2 ต้น](puzzle/challenges/amazon-interview-01.md)
   * [🥇 ทองเก๊](puzzle/challenges/fake-gold.md)
   * [💊 ยาต้านโควิด](puzzle/challenges/covid-vaccine.md)
+  * [🎩 CP หมวก 5 ใบ](puzzle/challenges/cp-interview-01.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
