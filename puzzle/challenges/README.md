@@ -22,5 +22,7 @@ description: ปริศนาลับสมอง
 
 {% page-ref page="cp-interview-01.md" %}
 
+{% page-ref page="einsteins-riddle-01.md" %}
+
 ว่างๆเดี๋ยวเอามาเขียนต่อตรงนี้เรื่อยๆแหละ
 

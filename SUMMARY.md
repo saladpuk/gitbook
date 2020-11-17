@@ -100,6 +100,7 @@
   * [🥇 ทองเก๊](puzzle/challenges/fake-gold.md)
   * [💊 ยาต้านโควิด](puzzle/challenges/covid-vaccine.md)
   * [🎩 CP หมวก 5 ใบ](puzzle/challenges/cp-interview-01.md)
+  * [🧓 Einstein's Riddle 01](puzzle/challenges/einsteins-riddle-01.md)
 
 ## พื้นฐานที่ควรต้องรู้ <a id="basic"></a>
 
