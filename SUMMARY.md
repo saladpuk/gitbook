@@ -153,6 +153,7 @@
   * [Code Review](basic/agile-methodology/code-review.md)
 * [👦 Security พื้นฐาน](basic/security101/README.md)
   * [การเก็บรหัสผ่านที่ถูกต้อง](basic/security101/secure-password.md)
+  * [Security in actions](basic/security101/security-in-actions.md)
   * [Security Principles](basic/security101/security-principles.md)
   * [😎 The Matrix 1](basic/security101/the-matrix-1.md)
   * [😎 The Matrix 2](basic/security101/the-matrix-2.md)

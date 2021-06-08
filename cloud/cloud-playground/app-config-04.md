@@ -131,7 +131,7 @@ No managed identity endpoint found.
 
 ดังนั้นเราจะลองเอาตัวเว็บของเราไป Deploy ลงบนคลาว์แล้วลองเปิดดูกันบ้างนะ ซึ่งผลลัพท์ก็คือ
 
-![Cloud](../../.gitbook/assets/image%20%28690%29.png)
+![Cloud](../../.gitbook/assets/image%20%28249%29%20%281%29.png)
 
 บนคลาว์สามารถใช้งานได้ตามปรกติ!! เพราะเราเปิดสิทธิ์ให้ตัว Service นี้สามารถเข้าถึง App Configuration ได้ยังไงล่ะ
 

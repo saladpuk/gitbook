@@ -169,11 +169,11 @@ public Wolf CreateAWolf(string mapName)
 
 object อะไรก็ตามที่เราอยากจะสร้าง เราจะเรียกมันว่า **Product** ซึ่งโดยปรกติเราก็จะมี product หลายๆแบบ เลยต้องทำมันเป็น **Interface** เอาไว้ \(ตรงจุดนี้จริงๆจะเป็นอะไรก็ได้นะ ขอแค่เป็น abstraction ก็พอ\)
 
-![](../../../.gitbook/assets/image%20%28800%29.png)
+![](../../../.gitbook/assets/image%20%28800%29%20%281%29.png)
 
 ส่วนคลาส Product ที่แท้จริงนั้นก็จะไป implement IProduct อีกที ซึ่งโดยปรกติเราจะเรียกคลาสที่แท้จริงเหล่านั้นว่า **Concrete class** นั่นเอง ดังนั้นในกรณีนี้ผมจะเรียกมันว่า _ConcreateProduct_ ละกัน
 
-![](../../../.gitbook/assets/image%20%28521%29.png)
+![](../../../.gitbook/assets/image%20%28129%29%20%282%29.png)
 
 และเวลาใช้งานจริงๆ **Product ประเภทเดียวกันก็อาจจะมีหลายแบบก็ได้** เช่น Slime ยังมี Drops กับ Poporing ไรงี้ ดังนั้นก็จะได้ภาพออกมาราวๆนี้
 

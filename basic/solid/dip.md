@@ -130,7 +130,7 @@ public class Door
 
 แทนที่ High level module จะทำงานตรงๆกับ Low level module เราก็**สร้าง Abstraction ของสิ่งที่ High level module อยากได้ขึ้นมา ส่วน Low level module ก็แค่ทำตาม abstraction** ที่ว่ามาก็พอ ตามภาพด้านล่าง จะเห็น Flow of control มันเปลี่ยนกลับด้านกันละ เพราะ Remote ไม่ได้ไปควบคุม Television กับ Door ตรงๆละ มันแค่รู้จักของที่มันต้องดูแลเป็นแค่ abstraction เท่านั้น
 
-![](../../.gitbook/assets/image%20%28617%29.png)
+![](../../.gitbook/assets/image%20%28617%29%20%281%29.png)
 
 {% tabs %}
 {% tab title="IControllable.cs" %}

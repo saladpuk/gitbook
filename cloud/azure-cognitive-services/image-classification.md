@@ -161,7 +161,7 @@ Build succeeded.
 
 หลังจากที่ Visual Studio Code เปิดขึ้นมาแล้ว ให้ทำการเปิดไฟล์ `Program.cs` ขึ้นมารอเลยครับ
 
-![](../../.gitbook/assets/visualstudio.png)
+![](../../.gitbook/assets/image%20%28234%29%20%281%29.png)
 
 {% hint style="info" %}
 **Visual Studio Code: C\# Extension**  
