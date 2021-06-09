@@ -74,7 +74,8 @@ System.Console.WriteLine($"RNG: {resultText}");
 คอร์สนี้กำลังค่อยๆเขียนอยู่ ใครที่ไม่อยากพลาดอัพเดทก็เข้าไปกดติดตามที่ลิงค์นี้ [**Mr.Saladpuk**](https://www.facebook.com/mr.saladpuk) ได้เลย 
 {% endhint %}
 
-* Hashing Functions
+{% page-ref page="hash-function.md" %}
+
 * HMAC Functions
 * Salt & Pepper
 * Key Derivation
